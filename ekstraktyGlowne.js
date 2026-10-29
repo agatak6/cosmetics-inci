@@ -521,3 +521,7 @@ let ekstraktyGlowne = [
   ["Ekstrakt z Imbiru (Lekarskiego / Aromatycznego / Szamponowego)", "zingiber officinale (ginger) root extract, zingiber aromaticus extract, zingiber zerumbet extract", "Działa rozgrzewająco, pobudza mikrokrążenie, działa przeciwzapalnie i ujędrniająco."],
   ["Ekstrakt z Jujuby / Głożyny", "zizyphus jujuba seed extract, ziziphus jujuba fruit extract", "Działa przeciwstarzeniowo, łagodząco i odżywczo."]
 ];
+
+function getEkstraktyGlowne() {
+  return ekstraktyGlowne;
+}
