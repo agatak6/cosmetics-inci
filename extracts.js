@@ -336,6 +336,6 @@ let ekstraktyCleanedMaster = [
   ["Ekstrakt z Ashwagandhy", "withania somnifera (ashwagandha) root extract, withania somnifera root extract", "Adaptogen o działaniu przeciwstarzeniowym, antystresowym, rewitalizującym i ochronnym."]
 ];
 
-function getEkstraktyCleanedMaster() {
+function getEkstrakty0() {
   return ekstraktyCleanedMaster;
 }
