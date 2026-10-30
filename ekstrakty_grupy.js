@@ -131,9 +131,9 @@ return ekstraktyNK;
 }
 
 function getEkstraktyWlosy(){
-return ekstraktyAZS;
+return ekstraktyWlosy;
 }
 
 function getEkstraktyTwarz(){
-return ekstraktyNK;
+return ekstraktyTwarz;
 }
