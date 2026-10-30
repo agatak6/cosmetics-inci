@@ -68,3 +68,34 @@ function getAktywneAzs(){
 ];
  return akt_inci;
 }
+
+function getWlosy(){
+  wlosy = [
+"copper tripeptide-1",
+"apigenin",
+"isoflavones",
+"niacinamide",
+"glutathione",
+"peptide follistatin",
+"caffeine",
+"peptides",
+"gluconolactone",
+"glycyrrhetinic acid",
+//czynniki wzrostu
+"growth factors","epidermal growth factor",
+"sphinganine",
+"creatine",
+"baicalin",
+"malus domestica", 
+"arginine", 
+"methionine", 
+"cysteine", 
+"cystine",
+"pyridoxine hcl",
+"capsaicin",
+"aminopyrimidine",
+"methyl nicotinate",
+"diaminopyrimidine oxide"
+]
+return wlosy;
+}
