@@ -121,3 +121,19 @@ let ekstraktyTwarz = [
   ["Ekstrakt z liści pokrzywy zwyczajnej", "urtica dioica leaf extract", "Na skórze twarzy działa tonizująco, ściągająco i oczyszczająco. Jest pomocny przy cerze tłustej i trądzikowej, łagodzi drobne stany zapalne oraz dostarcza minerałów odżywczych."],
   ["Ekstrakt z korzenia imbiru", "zingiber officinale root extract", "Silnie stymuluje mikrokrążenie twarzy, przywracając cerze zdrowy koloryt i promienny blask. Działa przeciwzapalnie, antybakteryjnie i ujędrniająco, wspomagając walkę z niedoskonałościami."]
 ];
+
+function getEkstraktyAZS(){
+return ekstraktyAZS;
+}
+
+function getEkstraktyNK(){
+return ekstraktyNK;
+}
+
+function getEkstraktyWlosy(){
+return ekstraktyAZS;
+}
+
+function getEkstraktyTwarz(){
+return ekstraktyNK;
+}
