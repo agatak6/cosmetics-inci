@@ -12,7 +12,11 @@ let witc = [
 
 ["Palmitynian askorbylu","ascorbyl palmitate","Nieaktywna forma witaminy C - można ją łączyć z peptydami."],
 
-["Tetraizopalmitynian askorbylu", "ascorbyl tetraisopalmitate","Jest odporny na utlenianie i zdolny do przenikania w głębsze warstwy skóry, co wpływa korzystnie na syntezę kolagenu i poprawę wyglądu cery. Daje bardzo dobre efekty już w niskim stężeniu. Jest to najdroższa z form witaminy C w kosmetykach, ale też najskuteczniejsza i bardzo trwała. Można stosować z peptydami."]
+["Tetraizopalmitynian askorbylu", "ascorbyl tetraisopalmitate","Jest odporny na utlenianie i zdolny do przenikania w głębsze warstwy skóry, co wpływa korzystnie na syntezę kolagenu i poprawę wyglądu cery. Daje bardzo dobre efekty już w niskim stężeniu. Jest to najdroższa z form witaminy C w kosmetykach, ale też najskuteczniejsza i bardzo trwała. Można stosować z peptydami."],
+
+["Pektynian metylosilanolu askorbinianu", "ascorbyl methylsilanol pectinate", "Stabilna kompleksowa forma witaminy C połączona z krzemem organicznym; wykazuje silne działanie antyoksydacyjne, stymuluje syntezę kolagenu, nawilża oraz ujędrnia skórę."],
+
+["Stearynian askorbylu", "ascorbyl stearate", "Rozpuszczalna w tłuszczach, stabilna forma witaminy C; chroni barierę lipidową skóry przed utlenianiem, wyrównuje koloryt i wspomaga syntezę kolagenu."]
 ];
 
 //------------------------------------
