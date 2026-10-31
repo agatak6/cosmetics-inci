@@ -1,6 +1,11 @@
 let inciAktywne =[
 ["Alpha-Glucan Oligosaccharide", "alpha-glucan oligosaccharide", "prebiotyk; wspiera mikrobiom i wzmacnia barierę ochronną."],
-["Egzosomy z lactobacillus extracellular", "lactobacillus extracellular vesicles", "Korzyści: szybka regeneracja i gojenie, działanie anti-aging, głębokie ukojenie (idealne przy trądziku, AZS i cerze naczynkowej), wzmocnienie odporności skóry."]
+["Egzosomy z lactobacillus extracellular", "lactobacillus extracellular vesicles", "Korzyści: szybka regeneracja i gojenie, działanie anti-aging, głębokie ukojenie (idealne przy trądziku, AZS i cerze naczynkowej), wzmocnienie odporności skóry."],
+["Egzosomy z kalusa wąkrotki azjatyckiej", "centella asiatica callus extracellular vesicles", "Zaawansowany składnik biotechnologiczny (egzosomy); wykazuje silne działanie regenerujące, łagodzące, przeciwzapalne oraz stymulujące odnowę komórkową i produkcję kolagenu."],
+["Alfa-glukozylrutyna", "alpha glucosylrutin", "Wysoko rozpuszczalna i stabilna forma rutyny; działa silnie antyoksydacyjnie, wzmacnia naczynia krwionośne, zapobiega fotostarzeniu i chroni lipidy skóry przed utlenianiem."],
+["Trokserutyna", "troxerutin", "Pochodna rutyny o doskonałym działaniu na układ naczyniowy; zmniejsza przepuszczalność i kruchość naczyń krwionośnych, redukuje obrzęki, działa przeciwzapalnie oraz łagodzi rumień (idealna dla cery naczynkowej i z trądzikiem różowatym)."],
+["Kurkumina", "curcumin", "Polifenol o bardzo silnym działaniu przeciwzapalnym, antyoksydacyjnym i przeciwbakteryjnym; wyrównuje koloryt skóry, rozjaśnia przebarwienia oraz łagodzi stany zapalne w trądziku."],
+["Fizetyna", "fisetin", "Silny antyoksydant z grupy flawonoidów o działaniu senolitycznym (zwalczającym starzenie komórkowe); chroni kolagen przed degradacją, łagodzi stany zapalne i poprawia elastyczność skóry."]
 ]
 
 
