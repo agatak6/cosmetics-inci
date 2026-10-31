@@ -39,18 +39,20 @@ let kwasy = [
 ["Kwas salicylowy","salicylic acid, capryloyl salicylic acid","Odblokowuje pory, zapobiega tworzeniu wyprysków, pomaga likwidować zaskórniki. Działa również przeciwzmaszczkowo."],
 //------PHA
 ["Glukonolakton","gluconolactone","Działa łagodniej niż kwasy AHA. Reguluje odnowę naskórka, sprzyja nawilżeniu, ujędrnieniu, poprawia strukturę i koloryt, wygładza zmarszczki. Nie zwiększa wrażliwości skóry na promieniowanie UV."],
-["Kwas laktobionowy","lactobionic acid","Działa łagodniej niż kwasy AHA. Reguluje odnowę naskórka, sprzyja nawilżeniu, ujędrnieniu, poprawia strukturę i koloryt, wygładza zmarszczki. Nie zwiększa wrażliwości skóry na promieniowanie UV."]
+["Kwas laktobionowy","lactobionic acid","Działa łagodniej niż kwasy AHA. Reguluje odnowę naskórka, sprzyja nawilżeniu, ujędrnieniu, poprawia strukturę i koloryt, wygładza zmarszczki. Nie zwiększa wrażliwości skóry na promieniowanie UV."],
 //------
+  ["Kwas traneksamowy", "tranexamic acid", "Silny składnik depigmentacyjny i rozjaśniający; skutecznie redukuje melasmę, przebarwienia potrądzikowe i posłoneczne oraz hamuje tworzenie nowej melaniny. Dodatkowo działa przeciwzapalnie, wzmacnia barierę naskórkową i pomaga w redukcji zaczerwienień oraz rumienia (w tym przy cerze naczynkowej i z trądzikiem różowatym)."],
+  ["Kwas kojowy", "kojic acid", "Skuteczny składnik depigmentacyjny i rozjaśniający; hamuje aktywność tyrozynazy (enzymu kluczowego w produkcji melaniny), dzięki czemu efektywnie redukuje przebarwienia posłoneczne, plamy starcze i potrądzikowe oraz wyrównuje koloryt skóry. Dodatkowo wykazuje właściwości antyoksydacyjne i przeciwbakteryjne."],
+  ["Kwas szikimowy", "shikimic acid", "Łagodny kwas organiczny (AHA/BHA) o wszechstronnym działaniu; delikatnie złuszcza martwy naskórek, odblokowuje i oczyszcza pory, dzięki czemu sprawdza się w pielęgnacji cery trądzikowej i skłonnej do zaskórników. Posiada silne właściwości nawilżające, działa przeciwbakteryjnie oraz hamuje rozwój bakterii odpowiedzialnych za trądzik, a także wykazuje działanie antyoksydacyjne."],
+  ["Kwas azelainowy", "azelaic acid", "Wielozadaniowy kwas o silnym działaniu przeciwzapalnym, przeciwbakteryjnym i depigmentacyjnym; skutecznie wycisza zmiany trądzikowe, hamuje rozwój bakterii *Cutibacterium acnes*, redukuje zaczerwienienia oraz rumień (idealny przy trądziku różowatym i cerze naczynkowej). Ponadto hamuje tyrozynazę, dzięki czemu wyrównuje koloryt skóry oraz skutecznie rozjaśnia przebarwienia potrądzikowe i hormonalne (melasmę)."]
+
 /*
 "malic acid", 
 "glukoheptanolactone",  
 "pyruvic acid", 
-"azelaic acid", 
 "phytic acid", 
-"cafeic acid", 
-"kojic acid", 
-"shikimic acid", 
-"tranexamic acid"*/
+"cafeic acid"
+*/
 ];
 
 let filtry = [
