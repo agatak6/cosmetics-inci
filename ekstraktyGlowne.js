@@ -242,7 +242,7 @@ let ekstraktyGlowne = [
   ["Ekstrakt z nasion glediczji trójcierniowej", "gleditsia triacanthos seed extract", "Tworzy natychmiastowo napinającą błonę wygładzającą zmarszczki."],
   ["Ekstrakt z Liści Globularia Alypum", "globularia alypum leaf extract", "Działa detoksykująco i ochronnie na komórki skóry. Wzmacnia mechanizmy obronne."],
   ["Ekstrakt z Gmelina arborea", "gmelina arborea root extract", "Łagodzi podrażnienia i działa ochronnie na skórę."],
-  ["Ekstrakt z Fito-Placenty Sojowej / Nasion / Kiełków Soi", "glycine soja (soybean) phytoplacenta extract, glycine soja (soybean) seed extract, glycine soja germ extract, glycine max (soybean) seed extract", "Bogaty w izoflawony, białka i peptydy. Działa regenerująco, ujędrniająco, antyoksydacyjnie i przeciwstarzeniowo."],
+  ["Ekstrakt z Fito-Placenty Sojowej / Nasion / Kiełków Soi", "glycine soja (soybean) phytoplacenta extract, glycine soja (soybean) seed extract, glycine soja germ extract, glycine max (soybean) seed extract, glycine soja seed extract", "Bogaty w izoflawony, białka i peptydy. Działa regenerująco, ujędrniająco, antyoksydacyjnie i przeciwstarzeniowo."],
   ["Ekstrakt z Koziego Mleka / Mleka", "goat milk extract, milk extract, milk protein extract", "Bogaty w białka, kwas mlekowy i witaminy. Działa nawilżająco, odżywczo, zmiękczająco i regenerująco."],
   ["Ekstrakt z Kwiatów / Nasion Bawełny", "gossypium herbaceum flower extract, gossypium herbaceum seed extract, gossypium hirsutum seed extract", "Działa łagodząco, nawilżająco, zmiękczająco i ochronnie na barierę lipidową."],
   ["Ekstrakt z Liści/Łodyg Gynostemma Pentaphyllum", "gynostemma pentaphyllum leaf/stem extract", "Adaptogen i silny antyoksydant. Działa przeciwstarzeniowo i ochronnie przed stresem środowiskowym."],
