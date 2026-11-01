@@ -57,7 +57,7 @@ function getHumektanty(){
 "hydrolyzed wheat protein",
 "hydroxyectoin", 
 "ectoin",
-"polyglutamic acid",
+"polyglutamic acid", sodium polyglutamate,
 //
 "acetamidoethoxyethanol",
 "beta-glucan",
