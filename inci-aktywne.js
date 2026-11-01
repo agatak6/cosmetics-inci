@@ -1,14 +1,19 @@
 let inciAktywne =[
 ["Witamina E", "mixed tocopherols, tocopherol acetate", "Działa jako silny antyoksydant, chroni lipidy naskórka przed utlenianiem, nawilża i wzmacnia barierę ochronną."],
-["Riboza", "ribose", "Naturalny cukier zaangażowany w syntezę ATP w komórkach; dotlenia skórę, stymuluje produkcję kolagenu i elastyny oraz redukuje widoczność zmarszczek i objawy zmęczenia."],
-
 ["Alpha-Glucan Oligosaccharide", "alpha-glucan oligosaccharide", "prebiotyk; wspiera mikrobiom i wzmacnia barierę ochronną."],
 ["Egzosomy z lactobacillus extracellular", "lactobacillus extracellular vesicles", "Korzyści: szybka regeneracja i gojenie, działanie anti-aging, głębokie ukojenie (idealne przy trądziku, AZS i cerze naczynkowej), wzmocnienie odporności skóry."],
 ["Egzosomy z kalusa wąkrotki azjatyckiej", "centella asiatica callus extracellular vesicles", "Zaawansowany składnik biotechnologiczny (egzosomy); wykazuje silne działanie regenerujące, łagodzące, przeciwzapalne oraz stymulujące odnowę komórkową i produkcję kolagenu."],
 ["Alfa-glukozylrutyna", "alpha glucosylrutin", "Wysoko rozpuszczalna i stabilna forma rutyny; działa silnie antyoksydacyjnie, wzmacnia naczynia krwionośne, zapobiega fotostarzeniu i chroni lipidy skóry przed utlenianiem."],
 ["Trokserutyna", "troxerutin", "Pochodna rutyny o doskonałym działaniu na układ naczyniowy; zmniejsza przepuszczalność i kruchość naczyń krwionośnych, redukuje obrzęki, działa przeciwzapalnie oraz łagodzi rumień (idealna dla cery naczynkowej i z trądzikiem różowatym)."],
 ["Kurkumina", "curcumin", "Polifenol o bardzo silnym działaniu przeciwzapalnym, antyoksydacyjnym i przeciwbakteryjnym; wyrównuje koloryt skóry, rozjaśnia przebarwienia oraz łagodzi stany zapalne w trądziku."],
-["Fizetyna", "fisetin", "Silny antyoksydant z grupy flawonoidów o działaniu senolitycznym (zwalczającym starzenie komórkowe); chroni kolagen przed degradacją, łagodzi stany zapalne i poprawia elastyczność skóry."]
+["Fizetyna", "fisetin", "Silny antyoksydant z grupy flawonoidów o działaniu senolitycznym (zwalczającym starzenie komórkowe); chroni kolagen przed degradacją, łagodzi stany zapalne i poprawia elastyczność skóry."],
+["Riboza", "ribose", "Naturalny cukier zaangażowany w syntezę ATP w komórkach; dotlenia skórę, stymuluje produkcję kolagenu i elastyny oraz redukuje widoczność zmarszczek i objawy zmęczenia."],
+["Naringina", "naringin", "Flawonoid o działaniu przeciwzapalnym, antyoksydacyjnym i wzmacniającym naczynia krwionośne; łagodzi podrażnienia i chroni skórę przed negatywnym wpływem czynników zewnętrznych."],
+["Glukozylnaringina", "glucosyl naringin", "Działa silnie antyoksydacyjnie, poprawia mikrokrążenie, zmniejsza obrzęki oraz redukuje oznaki zmęczenia i cienie pod oczami."],
+["Kwas oleanolowy", "oleanolic acid", "Reguluje sebum, działa przeciwbakteryjnie i przeciwzapalnie; zapobiega nadmiernemu przetłuszczaniu się skóry i powstawaniu niedoskonałości."],
+["Menachinon-7 (Witamina K2)", "menaquinone-7", "Aktywna forma witaminy K; poprawia mikrokrążenie, łagodzi zaczerwienienia, wzmacnia ścianki naczyń krwionośnych i pomaga w redukcji cieni pod oczami oraz sińców."],
+["Dinukleotyd nikotynoamidoadeninowy (NAD)", "nicotinamide adenine dinucleotide", "Kluczowy koenzym wspomagający metabolizm komórkowy i odnowę DNA; intensywnie regeneruje, opóźnia procesy starzenia komórkowego i przywraca skórze witalność."],
+["Dysmutaza ponadtlenkowa (SOD)", "superoxide dismutase", "Jedna z najsilniejszych enzymatycznych substancji antyoksydacyjnych; neutralizuje najbardziej niszczycielskie wolne rodniki, chroni komórki przed fotostarzeniem i redukuje stany zapalne."]
 ]
 
 
@@ -17,7 +22,7 @@ return inciAktywne;
 }
 
 function getAktywne(){
-  akt_inci = ["retinol","retinal",
+  akt_inci = [
 "bakuchiol","caffeine","niacinamide", "adenosine","bisabolol","astaxanthin",
 "adenosine triphosphate",
 "camellia sinensis leaf extract epigallocatechin gallate",
