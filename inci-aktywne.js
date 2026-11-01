@@ -13,7 +13,9 @@ let inciAktywne =[
 ["Kwas oleanolowy", "oleanolic acid", "Reguluje sebum, działa przeciwbakteryjnie i przeciwzapalnie; zapobiega nadmiernemu przetłuszczaniu się skóry i powstawaniu niedoskonałości."],
 ["Menachinon-7 (Witamina K2)", "menaquinone-7", "Aktywna forma witaminy K; poprawia mikrokrążenie, łagodzi zaczerwienienia, wzmacnia ścianki naczyń krwionośnych i pomaga w redukcji cieni pod oczami oraz sińców."],
 ["Dinukleotyd nikotynoamidoadeninowy (NAD)", "nicotinamide adenine dinucleotide", "Kluczowy koenzym wspomagający metabolizm komórkowy i odnowę DNA; intensywnie regeneruje, opóźnia procesy starzenia komórkowego i przywraca skórze witalność."],
-["Dysmutaza ponadtlenkowa (SOD)", "superoxide dismutase", "Jedna z najsilniejszych enzymatycznych substancji antyoksydacyjnych; neutralizuje najbardziej niszczycielskie wolne rodniki, chroni komórki przed fotostarzeniem i redukuje stany zapalne."]
+["Dysmutaza ponadtlenkowa (SOD)", "superoxide dismutase", "Jedna z najsilniejszych enzymatycznych substancji antyoksydacyjnych; neutralizuje najbardziej niszczycielskie wolne rodniki, chroni komórki przed fotostarzeniem i redukuje stany zapalne."],
+["Diglicynian azeloilopotasowy", "potassium azeolyl diglycinate", "Nowoczesna pochodna kwasu azelainowego; reguluje wydzielanie sebum, rozjaśnia przebarwienia, łagodzi stany zapalne i poprawia elastyczność cery mieszanej oraz tłustej."],
+["Sarkozyna", "sarcosine", "Naturalny aminokwas regulujący pracę gruczołów łojowych; skutecznie zmniejsza wydzielanie sebum, matuje skórę i zwęża rozszerzone pory."]
 ]
 
 
