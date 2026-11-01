@@ -15,7 +15,8 @@ let inciAktywne =[
 ["Dinukleotyd nikotynoamidoadeninowy (NAD)", "nicotinamide adenine dinucleotide", "Kluczowy koenzym wspomagający metabolizm komórkowy i odnowę DNA; intensywnie regeneruje, opóźnia procesy starzenia komórkowego i przywraca skórze witalność."],
 ["Dysmutaza ponadtlenkowa (SOD)", "superoxide dismutase", "Jedna z najsilniejszych enzymatycznych substancji antyoksydacyjnych; neutralizuje najbardziej niszczycielskie wolne rodniki, chroni komórki przed fotostarzeniem i redukuje stany zapalne."],
 ["Diglicynian azeloilopotasowy", "potassium azeolyl diglycinate", "Nowoczesna pochodna kwasu azelainowego; reguluje wydzielanie sebum, rozjaśnia przebarwienia, łagodzi stany zapalne i poprawia elastyczność cery mieszanej oraz tłustej."],
-["Sarkozyna", "sarcosine", "Naturalny aminokwas regulujący pracę gruczołów łojowych; skutecznie zmniejsza wydzielanie sebum, matuje skórę i zwęża rozszerzone pory."]
+["Sarkozyna", "sarcosine", "Naturalny aminokwas regulujący pracę gruczołów łojowych; skutecznie zmniejsza wydzielanie sebum, matuje skórę i zwęża rozszerzone pory."],
+  ["Glicyryzynian amonu", "ammonium glycyrrhizate", "Aktywny składnik pozyskiwany z korzenia lukrecji; wykazuje silne właściwości przeciwzapalne, kojące i łagodzące. Skutecznie redukuje zaczerwienienia, podrażnienia, obrzęki oraz świąd skóry, a także pomaga w regulacji wydzielania sebum i pielęgnacji cery wrażliwej lub problematycznej."]
 ]
 
 
