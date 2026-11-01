@@ -46,7 +46,8 @@ function getEmolienty(){
 "apricot kernel oil polyglyceryl-4 esters",
 "jojoba oil/macadamia seed oil esters",
 "raspberry seed oil/tocopheryl succinate aminopropanediol esters",
-"arachidic acid"
+"arachidic acid",
+"c13-c15 alkane"
 ];
   return emolienty;
 }
