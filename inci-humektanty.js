@@ -62,7 +62,8 @@ function getHumektanty(){
 //
 "acetamidoethoxyethanol",
 "beta-glucan",
-"calcium lactate"
+"calcium lactate",
+"tremella fuciformis polysaccharide"
 ];
   return humektanty;
 }
