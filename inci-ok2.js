@@ -273,7 +273,9 @@ ok_inci = [
 "potassium hyaluronate",
 "rosa gallica flower powder",
 "sodium hyaluronate dimethylsilanol",
-"sodium phosphate"
+"sodium phosphate",
+// woda i hydrolaty
+"himalaya water", "himalaya aqua"
 ]
 return ok_inci;
 }
