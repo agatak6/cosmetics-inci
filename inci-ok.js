@@ -9,6 +9,7 @@ function getOkInci(){
 ok_inci = [
 "(gossypium herbaceum (cotton) callus culture/punica granatum callus culture) lysate",
 "1-2-hexanediol",
+"​3-4-dihydroxybenzoic acid",
 "7-dehydrocholesterol",
 "acacia decurrens flower wax",
 "acacia senegal gum",
