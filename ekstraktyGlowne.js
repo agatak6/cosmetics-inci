@@ -303,7 +303,7 @@ let ekstraktyGlowne = [
   ["Liliowe ekstrakty (Lilia Biała / Tygrysia)", "lilium candidum bulb extract, lilium candidum flower extract, lilium tigrinum extract", "Wyciągi bogate w śluzy i flawonoidy. Działają nawilżająco, zmiękczająco, rozjaśniająco i kojąco."],
   ["Ekstrakt z zatrwianu (Limonium gerberi)", "limonium gerberi extract", "Ujędrnia, wygładza i stymuluje produkcję kolagenu oraz kwasu hialuronowego."],
   ["Ekstrakt z Lindera (Erythrocarpa / Strychnifolia)", "lindera erythrocarpa extract, lindera strychnifolia root extract", "Wspomaga komunikację międzykomórkową, wspiera mikrobiom, balansuje i regeneruje skórę."],
-  ["Ekstrakt z Lnu (Kwiatów / Nasion)", "linum usitatissimum flower extract, linum usitatissimum (linseed) seed extract, hydrolyzed linseed extract", "Bogaty w śluzy i omega-3. Działa silnie nawilżająco, zmiękczająco, osłonowo i łagodząco."],
+  ["Ekstrakt z Lnu", "linum usitatissimum flower extract, linum usitatissimum (linseed) seed extract, hydrolyzed linseed extract, linum usitatissimum seed extract", "Bogaty w śluzy i omega-3. Działa silnie nawilżająco, zmiękczająco, osłonowo i łagodząco."],
   ["Ekstrakt z Liści Werbeny Cytrynowej", "lippia citriodora leaf extract", "Działa odświeżająco, tonizująco i antyoksydacyjnie."],
   ["Ekstrakt z Owocni Liczi Chińskiego", "litchi chinensis pericarp extract", "Bogaty w witaminę C i polifenole. Działa rozświetlająco i nawilżająco."],
   ["Lizat Kultury Kalusa Lithops Pseudotruncatella", "lithops pseudotruncatella callus lysate", "Stymuluje produkcję witaminy D w skórze i poprawia jej nawilżenie."],
