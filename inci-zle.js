@@ -154,7 +154,10 @@ const alergeny = [
 "potasium sorbate",
 "potassium sorbate",
 "lauramidopropyl betaine", 
-"snail secretion filtrate"
+"snail secretion filtrate",
+"alpha pinene", 
+"gernayl acetate", 
+"rose ketones"
 ];
 
 return alergeny;
