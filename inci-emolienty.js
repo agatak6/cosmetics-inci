@@ -47,7 +47,8 @@ function getEmolienty(){
 "jojoba oil/macadamia seed oil esters",
 "raspberry seed oil/tocopheryl succinate aminopropanediol esters",
 "arachidic acid",
-"c13-c15 alkane"
+"c13-c15 alkane",
+"silybum marianum ethyl ester"
 ];
   return emolienty;
 }
