@@ -112,6 +112,7 @@ function getOils(oils){
 "damask rose flower oil",
 "drumstick seed oil",
 "echium plantagineum seed oil",
+"elaeis guineensis oil",
 "elaeis guineensis (palm) oil",
 "elaeis guineensis (palm) kernel oil",
 "eucalyptus globulus leaf oil",
