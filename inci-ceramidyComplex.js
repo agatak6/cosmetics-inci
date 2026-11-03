@@ -5,7 +5,8 @@ let ceramidyComplex = [
 ["RHEASOME®", "aqua, glycerin, lecithin, glycolipids, ceramide np, phytosphingosine, cholesterol, benzyl alcohol, benzoic acid, dehydroacetic acid, sodium benzoate, tocopherol", ""],
 ["Dermaxyl™ by Sederma", "c12-15 alkyl benzoate, tribehenin, ceramide ng, peg-10 phytosterol, palmitoyl hexapeptide-12", "Połączenie heksapeptydu i ceramidu, które zapobiega starzeniu i odbudowuje barierę skórną, głęboko nawilża, dzięki czemu zmarszczki stają się zredukowane, a skóra wygładzona."],
 ["SpecKare® AQUA CMD Blend", "aqua, laminaria digitata extract, hydrogenated lecithin, ceramide eop, ceramide ns, ceramide np, ceramide as, ceramide ap, cholesterol, 1,2-hexanediol", ""],
-["SpecKare® CMD flux", "ceramide np, ceramide ap, ceramide eop, phytosphingosine, cholesterol, sodium lauroyl lactylate, carbomer, xanthan gum, ethylhexylglycerin, phenoxyethanol, aqua", "Symuluje skład lipidowy warstwy rogowej naskórka, odbudowując barierę ochronną skóry. Łagodzi objawy złuszczania się warstwy rogowej naskórka i poprawia zdolność skóry do zatrzymywania wilgoci."]
+["SpecKare® CMD flux", "ceramide np, ceramide ap, ceramide eop, phytosphingosine, cholesterol, sodium lauroyl lactylate, carbomer, xanthan gum, ethylhexylglycerin, phenoxyethanol, aqua", "Symuluje skład lipidowy warstwy rogowej naskórka, odbudowując barierę ochronną skóry. Łagodzi objawy złuszczania się warstwy rogowej naskórka i poprawia zdolność skóry do zatrzymywania wilgoci."],
+["Citron Barrier Ceramide", "citrus seedamidopropyl oleate, oleic acid", "To innowacyjny, bio-mimetyczny kompleks lipidowy z nasion cytrusa Yuzu, który działa jak naturalny pseudoceramid. Intensywnie odbudowuje uszkodzoną barierę hydrolipidową naskórka, chroniąc skórę przed utratą wody oraz podrażnieniami."]
 ];
 
 function getCeramidyComplex(){
