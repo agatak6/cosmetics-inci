@@ -275,7 +275,18 @@ ok_inci = [
 "sodium hyaluronate dimethylsilanol",
 "sodium phosphate",
 // woda i hydrolaty
-"himalaya water", "himalaya aqua"
+"himalaya water", "himalaya aqua",
+"aloe barbadensis leaf aqua",
+"aloe barbadensis leaf water",
+"camellia sinensis leaf aqua",
+"camellia sinensis leaf water",
+"citrus aurantium dulcis fruit aqua",
+"citrus aurantium dulcis fruit water",
+"nulembo nucifera (pink lotus) aqua",
+"nulembo nucifera (pink lotus) water",
+"sulfide/hydrogen sulfide mineral aqua",
+"sulfide/hydrogen sulfide mineral water",
+"water"
 ]
 return ok_inci;
 }
