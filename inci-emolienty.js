@@ -50,7 +50,15 @@ function getEmolienty(){
 "c13-c15 alkane",
 "silybum marianum ethyl ester",
 "caprylic/capric/succinic triglyceride",
-"diisopropyl sebacate"
+"diisopropyl sebacate",
+"phytosteryl macadamiate",
+"olive glycerides",
+"capryloyl glycerin/sebacic acid copolymer",
+"diheptyl succinate",
+"dipentaerythrityl hexacaprylate/hexacaprate",
+"pentaerythrityl tetraethylhexanoate",
+"hydroxystearic/linolenic/oleic polyglycerides",
+"isostearic acid"
 ];
   return emolienty;
 }
