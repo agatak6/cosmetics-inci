@@ -16,7 +16,8 @@ let inciAktywne =[
 ["Dysmutaza ponadtlenkowa (SOD)", "superoxide dismutase", "Jedna z najsilniejszych enzymatycznych substancji antyoksydacyjnych; neutralizuje najbardziej niszczycielskie wolne rodniki, chroni komórki przed fotostarzeniem i redukuje stany zapalne."],
 ["Diglicynian azeloilopotasowy", "potassium azeolyl diglycinate", "Nowoczesna pochodna kwasu azelainowego; reguluje wydzielanie sebum, rozjaśnia przebarwienia, łagodzi stany zapalne i poprawia elastyczność cery mieszanej oraz tłustej."],
 ["Sarkozyna", "sarcosine", "Naturalny aminokwas regulujący pracę gruczołów łojowych; skutecznie zmniejsza wydzielanie sebum, matuje skórę i zwęża rozszerzone pory."],
-  ["Glicyryzynian amonu", "ammonium glycyrrhizate", "Aktywny składnik pozyskiwany z korzenia lukrecji; wykazuje silne właściwości przeciwzapalne, kojące i łagodzące. Skutecznie redukuje zaczerwienienia, podrażnienia, obrzęki oraz świąd skóry, a także pomaga w regulacji wydzielania sebum i pielęgnacji cery wrażliwej lub problematycznej."]
+  ["Glicyryzynian amonu", "ammonium glycyrrhizate", "Aktywny składnik pozyskiwany z korzenia lukrecji; wykazuje silne właściwości przeciwzapalne, kojące i łagodzące. Skutecznie redukuje zaczerwienienia, podrażnienia, obrzęki oraz świąd skóry, a także pomaga w regulacji wydzielania sebum i pielęgnacji cery wrażliwej lub problematycznej."],
+  ["Methyl diisopropyl propionamide", "methyl diisopropyl propionamide", "Substancja chłodząca i odświeżająca (pochodna mentolu); zapewnia długotrwałe, przyjemne uczucie chłodu na skórze bez wywoływania podrażnień i pieczenia oraz bez charakterystycznego mentolowego zapachu."]
 ]
 
 
