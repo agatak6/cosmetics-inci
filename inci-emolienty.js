@@ -48,7 +48,9 @@ function getEmolienty(){
 "raspberry seed oil/tocopheryl succinate aminopropanediol esters",
 "arachidic acid",
 "c13-c15 alkane",
-"silybum marianum ethyl ester"
+"silybum marianum ethyl ester",
+"caprylic/capric/succinic triglyceride",
+"diisopropyl sebacate"
 ];
   return emolienty;
 }
