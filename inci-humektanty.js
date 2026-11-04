@@ -45,6 +45,7 @@ function getHumektanty(){
 "trehalose",
 "urea",
 "wheat amino acids",
+"aloe barbadensis leaf powder",
 "aloe barbadensis leaf juice powder",
 "aloe barbadensis leaf juice",
 "avena sativa kernel flour",
@@ -66,7 +67,9 @@ function getHumektanty(){
 "tremella fuciformis polysaccharide",
 "isomalt",
 "sodium alginate",
-"sodium carboxymethyl starch"
+"sodium carboxymethyl starch",
+"cocos nucifera (coconut) liquid endosperm",
+"algin"
 ];
   return humektanty;
 }
