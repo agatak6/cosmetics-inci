@@ -286,6 +286,8 @@ ok_inci = [
 "sodium hyaluronate dimethylsilanol",
 "sodium phosphate",
 // woda i hydrolaty
+"aqua (water)",
+"aqua",
 "himalaya water", "himalaya aqua",
 "aloe barbadensis leaf aqua",
 "aloe barbadensis leaf water",
@@ -297,7 +299,17 @@ ok_inci = [
 "nulembo nucifera (pink lotus) water",
 "sulfide/hydrogen sulfide mineral aqua",
 "sulfide/hydrogen sulfide mineral water",
-"water"
+"water",
+"ananas sativus (pineapple) fruit juice",
+"bambusa arundinacea juice",
+"betula alba (birch) juice",
+"betula alba juice",
+"betula platyphylla japonica juice",
+"citrus aurantifolia (lime) juice",
+"citrus aurantium dulcis (orange) juice",
+"cocos nucifera fruit juice",
+"cucumis melo (melon) juice",
+"fragaria vesca (strawberry) juice"
 ]
 return ok_inci;
 }
