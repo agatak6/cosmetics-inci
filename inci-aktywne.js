@@ -36,7 +36,16 @@ let inciAktywne =[
   ["Hydrolizowana ekstensyna", "hydrolized extensin", "Roślinny odpowiednik kolagenu pozyskiwany ze ścian komórkowych roślin (ekstensyna); wykazuje silne właściwości błonotwórcze, nawilżające i wygładzające, zwiększa elastyczność i napięcie skóry oraz chroni przed odwodnieniem."],
 ["Ester gliceryny i kwasu linolenowego", "glyceryl linoleate, glyceryl linolenate", "Pełni funkcję emolientu i składnika odbudowującego lipidową barierę ochronną naskórka, intensywnie nawilża, zmiękcza i wygładza skórę oraz chroni ją przed utratą wilgoci."],
   ["Guma z żywicy mastyksowej (Pistacia lentiscus)", "pistacia lentiscus gum", "Naturalna żywica pozyskiwana z krzewu mastyksowego (Pistacia lentiscus); wykazuje silne działanie ściągające, przeciwbakteryjne i regulujące wydzielanie sebum, zmniejsza widoczność rozszerzonych porów, matuje skórę oraz poprawia jej elastyczność i teksturę."],
-  ["Zeolit", "zeolite", "Naturalny minerał glinokrzemianowy o mikroporowatej strukturze; wykazuje właściwości detoksykujące, absorpcyjne i oczyszczające – skutecznie wiąże zanieczyszczenia, toksyny i nadmiar sebum, wykazuje działanie przeciwbakteryjne oraz delikatnie rozgrzewa skórę w kontakcie z wodą."]
+  ["Zeolit", "zeolite", "Naturalny minerał glinokrzemianowy o mikroporowatej strukturze; wykazuje właściwości detoksykujące, absorpcyjne i oczyszczające – skutecznie wiąże zanieczyszczenia, toksyny i nadmiar sebum, wykazuje działanie przeciwbakteryjne oraz delikatnie rozgrzewa skórę w kontakcie z wodą."],
+  ["Arbutyna", "arbutin, alpha-arbutin", "Naturalna hydrochinonowa pochodna pochodzenia roślinnego (m.in. z mącznicy lekarskiej); silny inhibitor tyrozynazy o działaniu rozjaśniającym przebarwienia, wyrównującym koloryt skóry oraz łagodzącym plamy pigmentacyjne bez podrażniania naskórka."],
+  ["Kannabidiol (CBD)", "cannabidiol", "Narkotycznie nieaktywny kannabinoid pozyskiwany z konopi siewnych; wykazuje silne właściwości przeciwzapalne, kojące, antyoksydacyjne i regulujące produkcję sebum, doskonale sprawdza się w pielęgnacji cery trądzikowej, wrażliwej i nadreaktywnej."],
+  ["Kannabigerol (CBG)", "cannabigerol", "Nazywany matką kannabinoidów nietoksyczny związek z konopi; działa silnie przeciwbakteryjnie (zwłaszcza przeciw bakteriom trądzikowym), przeciwzapalnie i regenerująco, przyspiesza gojenie oraz łagodzi podrażnienia i stany zapalne skóry."],
+  ["Karnozyna", "carnosine", "Naturalnie występujący w organizmie dipeptyd; silny antyoksydant i składnik, który chroni włókna kolagenowe przed utwardzaniem, neurolizuje wolne rodniki oraz opóźnia procesy starzenia skóry."],
+  ["Karnityna", "carnitine", "Związek z grupy aminokwasów uczestniczący w metabolizmie tłuszczów; przyspiesza spalanie kwasów tłuszczowych, wykazuje działanie ujędrniające i wyszczuplające w preparatach na cellulit, a w pielęgnacji twarzy reguluje wydzielanie sebum i stymuluje odnowę komórkową."],
+  ["Betulina", "betulin", "Związek triterpenowy pozyskiwany z kory brzozy; wykazuje silne działanie przeciwzapalne, przeciwbakteryjne, przeciwprzeszczepowe i regenerujące, stymuluje syntezę kolagenu i elastyny oraz wspiera odbudowę uszkodzonej bariery naskórkowej."],
+  ["Bisabolol", "bisabolol, alpha-bisabolol", "Główny składnik aktywny ekstraktu z rumianku; silnie koi podrażnienia, wycisza zaczerwienienia, łagodzi stany zapalne oraz wykazuje działanie przeciwbakteryjne i regenerujące, idealny dla skóry wrażliwej i alergicznej."],
+  ["Aminokwasy kolagenowe", "collagen amino acids", "Mieszanina aminokwasów uzyskana z hydrolizy kolagenu; posiada małą cząsteczkę o wysokiej zdolności penetracji, intensywnie nawilża, poprawia elastyczność i wygładzenie naskórka oraz wspomaga syntezę włókien podporowych."],
+  ["Niacynamid", "niacinamide", "Witamina B3 (amid kwasu nikotynowego); stymuluje syntezę ceramidów, wzmacnia barierę hydrolipidową, reguluje wydzielanie sebum, zwęża pory, wycisza stany zapalne oraz skutecznie redukuje przebarwienia i drobne zmarszczki."]
 ]
 
 
@@ -46,11 +55,10 @@ return inciAktywne;
 
 function getAktywne(){
   akt_inci = [
-"bakuchiol","caffeine","niacinamide", "adenosine","bisabolol","astaxanthin",
+"bakuchiol","caffeine", "adenosine","astaxanthin",
 "adenosine triphosphate",
 "camellia sinensis leaf extract epigallocatechin gallate",
-"copper pca", "cupric chloride",
-"cannabigerol", "carnitine"
+"copper pca", "cupric chloride"
 ];
   return akt_inci;
 }
