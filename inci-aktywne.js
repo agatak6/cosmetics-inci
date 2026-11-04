@@ -36,7 +36,8 @@ let inciAktywne =[
   ["Hydrolizowana ekstensyna", "hydrolized extensin", "Roślinny odpowiednik kolagenu pozyskiwany ze ścian komórkowych roślin (ekstensyna); wykazuje silne właściwości błonotwórcze, nawilżające i wygładzające, zwiększa elastyczność i napięcie skóry oraz chroni przed odwodnieniem."],
 ["Ester gliceryny i kwasu linolenowego", "glyceryl linoleate, glyceryl linolenate", "Pełni funkcję emolientu i składnika odbudowującego lipidową barierę ochronną naskórka, intensywnie nawilża, zmiękcza i wygładza skórę oraz chroni ją przed utratą wilgoci."],
   ["Guma z żywicy mastyksowej (Pistacia lentiscus)", "pistacia lentiscus gum", "Naturalna żywica pozyskiwana z krzewu mastyksowego (Pistacia lentiscus); wykazuje silne działanie ściągające, przeciwbakteryjne i regulujące wydzielanie sebum, zmniejsza widoczność rozszerzonych porów, matuje skórę oraz poprawia jej elastyczność i teksturę."],
-  ["Zeolit", "zeolite", "Naturalny minerał glinokrzemianowy o mikroporowatej strukturze; wykazuje właściwości detoksykujące, absorpcyjne i oczyszczające – skutecznie wiąże zanieczyszczenia, toksyny i nadmiar sebum, wykazuje działanie przeciwbakteryjne oraz delikatnie rozgrzewa skórę w kontakcie z wodą."]
+  ["Zeolit", "zeolite", "Naturalny minerał glinokrzemianowy o mikroporowatej strukturze; wykazuje właściwości detoksykujące, absorpcyjne i oczyszczające – skutecznie wiąże zanieczyszczenia, toksyny i nadmiar sebum, wykazuje działanie przeciwbakteryjne oraz delikatnie rozgrzewa skórę w kontakcie z wodą."],
+  ["Polilizyna", "polylysine", "Naturalny polimer aminokwasu L-lizyny o silnych właściwościach przeciwbakteryjnych i przeciwgrzybiczych; stosowany jako naturalny konserwant i stabilizator formuł kosmetycznych, a w pielęgnacji włosów i skóry wykazuje działanie wygładzające, nawilżające oraz kondycjonujące."]
 ]
 
 
