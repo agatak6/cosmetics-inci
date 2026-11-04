@@ -61,6 +61,7 @@ pigmenty = [
 "ci 77891 (titanium dioxide)",
 "titanium dioxide (nano)",
 "ci 77891",
+"iron oxide",
 "iron oxides (ci 77491)",
 "iron oxides (ci 77492)",
 "iron oxides (ci 77499)",
