@@ -58,7 +58,15 @@ function getEmolienty(){
 "dipentaerythrityl hexacaprylate/hexacaprate",
 "pentaerythrityl tetraethylhexanoate",
 "hydroxystearic/linolenic/oleic polyglycerides",
-"isostearic acid"
+"isostearic acid",
+"lauryl lactate",
+"myristyl lactate",
+"oleyl alcohol",
+"polyglyceryl-4 pelargonate",
+"polyglyceryl-6 oleate",
+"sunflower seed oil polyglyceryl-4 esters",
+"tricaprylin",
+"tridecyl trimellitate"
 ];
   return emolienty;
 }
