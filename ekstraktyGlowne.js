@@ -245,7 +245,6 @@ let ekstraktyGlowne = [
   ["Ekstrakt z Korzenia Goryczki (Żółtej / Szorstkiej)", "gentiana lutea root extract, gentiana scabra root extract", "Ma właściwości ściągające, tonizujące, przeciwzapalne i łagodzące podrażnienia."],
   ["Ekstrakt z Bodziszka (Plamistego / Thunberga)", "geranium maculatum extract, geranium thunbergii extract", "Działa ściągająco, tonizująco, antyseptycznie i przeciwzapalnie. Równoważy cerę."],
   ["Ekstrakt z Gigartina Stellata (Czerwona Alga)", "gigartina stellata extract, citric acid/gigartina stellata extract", "Bogaty w polisacharydy. Działa silnie nawilżająco, wygładzająco i tworzy ochronny film."],
-  ["Ekstrakt z Liści Miłorzębu Japońskiego", "ginkgo biloba leaf extract", "Silny antyoksydant, poprawia mikrokrążenie, wzmacnia naczynka i opóźnia starzenie."],
   ["Ekstrakt z bluszczyka kurdybanka", "glechoma hederacea extract", "Wykazuje właściwości ściągające, oczyszczające i przeciwzapalne."],
   ["Ekstrakt z nasion glediczji trójcierniowej", "gleditsia triacanthos seed extract", "Tworzy natychmiastowo napinającą błonę wygładzającą zmarszczki."],
   ["Ekstrakt z Liści Globularia Alypum", "globularia alypum leaf extract", "Działa detoksykująco i ochronnie na komórki skóry. Wzmacnia mechanizmy obronne."],
