@@ -17,6 +17,7 @@ function getOkluzja(){
 "Theobroma Grandiflorum",
 //oraz inne, gęste i twarde masła roślinne
 "astrocaryum murumuru seed butter",
+"garcinia indica (kokum) seed butter",
 //Dimetikon o wysokiej gęstości (INCI:  
 "dimethicone",
 //Lanolina (INCI: 
@@ -25,6 +26,7 @@ function getOkluzja(){
 "cera alba (beeswax)",
 "cera alba",
 //Woski roślinne (INCI: 
+"acacia decurrens flower wax",
 "euphorbia cerifera wax", 
 "copernicia cerifera (carnauba) wax",
 "copernicia cerifera cera",
