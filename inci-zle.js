@@ -161,7 +161,11 @@ const alergeny = [
 "snail secretion filtrate",
 "alpha pinene", 
 "gernayl acetate", 
-"rose ketones"
+"rose ketones",
+"amyl salicylate",
+"benzyl silicate",
+"carvone",
+"pinene-beta"
 ];
 
 return alergeny;
