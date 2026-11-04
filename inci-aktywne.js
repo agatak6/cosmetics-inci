@@ -45,7 +45,14 @@ let inciAktywne =[
   ["Betulina", "betulin", "Związek triterpenowy pozyskiwany z kory brzozy; wykazuje silne działanie przeciwzapalne, przeciwbakteryjne, przeciwprzeszczepowe i regenerujące, stymuluje syntezę kolagenu i elastyny oraz wspiera odbudowę uszkodzonej bariery naskórkowej."],
   ["Bisabolol", "bisabolol, alpha-bisabolol", "Główny składnik aktywny ekstraktu z rumianku; silnie koi podrażnienia, wycisza zaczerwienienia, łagodzi stany zapalne oraz wykazuje działanie przeciwbakteryjne i regenerujące, idealny dla skóry wrażliwej i alergicznej."],
   ["Aminokwasy kolagenowe", "collagen amino acids", "Mieszanina aminokwasów uzyskana z hydrolizy kolagenu; posiada małą cząsteczkę o wysokiej zdolności penetracji, intensywnie nawilża, poprawia elastyczność i wygładzenie naskórka oraz wspomaga syntezę włókien podporowych."],
-  ["Niacynamid", "niacinamide", "Witamina B3 (amid kwasu nikotynowego); stymuluje syntezę ceramidów, wzmacnia barierę hydrolipidową, reguluje wydzielanie sebum, zwęża pory, wycisza stany zapalne oraz skutecznie redukuje przebarwienia i drobne zmarszczki."]
+  ["Niacynamid", "niacinamide", "Witamina B3 (amid kwasu nikotynowego); stymuluje syntezę ceramidów, wzmacnia barierę hydrolipidową, reguluje wydzielanie sebum, zwęża pory, wycisza stany zapalne oraz skutecznie redukuje przebarwienia i drobne zmarszczki."],
+  ["Bakuchiol", "bakuchiol", "Roślinny analog retinolu pozyskiwany z nasion Psoralea corylifolia; wykazuje silne działanie przeciwstarzeniowe, stymuluje syntezę kolagenu, wygładza zmarszczki oraz poprawia jędrność skóry bez wywoływania podrażnień i fotowrażliwości, dzięki czemu jest doskonale tolerowany przez cery wrażliwe."],
+  ["Kofeina", "caffeine", "Alkaloid purynowy o silnym działaniu stymulującym mikrokrążenie, drenującym i antyoksydacyjnym; skutecznie redukuje obrzęki i cienie pod oczami, wspomaga walkę z cellulitem, pobudza metabolizm komórkowy oraz chroni skórę przed stresem oksydacyjnym."],
+  ["Adenozyna", "adenosine", "Naturalny nukleozyd o udowodnionym klinicznie działaniu przeciwstarzeniowym; stymuluje produkcję kolagenu i elastyny, wygładza zmarszczki mimiczne, przyspiesza regenerację naskórka oraz wykazuje właściwości łagodzące i przeciwzapalne."],
+  ["Trifosforan adenozyny (ATP)", "adenosine triphosphate", "Kluczowy nukleotyd będący uniwersalnym nośnikiem energii w komórkach; dostarcza energii niezbędnej do intensywnych procesów naprawczych, regeneracji i metabolizmu komórkowego, poprawiając witalność i elastyczność zmęczonej skóry."],
+  ["Astaksantyna", "astaxanthin", "Naturalny ksantofil (karotenoid) o potężnym potencjale antyoksydacyjnym; silnie neutralizuje wolne rodniki, chroni strukturę komórkową przed uszkodzeniami wywołanymi promieniowaniem UV, poprawia nawilżenie i elastyczność oraz działa przeciwzapalnie."],
+  ["PCA miedzi", "copper pca", "Fizjologiczny związek łączący biopierwiastek miedź z kwasem piroglutaminowym; wykazuje silne działanie seboregulujące, przeciwbakteryjne i antyoksydacyjne, stymuluje syntezę kolagenu oraz wspomaga gojenie i regenerację naskórka."],
+  ["Chlorek miedzi", "cupric chloride", "Nieorganiczna sól miedzi o właściwościach ściągających, antybakteryjnych i kondycjonujących; wspiera procesy gojenia, stymuluje metabolizm komórkowy oraz wykazuje działanie mikrobójcze i stabilizujące w nowoczesnych formułach kosmetycznych."]
 ]
 
 
@@ -54,12 +61,7 @@ return inciAktywne;
 }
 
 function getAktywne(){
-  akt_inci = [
-"bakuchiol","caffeine", "adenosine","astaxanthin",
-"adenosine triphosphate",
-"camellia sinensis leaf extract epigallocatechin gallate",
-"copper pca", "cupric chloride"
-];
+  akt_inci = [];
   return akt_inci;
 }
 /* rozjasniajace */
