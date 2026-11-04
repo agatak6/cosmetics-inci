@@ -6,7 +6,9 @@ author: agatak6@gmail.com
 function getOkInci3(){
 
 ok_inci = [
+"sodium anisate",
 "sodium benzoate",
+"sodium benzotriazolyl butylphenol sulfonate",
 "sodium bicarbonate",
 "sodium carbomer",
 "sodium carbonate",
@@ -35,6 +37,7 @@ ok_inci = [
 "sodium oleate",
 "sodium oleoyl sarcosinate",
 "sodium olivamphoacetate",
+"sorbitan palmitate",
 "sodium phytate",
 "sodium phosphate",
 "sodium polyitaconate",
@@ -64,6 +67,7 @@ ok_inci = [
 "sucralose",
 "sucrose cocate",
 "sucrose cocoate",
+"sucrose palmitate",
 "sucrose stearate",
 "sunflower seed acid",
 "synthetic beeswax",
@@ -80,8 +84,10 @@ ok_inci = [
 "tin oxide",
 "titanium dioxide (ci 77891)",
 "tribehenin",
+"tributyl citrate",
 "tricalcium phosphate",
 "tridecane",
+"trideceth-9",
 "triethoxycaprylylsilane",
 "triethyl citrate",
 "triethylhexanoin",
