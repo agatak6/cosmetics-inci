@@ -76,6 +76,7 @@ let ekstraktyNK = [
   ["Ekstrakt z planktonu", "plankton extract", "Wyciąg z mikroorganizmów morskich, bogaty w białka i aminokwasy. Wspomaga metabolizm komórkowy, zwiększa energię w skórze i chroni DNA."],
   ["Ekstrakt z Liści Babki Lancetowatej", "plantago lanceolata leaf extract", "Znany z właściwości gojących, przeciwzapalnych i antybakteryjnych. Przyspiesza regenerację skóry i łagodzi podrażnienia."],
   ["Ekstrakt z Owoców Granatu", "punica granatum fruit extract, punica granatum seed cell culture lysate", "Bogaty w kwas elagowy i punicalaginę. Działa silnie przeciwstarzeniowo, regenerująco, nawilżając i ujędrniająco."],
+["Lizat z kultury komórek kalusowych bawełny zielnej i granatowca właściwego", "(gossypium herbaceum (cotton) callus culture/punica granatum callus culture) lysate", "Zaawansowany lizat biotechnologiczny oparty na komórkach macierzystych bawełny i granatu; wykazuje silne działanie photoprotekcyjne, antyoksydacyjne i łagodzące, skutecznie chroni strukturę skóry przed fotostarzeniem oraz stymuluje mechanizmy naprawcze DNA komórek."],
   ["Ekstrakt z Korzenia Ruscus Aculeatus (Ruszczyk Kolczasty)", "ruscus aculeatus root extract", "Znany z właściwości wzmacniających naczynia krwionośne, zmniejszających obrzęki i poprawiających mikrokrążenie."],
   ["Ekstrakt z Undaria Pinnatifida (Wakame)", "undaria pinnatifida extract, undaria pinnatifida cell culture extract", "Bogaty w fucoidan. Działa silnie nawilżająco, przeciwzapalnie, antyoksydacyjnie i stymuluje odnowę komórkową."]
 ];
