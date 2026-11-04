@@ -7,6 +7,9 @@ author: agatak6@gmail.com
 function getPigmenty(){
 
 pigmenty = [
+"blue 1 lake (ci 42090)",
+"black iron oxide",
+"chromium oxide greens (ci 77288)",
 "ci 14700",
 "ci 14720",
 "ci 15850",
