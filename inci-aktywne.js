@@ -1,6 +1,6 @@
 let inciAktywne =[
 ["Witamina E", "mixed tocopherols, tocopherol acetate", "Działa jako silny antyoksydant, chroni lipidy naskórka przed utlenianiem, nawilża i wzmacnia barierę ochronną."],
-["Alpha-Glucan Oligosaccharide", "alpha-glucan oligosaccharide", "prebiotyk; wspiera mikrobiom i wzmacnia barierę ochronną."],
+["Alpha-Glucan Oligosaccharide", "alpha-glucan oligosaccharide, alpha - glucan oligosaccharide", "prebiotyk; wspiera mikrobiom i wzmacnia barierę ochronną."],
 ["Egzosomy z lactobacillus extracellular", "lactobacillus extracellular vesicles", "Korzyści: szybka regeneracja i gojenie, działanie anti-aging, głębokie ukojenie (idealne przy trądziku, AZS i cerze naczynkowej), wzmocnienie odporności skóry."],
 ["Egzosomy z kalusa wąkrotki azjatyckiej", "centella asiatica callus extracellular vesicles", "Zaawansowany składnik biotechnologiczny (egzosomy); wykazuje silne działanie regenerujące, łagodzące, przeciwzapalne oraz stymulujące odnowę komórkową i produkcję kolagenu."],
 ["Alfa-glukozylrutyna", "alpha glucosylrutin", "Wysoko rozpuszczalna i stabilna forma rutyny; działa silnie antyoksydacyjnie, wzmacnia naczynia krwionośne, zapobiega fotostarzeniu i chroni lipidy skóry przed utlenianiem."],
