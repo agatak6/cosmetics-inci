@@ -232,6 +232,7 @@ ok_inci = [
 "polyglyceryl-4-laurate/sebacate",
 "polyhydroxystearic acid",
 "polyisobutene",
+"polylysine",
 "polymnia sonchifolia root juice",
 "polysilicone-11",
 "polysorbate 20",
