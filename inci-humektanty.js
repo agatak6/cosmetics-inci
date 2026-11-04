@@ -63,7 +63,10 @@ function getHumektanty(){
 "acetamidoethoxyethanol",
 "beta-glucan",
 "calcium lactate",
-"tremella fuciformis polysaccharide"
+"tremella fuciformis polysaccharide",
+"isomalt",
+"sodium alginate",
+"sodium carboxymethyl starch"
 ];
   return humektanty;
 }
