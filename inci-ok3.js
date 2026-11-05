@@ -23,6 +23,7 @@ ok_inci = [
 "sodium cocoyl amino acids",
 "sodium dehydroacetate",
 "sodium gluconate",
+"sodium glutamate",
 "sodium glycolate",
 "sodium hydroxide",
 "sodium isostearate",
