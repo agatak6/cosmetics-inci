@@ -84,6 +84,7 @@ ok_inci = [
 "thermus thermophillus ferment",
 "tin oxide",
 "titanium dioxide (ci 77891)",
+"tocopherol tetrasodium glutamate diacetate",
 "tribehenin",
 "tributyl citrate",
 "tricalcium phosphate",
