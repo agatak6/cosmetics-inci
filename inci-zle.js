@@ -54,6 +54,7 @@ const bad_inci = [
 
 //parafina
 "paraffin", "paraffinum liquidum", "parafinum liquidum", "ceresin", "petrolatum","mineral oil",
+"ozokerite",
 // olej palmowy
 "elaeis guineensis oil",
 "elaeis guineensis (palm) oil",
