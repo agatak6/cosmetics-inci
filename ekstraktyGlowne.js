@@ -272,6 +272,7 @@ let ekstraktyGlowne = [
   ["Ekstrakt z Chmielu Zwyczajnego", "humulus lupulus (hops) extract, humulus lupulus flower extract", "Bogaty w fitoestrogeny i flawonoidy. Działa przeciwzapalnie, antyoksydacyjnie i tonizująco."],
   ["Ekstrakt z Hiacyntu Wschodniego", "hyacinthus orientalis (hyacinth) extract", "Działa nawilżająco, kondycjonująco i antyoksydacyjnie."],
   ["Hydrolizat Skrobi (Kukurydzianej / Tapiokowej)", "hydrogenated starch hydrolysate, hydrogenated tapioca starch hydrolysate", "Działa jako humektant, wiążąc wodę w naskórku. Zapewnia wygładzenie i miękkość."],
+["Hydrolizowany alginat", "hydrolyzed algin", "Niskocząsteczkowy oligosacharyd pozyskiwany z brązowych alg morskich; tworzy tarczę ochronną przeciw zanieczyszczeniom miejskim i metalom ciężkim (anti-pollution), reguluje wydzielanie sebum, stymuluje metabolizm komórkowy oraz remineralizuje skórę."],
 ["Hydrolizowany Ekstrakt z Czerwonych Alg", "hydrolyzed rhodophyceae extract", "Dostarcza przyswajalnych minerałów i polisacharydów. Działa silnie nawilżająco i wzmacnia barierę skórną."],
   ["Ekstrakt z Owoców Smoczej Gruszki / Pitaji", "hylocereus undatus (pitaya) fruit extract", "Bogaty w witaminę C i polisacharydy. Działa nawilżająco, rozświetlająco i ochronnie."],
   ["Ekstrakt z Dziurawca Zwyczajnego", "hypericum perforatum flower/leaf/stem extract, hypericum perforatum flower extract", "Działa przeciwzapalnie, łagodząco, gojąco i ściągająco. Uwaga na działanie fotouczulające."],
