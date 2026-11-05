@@ -36,6 +36,7 @@ function getEmolienty(){
 "dimethiconol",
 //estry olejow
 "apricot kernel oil polyglyceryl-4 esters",
+"babassu oil glycereth-8 esters",
 "jojoba oil/macadamia seed oil esters",
 "jojoba esters / helianthus annuus seed wax / acacia decurrens flower wax / polyglycerin-3",
 "moringa oil/hydrogenated moringa oil esters",
