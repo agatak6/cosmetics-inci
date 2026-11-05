@@ -41,7 +41,8 @@ let peptydyOpis = [
 ["Palmitoilodipeptyd-5 (diaminobutyroyl hydroxythreonine)", "palmitoyl dipeptide-5 diaminobutyroyl hydroxythreonine", "Peptyd stymulujący struktury połączenia naskórkowo-skórnego (DEJ); stymuluje syntezę kolagenu IV, VII i XVII oraz lamininy-5, poprawiając gęstość, elastyczność i jędrność skóry."],
 ["Palmitoilodipeptyd-5 (diaminohydroxybutyrate)", "palmitoyl dipeptide-5 diaminohydroxybutyrate", "Peptyd odbudowujący strukturę skóry; wzmacnia spójność połączenia skórno-naskórkowego, poprawia napięcie i elastyczność oraz redukuje widoczność zmarszczek."],
 ["Pentapeptyd-59", "pentapeptyd-59, pentapeptide-59", "Innowacyjny peptyd kojący (inspirowany jadem ukwiału); zmniejsza nadwrażliwość skóry, wycisza podrażnienia, redukuje pieczenie oraz wzmacnia odporność cery wrażliwej na czynniki zewnętrzne."],
-["Tetrapeptyd-21", "tetrapeptide-21", "Peptyd sygnałowy o silnym działaniu przeciwstarzeniowym; pobudza fibroblasty do produkcji kolagenu, kwasu hialuronowego i fibronektyny, wygładzając zmarszczki oraz poprawiając elastyczność i strukturę skóry."]
+["Tetrapeptyd-21", "tetrapeptide-21", "Peptyd sygnałowy o silnym działaniu przeciwstarzeniowym; pobudza fibroblasty do produkcji kolagenu, kwasu hialuronowego i fibronektyny, wygładzając zmarszczki oraz poprawiając elastyczność i strukturę skóry."],
+["Acetyloglicylo-beta-alanina", "acetyl glycyl beta-alanine", "Zaawansowany peptyd o silnym działaniu depigmentacyjnym i rozjaśniającym; reguluje proces melanogenezy, hamuje transfer melanosomów do keratynocytów, co skutecznie pomaga w redukcji przebarwień i wyrównywaniu kolorytu skóry."]
 ];
 
 function getPeptydy(){
