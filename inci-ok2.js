@@ -121,6 +121,7 @@ ok_inci = [
 "magnesium pca",
 "magnesium stearate",
 "magnesium sulfate",
+"magnesium sulfate heptahydrate",
 "maltodextrin",
 "maltooligosyl glucoside",
 "maltose",
