@@ -35,6 +35,7 @@ function getOkluzja(){
 "euphorbia cerifera (candelilla) cera",
 "euphorbia cerifera (candelilla) wax",
 "euphorbia cerifera cera",
+"rhus verniciflua peel cera",
 //alkohole tluszczowe
 "cetearyl alcohol",
 "c12-16 alcohols", 
