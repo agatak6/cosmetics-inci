@@ -54,7 +54,9 @@ let inciAktywne =[
   ["PCA miedzi", "copper pca", "Fizjologiczny związek łączący biopierwiastek miedź z kwasem piroglutaminowym; wykazuje silne działanie seboregulujące, przeciwbakteryjne i antyoksydacyjne, stymuluje syntezę kolagenu oraz wspomaga gojenie i regenerację naskórka."],
   ["Chlorek miedzi", "cupric chloride", "Nieorganiczna sól miedzi o właściwościach ściągających, antybakteryjnych i kondycjonujących; wspiera procesy gojenia, stymuluje metabolizm komórkowy oraz wykazuje działanie mikrobójcze i stabilizujące w nowoczesnych formułach kosmetycznych."],
 ["Hydroksyprolina dipalmitoilowa", "dipalmitoyl hydroxyproline", "Lipofilowa pochodna aminokwasu naturalnie występującego w kolagenie, połączona z kwasem palmitynowym; działa jako stymulator syntezy włókien kolagenowych, poprawia gęstość, jędrność i napięcie skóry oraz wykazuje właściwości nawilżające i wygładzające drobne zmarszczki."],
-["Glukozyloceramid", "glucosylceramide", "Naturalny sfingolipid stanowiący istotny składnik ceramidów naskórkowych; uszczelnia barierę hydrolipidową skóry, zapobiega przeznaskórkowej utracie wody (TEWL), intensywnie nawilża, regeneruje oraz chroni przed czynnikami drażniącymi ze środowiska."]
+["Glukozyloceramid", "glucosylceramide", "Naturalny sfingolipid stanowiący istotny składnik ceramidów naskórkowych; uszczelnia barierę hydrolipidową skóry, zapobiega przeznaskórkowej utracie wody (TEWL), intensywnie nawilża, regeneruje oraz chroni przed czynnikami drażniącymi ze środowiska."],
+["Kwercetyna", "quercetin", "Naturalny flawonoid o silnym działaniu antyoksydacyjnym, przeciwzapalnym i naczynioprotekcyjnym; neutralizuje wolne rodniki, hamuje uwalnianie mediatorów stanu zapalnego, łagodzi podrażnienia oraz chroni strukturę kolagenu przed degradacją."],
+["Siarczan cynku", "zinc sulfate", "Nieorganiczna sól cynku o silnym działaniu przeciwbakteryjnym, ściągającym i regulującym wydzielanie sebum; hamuje rozwój bakterii trądzikowych, przyspiesza gojenie wyprysków, zmniejsza przetłuszczanie się skóry oraz oczyszcza pory."]
 ]
 
 
