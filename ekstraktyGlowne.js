@@ -415,7 +415,7 @@ let ekstraktyGlowne = [
   ["Ekstrakt z krasnorostu Polysiphonia lanosa", "polysiphonia lanosa extract", "Morski składnik remineralizujący i odżywczy."],
   ["Ekstrakt z Owoców Poncirus Trifoliata", "poncirus trifoliata fruit extract", "Działa rozjaśniająco i wyrównuje koloryt skóry."],
   ["Ekstrakt z Kory Topoli Drżącej", "populus tremuloides bark extract", "Naturalne źródło salicylanów. Działa delikatnie złuszczająco i antybakteryjnie."],
-  ["Ekstrakt z Grzyba Poria Cocos", "poria cocos extract, poria cocos sclerotium extract", "Tradycyjny grzyb azjatycki. Działa przeciwzapalnie, kojąco i wzmacnia odporność skóry."],
+  ["Ekstrakt z Grzyba Poria Cocos", "poria cocos extract, poria cocos sclerotium extract, poria cocos polysaccharide", "Tradycyjny grzyb azjatycki. Działa przeciwzapalnie, kojąco i wzmacnia odporność skóry."],
   ["Sformatowana pożywka z hodowli porphyridium cruentum", "porphyridium cruentum culture conditioned media", "Zaawansowany składnik biotechnologiczny uzyskiwany z mikroalg red algae; bogaty w polisacharydy, aminokwasy i mikroelementy. Wykazuje silne działanie napinające, wygładzające i liftingujące, natychmiastowo redukuje widoczność drobnych zmarszczek oraz głęboko nawilża i regeneruje skórę."],
   ["Ekstrakt z Porphyra (Umbilicalis / Yezoensis / Porphyridium)", "porphyra umbilicalis extract, porphyra yezoensis extract, porphyridium cruentum extract", "Czerwona alga bogata w naturalne filtry UV i aminokwasy. Działa silnie nawilżająco i ujędrniająco."],
 ["Ekstrakt z korzenia pięciornika kurze ziele", "potentilla erecta root extract", "Silne działanie ściągające, przeciwbakteryjne i przeciwzapalne; pomocny w walce z niedoskonałościami."],
