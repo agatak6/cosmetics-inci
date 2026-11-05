@@ -52,7 +52,9 @@ let inciAktywne =[
   ["Trifosforan adenozyny (ATP)", "adenosine triphosphate", "Kluczowy nukleotyd będący uniwersalnym nośnikiem energii w komórkach; dostarcza energii niezbędnej do intensywnych procesów naprawczych, regeneracji i metabolizmu komórkowego, poprawiając witalność i elastyczność zmęczonej skóry."],
   ["Astaksantyna", "astaxanthin", "Naturalny ksantofil (karotenoid) o potężnym potencjale antyoksydacyjnym; silnie neutralizuje wolne rodniki, chroni strukturę komórkową przed uszkodzeniami wywołanymi promieniowaniem UV, poprawia nawilżenie i elastyczność oraz działa przeciwzapalnie."],
   ["PCA miedzi", "copper pca", "Fizjologiczny związek łączący biopierwiastek miedź z kwasem piroglutaminowym; wykazuje silne działanie seboregulujące, przeciwbakteryjne i antyoksydacyjne, stymuluje syntezę kolagenu oraz wspomaga gojenie i regenerację naskórka."],
-  ["Chlorek miedzi", "cupric chloride", "Nieorganiczna sól miedzi o właściwościach ściągających, antybakteryjnych i kondycjonujących; wspiera procesy gojenia, stymuluje metabolizm komórkowy oraz wykazuje działanie mikrobójcze i stabilizujące w nowoczesnych formułach kosmetycznych."]
+  ["Chlorek miedzi", "cupric chloride", "Nieorganiczna sól miedzi o właściwościach ściągających, antybakteryjnych i kondycjonujących; wspiera procesy gojenia, stymuluje metabolizm komórkowy oraz wykazuje działanie mikrobójcze i stabilizujące w nowoczesnych formułach kosmetycznych."],
+["Hydroksyprolina dipalmitoilowa", "dipalmitoyl hydroxyproline", "Lipofilowa pochodna aminokwasu naturalnie występującego w kolagenie, połączona z kwasem palmitynowym; działa jako stymulator syntezy włókien kolagenowych, poprawia gęstość, jędrność i napięcie skóry oraz wykazuje właściwości nawilżające i wygładzające drobne zmarszczki."],
+["Glukozyloceramid", "glucosylceramide", "Naturalny sfingolipid stanowiący istotny składnik ceramidów naskórkowych; uszczelnia barierę hydrolipidową skóry, zapobiega przeznaskórkowej utracie wody (TEWL), intensywnie nawilża, regeneruje oraz chroni przed czynnikami drażniącymi ze środowiska."]
 ]
 
 
