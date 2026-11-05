@@ -27,7 +27,8 @@ ceramidy = [
 "capryloyl sphingosine",
 "glycosphingolipids",
 "caprooyl phytosphingosine",
-"caprooyl sphingosine"
+"caprooyl sphingosine",
+"tetraacetylphytosphingosine"
 ];
 return ceramidy;
 }
