@@ -66,7 +66,12 @@ function getEmolienty(){
 "polyglyceryl-6 oleate",
 "sunflower seed oil polyglyceryl-4 esters",
 "tricaprylin",
-"tridecyl trimellitate"
+"tridecyl trimellitate",
+"decyl cocoate",
+"dicaprylyl carbonate",
+"ethylhexyl cocoate",
+"ethylhexyl hydroxystearate",
+"ethylhexyl pelargoniate"
 ];
   return emolienty;
 }
