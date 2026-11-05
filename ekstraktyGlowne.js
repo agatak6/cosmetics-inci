@@ -310,7 +310,7 @@ let ekstraktyGlowne = [
   ["Żeń-szeń peruwiański (Maca) / Rzeżucha", "lepidium meyenii root extract, lepidium sativum sprout extract", "Pobudza syntezę kolagenu, dodaje blasku, detoksykuje i rozjaśnia przebarwienia."],
   ["Ekstrakt z liści i łodyg Lespedeza capitata", "lespedeza capitata leaf/stem extract", "Wspiera metabolizm komórkowy i chroni przed stresem oksydacyjnym."],
   ["Ekstrakt z Nasion Ligustrum Lucidum", "ligustrum lucidum seed extract", "Ceniony za właściwości antyoksydacyjne, przeciwzapalne i odżywcze."],
-  ["Liliowe ekstrakty (Lilia Biała / Tygrysia)", "lilium candidum bulb extract, lilium candidum flower extract, lilium tigrinum extract", "Wyciągi bogate w śluzy i flawonoidy. Działają nawilżająco, zmiękczająco, rozjaśniająco i kojąco."],
+  ["Liliowe ekstrakty (Lilia Biała / Tygrysia)", "lilium candidum bulb extract, lilium candidum flower extract, lilium tigrinum extract, lilium candidium bulb extract", "Wyciągi bogate w śluzy i flawonoidy. Działają nawilżająco, zmiękczająco, rozjaśniająco i kojąco."],
   ["Ekstrakt z zatrwianu (Limonium gerberi)", "limonium gerberi extract", "Ujędrnia, wygładza i stymuluje produkcję kolagenu oraz kwasu hialuronowego."],
   ["Ekstrakt z Lindera (Erythrocarpa / Strychnifolia)", "lindera erythrocarpa extract, lindera strychnifolia root extract", "Wspomaga komunikację międzykomórkową, wspiera mikrobiom, balansuje i regeneruje skórę."],
   ["Ekstrakt z Lnu", "linum usitatissimum flower extract, linum usitatissimum (linseed) seed extract, hydrolyzed linseed extract, linum usitatissimum seed extract", "Bogaty w śluzy i omega-3. Działa silnie nawilżająco, zmiękczająco, osłonowo i łagodząco."],
@@ -319,7 +319,7 @@ let ekstraktyGlowne = [
   ["Lizat Kultury Kalusa Lithops Pseudotruncatella", "lithops pseudotruncatella callus lysate", "Stymuluje produkcję witaminy D w skórze i poprawia jej nawilżenie."],
   ["Ekstrakt z Korzenia Lithospermum Erythrorhizon", "lithospermum erythrorhizon root extract", "Znany z silnych właściwości przeciwzapalnych, antybakteryjnych i gojących."],
   ["Ekstrakt z Lithothamnion Calcareum", "lithothamnion calcareum extract, lithothamnium calcareum extract", "Alga wapienna bogata w wapń i magnez. Działa remineralizująco i wzmacniająco."],
-  ["Ekstrakt z Kwiatów Wiciokrzewu (Przewiercień / Japoński)", "lonicera caprifolium flower extract, lonicera japonica flower extract", "Działa przeciwzapalnie, antybakteryjnie, łagodząco i antyoksydacyjnie."],
+  ["Ekstrakt z Kwiatów Wiciokrzewu (Przewiercień / Japoński)", "lonicera caprifolium flower extract, lonicera japonica flower extract, lonicera caprifolium (honeysuckle) flower extract, lonicera japonica (honeysuckle) flower extract", "Działa przeciwzapalnie, antybakteryjnie, łagodząco i antyoksydacyjnie."],
   ["Ekstrakt z Kwiatów Komonicy Różkowej", "lotus corniculatus flower extract", "Działa łagodząco, nawilżająco i antyoksydacyjnie."],
   ["Ekstrakt z Owoców Luffa Cylindrica", "luffa cylindrica fruit extract", "Działa oczyszczająco, delikatnie złuszczająco i wygładzająco."],
   ["Ekstrakt z Nasion Łubinu Białego", "lupinus albus seed extract", "Bogaty w peptydy. Działa ujędrniająco i wspomaga produkcję kolagenu."],
@@ -336,11 +336,11 @@ let ekstraktyGlowne = [
   ["Ekstrakt Soli Morskiej", "maris sal (sea salt extract)", "Bogaty w magnez i potas. Działa remineralizująco, oczyszczająco i detoksykująco."],
   ["Ekstrakt z Szanty Zwyczajnej", "marrubium vulgare extract", "Działa przeciwzapalnie, antyoksydacyjnie i chroni przed zanieczyszczeniami."],
   ["Ekstrakt z Lucerny Siewnej", "medicago sativa (alfalfa) extract", "Bogaty w witaminy A, E, K. Działa odżywczo, rewitalizująco i ujędrniająco."],
-  ["Ekstrakt Miodu", "mel extract, honey, honey extract", "Naturalny humektant, działa nawilżająco, odżywczo, antybakteryjnie i regenerująco."],
+  ["Ekstrakt Miodu", "mel extract, honey, honey extract, honey (mel) extract", "Naturalny humektant, działa nawilżająco, odżywczo, antybakteryjnie i regenerująco."],
   ["Ekstrakt z Drzewa Herbacianego", "melaleuca alternifolia (tea tree) leaf extract", "Silne działanie antybakteryjne, przeciwgrzybicze i przeciwzapalne. Idealny na trądzik."],
   ["Ekstrakt z Nostrzyka Lekarskiego", "melilotus officinalis extract", "Uszczelnia naczynia krwionośne, działa przeciwobrzękowo."],
   ["Ekstrakt z Melisy Lekarskiej", "melissa officinalis leaf extract", "Działa kojąco, tonizująco, uspokajająco i przeciwzapalnie."],
-  ["Ekstrakt z Mięty (Polnej / Pieprzowej / Zielonej / Łagodnej)", "mentha arvensis extract, mentha piperita leaf extract, mentha viridis leaf extract, mentha suaveolens leaf extract", "Działa chłodząco, odświeżająco, antyseptycznie, tonizująco i pobudza krążenie."],
+  ["Ekstrakt z Mięty", "mentha arvensis extract, mentha piperita leaf extract, mentha viridis leaf extract, mentha suaveolens leaf extract, mentha piperita (peppermint) leaf extract", "Działa chłodząco, odświeżająco, antyseptycznie, tonizująco i pobudza krążenie."],
   ["Ekstrakt z meteorytu", "meteorite extract", "Mieszanka minerałów; rewitalizuje i wspomaga promienny wygląd skóry."],
   ["Ekstrakt z Mimozy / Kory Mimozy", "mimosa tenuiflora bark extract, mimose extract", "Działa silnie regenerująco, gojąco, przeciwzapalnie i łagodząco."],
   ["Ekstrakt z Mitracarpus scaber", "mitracarpus scaber extract", "Zawiera kwas kojowy; działa rozjaśniająco na przebarwienia i wyrównuje koloryt skóry."],
@@ -350,7 +350,6 @@ let ekstraktyGlowne = [
   ["Ekstrakt z Kamienia Księżycowego", "moonstone extract", "Działa rozświetlająco, kojąco i nawilżająco."],
   ["Ekstrakt z Morinda Citrifolia (Noni)", "morinda citrifolia extract, morinda citrifolia fruit extract", "Bogaty w antyoksydanty i witaminy. Działa rewitalizująco, ochronnie i regenerująco."],
   ["Ekstrakt z Nasion Moringa Oleifera", "moringa oleifera seed extract, moringa pterygosperma seed extract", "Działa silnie detoksykująco, chroni przed zanieczyszczeniami środowiska, odżywia i nawilża."],
-  ["Ekstrakt z Morwy (Białej / Czarnej)", "morus alba leaf extract, morus alba fruit extract, morus bombycis root extract, morus nigra fruit extract", "Wybitne działanie rozjaśniające przebarwienia, antyoksydacyjne i wyrównujące koloryt."],
   ["Ekstrakt z Kwiatów / Owoców Bananowca", "musa sapientum (banana) flower extract, musa sapientum (banana) fruit extract", "Bogaty w potas i witaminy. Działa silnie nawilżająco, odżywczo i zmiękczająco."],
   ["Ekstrakt z Owoców Woskownicy Czerwonej", "myrica cerifera (bayberry) fruit extract", "Działa ściągająco, tonizująco i antyoksydacyjnie."],
   ["Ekstrakt z Kwiatów/Liści/Łodyg Niezapominajki", "myosotis sylvatica flower/leaf/stem extract", "Działa łagodząco i nawilżająco."],
@@ -371,7 +370,7 @@ let ekstraktyGlowne = [
   ["Ekstrakt z Opuncji Figowej / Koszenilowej", "opuntia ficus-indica extract, opuntia coccinellifera fruit extract, opuntia tuna fruit extract, opuntia vulgaris leaf extract, hydrolyzed opuntia ficus-indica flower extract", "Niezwykle bogaty w witaminy i polisacharydy. Działa intensywnie nawilżająco, łagodząco, ujędrniająco i przeciwstarzeniowo."],
   ["Ekstrakt z Orchidei / Storczyka Męskiego / Phalaenopsis", "orchid extract, orchis mascula extract, phalaenopsis amabilis extract", "Działa nawilżająco, wygładzająco, rozświetlająco i przeciwstarzeniowo."],
   ["Ekstrakt z Majeranku / Oregano / Lebiodki", "origanum majorana leaf extract, origanum vulgare leaf extract, origanum dictamnus flower/leaf/stem extract", "Silne działanie antybakteryjne, przeciwgrzybicze, tonizujące i antyoksydacyjne."],
-  ["Ekstrakt z Ryżu (Otrębów / Łuski / Kiełków / Sake Lees)", "oryza sativa (rice) bran extract, oryza sativa bran extract, oryza sativa (rice) extract, oryza sativa (rice) hull powder, oryza sativa (rice) lees extract, oryza sativa germ powder", "Bogaty w oryzanol, witaminę E i aminokwasy. Działa nawilżająco, odżywczo, rozjaśniająco i wygładzająco."],
+  ["Ekstrakt z Ryżu", "oryza sativa (rice) bran extract, oryza sativa bran extract, oryza sativa (rice) extract, oryza sativa (rice) hull powder, oryza sativa (rice) lees extract, oryza sativa germ powder, oryza sativa extract", "Bogaty w oryzanol, witaminę E i aminokwasy. Działa nawilżająco, odżywczo, rozjaśniająco i wygładzająco."],
   ["Ekstrakt z korzenia jicama (Pachyrhizus erosus)", "pachyrhizus erosus root extract", "Chłodzi, odświeża, nawilża i delikatnie rozjaśnia skórę."],
   ["Ekstrakt z Piwonii (Białej / Mlecznokwiatowej / Lekarskiej / Krzewiastej)", "paeonia albiflora root extract, paeonia lactiflora root extract, paeonia officinalis flower extract, paeonia suffruticosa root extract, paeonia albiflora flower extract", "Bogaty w peoniflorinę. Działa przeciwzapalnie, antyoksydacyjnie, łagodząco i silnie rozjaśnia przebarwienia."],
   ["Ekstrakt z algi Padina pavonica", "padina pavonica thallus extract", "Stymuluje syntezę kwasu hialuronowego, ujędrnia i nawilża."],
@@ -533,7 +532,8 @@ let ekstraktyGlowne = [
   ["Ekstrakt z Pieprzu Syczuańskiego / Japońskiego", "zanthoxylum piperitum fruit extract, zanthoxylum alatum fruit extract, zanthoxylum bungeanum fruit extract", "Działa łagodząco na swędzenie, antyseptycznie i zmniejsza nadwrażliwość skóry."],
   ["Ekstrakt z Ziarna Kukurydzy", "zea mays (corn) kernel extract", "Działa nawilżająco, zmiękczająco i odżywczo."],
   ["Ekstrakt z Imbiru (Lekarskiego / Aromatycznego / Szamponowego)", "zingiber officinale (ginger) root extract, zingiber aromaticus extract, zingiber zerumbet extract", "Działa rozgrzewająco, pobudza mikrokrążenie, działa przeciwzapalnie i ujędrniająco."],
-  ["Ekstrakt z Jujuby / Głożyny", "zizyphus jujuba seed extract, ziziphus jujuba fruit extract", "Działa przeciwstarzeniowo, łagodząco i odżywczo."]
+  ["Ekstrakt z Jujuby / Głożyny", "zizyphus jujuba seed extract, ziziphus jujuba fruit extract", "Działa przeciwstarzeniowo, łagodząco i odżywczo."],
+["Ekstrakt z fermentacji bakterii Zymomonas", "zymomonas ferment extract", "Zaawansowany składnik biotechnologiczny pozyskiwany w procesie fermentacji bakterii Zymomonas mobilis; stymuluje metabolizm komórkowy, wspiera syntezę kolagenu i elastyny, poprawia jędrność oraz elastyczność skóry, a także wykazuje silne działanie przeciwstarzeniowe i nawilżające."]
 ];
 
 function getEkstraktyGlowne() {
