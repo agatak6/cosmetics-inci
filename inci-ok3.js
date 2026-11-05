@@ -144,6 +144,7 @@ function getEmulgatory(emulgatory){
 
 emulgatory = [
   "babassu oil glycereth-8 esters",
+  "ceteareth-25",
   "peg-7 glyceryl cocoate",
   "peg-20 glyceryl triisostearate",
   "sorbeth-30 tetraisostearate",
