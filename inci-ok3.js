@@ -168,8 +168,9 @@ emulgatory = [
   "steareth-2",
   "steareth-21",
   "trideceth-7",
-  "trideceth-8"
-
+  "trideceth-8",
+"peg-75 stearate",
+"polyglyceryl-3 oleate"
 ];
 
 return emulgatory;
