@@ -62,7 +62,11 @@ let inciAktywne =[
   ["Laktoferrycyna", "lactoferricin", "Bioaktywny peptyd powstały z hydrolizy laktoferryny; wykazuje silne właściwości przeciwbakteryjne, przeciwgrzybicze oraz przeciwzapalne, wspierając układ odpornościowy skóry i pomagając w zwalczaniu niedoskonałości trądzikowych."],
   ["Hydrolizowana laktoferryna", "hydrolyzed lactoferrin", "Rozbita na mniejsze peptydy frakcja białka mlekowego o silnym działaniu immunomodulującym, przeciwbakteryjnym i kojącym; reguluje mikrobiom skóry, łagodzi stany zapalne oraz stymuluje regenerację naskórka."],
   ["Hydrolizowana perła", "hydrolyzed pearl", "Mikronizowany ekstrakt z pereł bogaty w aminokwasy, minerały i mikroelementy; intensywnie nawilża, remineralizuje i odżywia skórę, nadaje jej promienny, jedwabisty blask oraz wspomaga wygładzanie drobnych zmarszczek."],
-  ["Kwas tiazolidynokarboksylowy (Timonacic)", "timonacic", "Pochodna aminokwasu o silnym działaniu antyoksydacyjnym i detoksykującym; wykazuje zdolność neutralizowania toksyn i wolnych rodników, wspiera naturalne mechanizmy obronne komórek oraz stymuluje procesy naprawcze skóry."]
+  ["Kwas tiazolidynokarboksylowy (Timonacic)", "timonacic", "Pochodna aminokwasu o silnym działaniu antyoksydacyjnym i detoksykującym; wykazuje zdolność neutralizowania toksyn i wolnych rodników, wspiera naturalne mechanizmy obronne komórek oraz stymuluje procesy naprawcze skóry."],
+["Hesperydyna metylowo-chalkonowa", "hesperidin methyl chalcone", "Rozpuszczalna w wodzie pochodna hesperydyny; wykazuje silne działanie naczynioprotekcyjne, uszczelnia i uelastycznia naczynia włosowate, zmniejsza ich przepuszczalność, działa przeciwobrzękowo i redukuje cienie oraz opuchliznę pod oczami."],
+["Idebenon", "hydroxydecyl ubiquinone", "Syntetyczny, zaawansowany analog koenzymu Q10 o wyjątkowo małej cząsteczce; silny antyoksydant neutralizujący wolne rodniki, chroni błony komórkowe przed stresem oksydacyjnym, stymuluje metabolizm komórkowy oraz wykazuje wybitne działanie przeciwstarzeniowe i wygładzające."],
+["Witamina B6", "pyridoxine hcl", "Reguluje pracę gruczołów łojowych, zmniejsza wydzielanie sebum, ogranicza powstawanie stanów zapalnych i zaskórników, wspomaga syntezę aminokwasów w skórze oraz działa łagodząco i matująco."],
+["Melatonina", "melatonin", "Hormon i potężny, lipofilowy antyoksydant; stymuluje enzymatyczne systemy obronne komórek skóry, chroni przed uszkodzeniami wywołanymi promieniowaniem UV, przyspiesza regenerację nocną naskórka oraz spowalnia procesy fotostarzenia i zapobiega degradacji kolagenu."]
 ]
 
 
