@@ -144,12 +144,12 @@ return ok_inci;
 function getEmulgatory(emulgatory){
 
 emulgatory = [
-  "babassu oil glycereth-8 esters",
   "ceteareth-25",
   "peg-7 glyceryl cocoate",
   "peg-20 glyceryl triisostearate",
   "sorbeth-30 tetraisostearate",
   "sorbeth-30 tetraoleate",
+"octyldodecyl xyloside",
   "polyglyceryl-6 caprylate",
   "polyglyceryl-6 behenate",
   "polyglyceryl-6 caprylate/caprate",
