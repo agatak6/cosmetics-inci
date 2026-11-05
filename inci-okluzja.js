@@ -18,6 +18,7 @@ function getOkluzja(){
 //oraz inne, gęste i twarde masła roślinne
 "astrocaryum murumuru seed butter",
 "garcinia indica (kokum) seed butter",
+"mangifera incisa seed butter",
 //Dimetikon o wysokiej gęstości (INCI:  
 "dimethicone",
 //Lanolina (INCI: 
