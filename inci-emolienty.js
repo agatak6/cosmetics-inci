@@ -37,10 +37,14 @@ function getEmolienty(){
 //estry olejow
 "apricot kernel oil polyglyceryl-4 esters",
 "jojoba oil/macadamia seed oil esters",
+"jojoba esters / helianthus annuus seed wax / acacia decurrens flower wax / polyglycerin-3",
+"moringa oil/hydrogenated moringa oil esters",
 "raspberry seed oil/tocopheryl succinate aminopropanediol esters",
 "silybum marianum ethyl ester",
 "silybum marianum ethyl esters",
-"sunflower seed oil polyglyceryl-4 esters"
+"sunflower seed oil polyglyceryl-4 esters",
+"hydrogenated sunflower seed oil glyceryl esters",
+"hydrogenated sunflower seed oil polyglyceryl-3 esters"
 ];
   return emolienty;
 }
