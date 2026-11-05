@@ -67,7 +67,8 @@ let inciAktywne =[
 ["Idebenon", "hydroxydecyl ubiquinone", "Syntetyczny, zaawansowany analog koenzymu Q10 o wyjątkowo małej cząsteczce; silny antyoksydant neutralizujący wolne rodniki, chroni błony komórkowe przed stresem oksydacyjnym, stymuluje metabolizm komórkowy oraz wykazuje wybitne działanie przeciwstarzeniowe i wygładzające."],
 ["Witamina B6", "pyridoxine hcl", "Reguluje pracę gruczołów łojowych, zmniejsza wydzielanie sebum, ogranicza powstawanie stanów zapalnych i zaskórników, wspomaga syntezę aminokwasów w skórze oraz działa łagodząco i matująco."],
 ["Melatonina", "melatonin", "Hormon i potężny, lipofilowy antyoksydant; stymuluje enzymatyczne systemy obronne komórek skóry, chroni przed uszkodzeniami wywołanymi promieniowaniem UV, przyspiesza regenerację nocną naskórka oraz spowalnia procesy fotostarzenia i zapobiega degradacji kolagenu."],
-["Reuteryna", "reuterin", "Naturalny, związek przeciwbakteryjny wytwarzany przez szczepy Limosilactobacillus reuteri; hamuje rozwój bakterii, chroni mikrobiom skóry przed dysbiozą oraz skutecznie łagodzi stany zapalne."]
+["Reuteryna", "reuterin", "Naturalny, związek przeciwbakteryjny wytwarzany przez szczepy Limosilactobacillus reuteri; hamuje rozwój bakterii, chroni mikrobiom skóry przed dysbiozą oraz skutecznie łagodzi stany zapalne."],
+["Żywica z kory sal (Shorea robusta)", "shorea robusta resin", "Naturalna żywica pozyskiwana z drzewa Shorea robusta (sal); wykazuje silne właściwości ściągające, przeciwbakteryjne i przeciwzapalne, przyspiesza gojenie mikrouszkodzeń i ran, wygładza naskórek oraz działa odżywczo i ochronnie na barierę skórną."]
 ]
 
 
