@@ -300,6 +300,7 @@ ok_inci = [
 "camellia sinensis leaf aqua",
 "camellia sinensis leaf water",
 "citrus aurantifolia (lime) juice",
+"citrus aurantium amara flower water",
 "citrus aurantium dulcis (orange) juice",
 "citrus aurantium dulcis fruit aqua",
 "citrus aurantium dulcis fruit water",
