@@ -66,7 +66,8 @@ let inciAktywne =[
 ["Hesperydyna metylowo-chalkonowa", "hesperidin methyl chalcone", "Rozpuszczalna w wodzie pochodna hesperydyny; wykazuje silne działanie naczynioprotekcyjne, uszczelnia i uelastycznia naczynia włosowate, zmniejsza ich przepuszczalność, działa przeciwobrzękowo i redukuje cienie oraz opuchliznę pod oczami."],
 ["Idebenon", "hydroxydecyl ubiquinone", "Syntetyczny, zaawansowany analog koenzymu Q10 o wyjątkowo małej cząsteczce; silny antyoksydant neutralizujący wolne rodniki, chroni błony komórkowe przed stresem oksydacyjnym, stymuluje metabolizm komórkowy oraz wykazuje wybitne działanie przeciwstarzeniowe i wygładzające."],
 ["Witamina B6", "pyridoxine hcl", "Reguluje pracę gruczołów łojowych, zmniejsza wydzielanie sebum, ogranicza powstawanie stanów zapalnych i zaskórników, wspomaga syntezę aminokwasów w skórze oraz działa łagodząco i matująco."],
-["Melatonina", "melatonin", "Hormon i potężny, lipofilowy antyoksydant; stymuluje enzymatyczne systemy obronne komórek skóry, chroni przed uszkodzeniami wywołanymi promieniowaniem UV, przyspiesza regenerację nocną naskórka oraz spowalnia procesy fotostarzenia i zapobiega degradacji kolagenu."]
+["Melatonina", "melatonin", "Hormon i potężny, lipofilowy antyoksydant; stymuluje enzymatyczne systemy obronne komórek skóry, chroni przed uszkodzeniami wywołanymi promieniowaniem UV, przyspiesza regenerację nocną naskórka oraz spowalnia procesy fotostarzenia i zapobiega degradacji kolagenu."],
+["Reuteryna", "reuterin", "Naturalny, związek przeciwbakteryjny wytwarzany przez szczepy Limosilactobacillus reuteri; hamuje rozwój bakterii, chroni mikrobiom skóry przed dysbiozą oraz skutecznie łagodzi stany zapalne."]
 ]
 
 
