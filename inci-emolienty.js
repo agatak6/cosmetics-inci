@@ -79,3 +79,9 @@ function getEmolienty(){
 ];
   return emolienty;
 }
+
+function getEmolienty2(){
+  emolienty2 = [
+];
+  return emolienty2;
+}
