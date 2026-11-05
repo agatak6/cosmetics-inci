@@ -104,6 +104,7 @@ const mikroplastik = [
   "hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer", "lauryl methacrylate/glycol dimethacrylate crosspolymer", 
   "sodium acrylate / sodium acryloyldimethyl taurate copolymer", "sodium acrylate/sodium acryloyldimethyl taurate copolymer", 
   "sodium polyacrylate", "sodium polyacrylate starch",
+"hydroxyethyl acrylate/sodium acryloyldimethyltaurate copolymer",
 // stale mikroplastiki / tworzywa
 "nylon-12", "nylon-6", "nylon-66",
 "polyester", "polyester-1", "polyester-11",
