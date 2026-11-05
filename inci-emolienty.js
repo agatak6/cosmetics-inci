@@ -88,7 +88,8 @@ function getEmolienty2(){
 "glyceryl monostearate",
 "glyceryl stearates",
 "peg-5 ethylhexanoate",
-"sorbitan isostearate"
+"sorbitan isostearate",
+"phenoxyethyl caprylate"
 ];
   return emolienty2;
 }
