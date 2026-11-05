@@ -71,7 +71,11 @@ function getEmolienty(){
 "dicaprylyl carbonate",
 "ethylhexyl cocoate",
 "ethylhexyl hydroxystearate",
-"ethylhexyl pelargoniate"
+"ethylhexyl pelargoniate",
+"glyceryl monostearate",
+"glyceryl stearates",
+"peg-5 ethylhexanoate",
+"sorbitan isostearate"
 ];
   return emolienty;
 }
