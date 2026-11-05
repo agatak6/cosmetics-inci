@@ -3,7 +3,11 @@ function getEmolienty(){
 //Skwalan (INCI: 
 "squalane","squalene",
 //Sterole roślinne (INCI: 
-"phytosterol", "sterols", "beta-sitosterol", "unsaponifiables",
+"phytosterol", 
+"phytosterols", 
+"sterols", "beta-sitosterol", 
+"glycine soja sterols",
+"unsaponifiables",
 "olea europaea oil unsaponifiables",
 "hydrogenated olive oil unsaponifiables",
 //Cholesterol (INCI: 
@@ -23,7 +27,6 @@ function getEmolienty(){
 "lecithin", "phospholipids",
 //Witamina E (INCI: 
 "tocopherol","tocopheryl acetate", "tocotrienols",
-
 //Lekkie silikony i elastomery silikonowe (INCI:
 "cyclopentasiloxane",
 "cyclohexasiloxane",
@@ -31,11 +34,22 @@ function getEmolienty(){
 "dimethicone crosspolymer",
 "polymethylsilsesquioxane",
 "dimethiconol",
+//estry olejow
+"apricot kernel oil polyglyceryl-4 esters",
+"jojoba oil/macadamia seed oil esters",
+"raspberry seed oil/tocopheryl succinate aminopropanediol esters",
+"silybum marianum ethyl ester",
+"silybum marianum ethyl esters",
+"sunflower seed oil polyglyceryl-4 esters"
+];
+  return emolienty;
+}
+
+function getEmolienty2(){
+  emolienty2 = [
 //inne
 "sorbitan stearate", 
 "glyceryl stearate", 
-"glycine soja sterols",
-"phytosterols", 
 "coconut alkanes", 
 "sorbityl laurate", 
 "sodium stearoyl glutamate",
@@ -43,12 +57,8 @@ function getEmolienty(){
 "hydrolyzed silk", 
 "biosaccharide gum-1", 
 "hydrolyzed wheat protein",
-"apricot kernel oil polyglyceryl-4 esters",
-"jojoba oil/macadamia seed oil esters",
-"raspberry seed oil/tocopheryl succinate aminopropanediol esters",
 "arachidic acid",
 "c13-c15 alkane",
-"silybum marianum ethyl ester",
 "caprylic/capric/succinic triglyceride",
 "diisopropyl sebacate",
 "phytosteryl macadamiate",
@@ -64,7 +74,6 @@ function getEmolienty(){
 "oleyl alcohol",
 "polyglyceryl-4 pelargonate",
 "polyglyceryl-6 oleate",
-"sunflower seed oil polyglyceryl-4 esters",
 "tricaprylin",
 "tridecyl trimellitate",
 "decyl cocoate",
@@ -76,12 +85,6 @@ function getEmolienty(){
 "glyceryl stearates",
 "peg-5 ethylhexanoate",
 "sorbitan isostearate"
-];
-  return emolienty;
-}
-
-function getEmolienty2(){
-  emolienty2 = [
 ];
   return emolienty2;
 }
