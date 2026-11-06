@@ -69,11 +69,27 @@ let inciAktywne =[
 ["Melatonina", "melatonin", "Hormon i potężny, lipofilowy antyoksydant; stymuluje enzymatyczne systemy obronne komórek skóry, chroni przed uszkodzeniami wywołanymi promieniowaniem UV, przyspiesza regenerację nocną naskórka oraz spowalnia procesy fotostarzenia i zapobiega degradacji kolagenu."],
 ["Reuteryna", "reuterin", "Naturalny, związek przeciwbakteryjny wytwarzany przez szczepy Limosilactobacillus reuteri; hamuje rozwój bakterii, chroni mikrobiom skóry przed dysbiozą oraz skutecznie łagodzi stany zapalne."],
 ["Żywica z kory sal (Shorea robusta)", "shorea robusta resin", "Naturalna żywica pozyskiwana z drzewa Shorea robusta (sal); wykazuje silne właściwości ściągające, przeciwbakteryjne i przeciwzapalne, przyspiesza gojenie mikrouszkodzeń i ran, wygładza naskórek oraz działa odżywczo i ochronnie na barierę skórną."]
-]
+];
 
+let prebiotyki =[
+];
+let probiotyki =[
+];
+let postbiotyki =[
+];
 
 function getInciAktywne(){
 return inciAktywne;
+}
+
+function getPrebiotyki(){
+return prebiotyki;
+}
+function getProbiotyki(){
+return probiotyki;
+}
+function getPostbiotyki(){
+return postbiotyki;
 }
 
 function getAktywne(){
