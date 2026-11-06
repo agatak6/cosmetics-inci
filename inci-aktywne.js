@@ -77,8 +77,8 @@ let prebiotyki =[
 ["Alpha-Glucan Oligosaccharide", "alpha-glucan oligosaccharide, alpha - glucan oligosaccharide", "Prebiotyk. wspiera mikrobiom i wzmacnia barierę ochronną. Skuteczniej odcina pożywkę patogenom wywołującym trądzik lub stany zapalne. Cera: Trądzikowa, tłusta, mieszana, nadreaktywna"],
   ["Ekstrakt z Cykorii", "cichorium intybus (chicory) leaf extract, cichorium intybus (chicory) root extract", "Bogaty w inulinę, działa prebiotycznie, wygładzająco, odbudowująco i wspomaga syntezę kolagenu."],
 ["Oligosacharydy z korzenia cykorii", "cichorium intybus root oligosaccharides", "Łączą właściwości prebiotyczne z efektem wygładzającym. Wykazują natychmiastowe działanie napinające i liftingujące oraz stymulują syntezę kolagenu w głębszych warstwach skóry."],
-["Sok z korzenia Yacon","polymnia sonchifolia root juice","Bogate naturalne źródło inuliny."]
-]
+["Sok z korzenia Yacon","polymnia sonchifolia root juice","Bogate naturalne źródło inuliny."], 
+  ["Ramnoza", "rhamnose", "Stymuluje produkcję kolagenu i elastyny, a także działa przeciwzapalnie i wyciszająco na podrażnienia."]
 ];
 let probiotyki =[
 ];
