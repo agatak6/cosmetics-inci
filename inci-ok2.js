@@ -227,8 +227,6 @@ ok_inci = [
 //korea
 "hydroxyethylcellulose",
 "hydroxypropyltrimonium hyaluronate",
-"polyglyceryl-10 oleate",
-"polyglyceryl-10 myristate",
 "potassium hyaluronate",
 "rosa gallica flower powder",
 "sodium hyaluronate dimethylsilanol",
