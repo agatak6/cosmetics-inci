@@ -256,7 +256,6 @@ ok_inci = [
 "hippophae rhamnoides fruit juice",
 "nulembo nucifera (pink lotus) aqua",
 "nulembo nucifera (pink lotus) water",
-"polymnia sonchifolia root juice",
 "prunus persica (peach) juice",
 "sulfide/hydrogen sulfide mineral aqua",
 "sulfide/hydrogen sulfide mineral water"
