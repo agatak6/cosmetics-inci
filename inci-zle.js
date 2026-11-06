@@ -128,12 +128,16 @@ return mikroplastik;
 function getAlergeny(){
 
 const alergeny = [
+"alpha pinene", 
 "alpha-isomethyl ionone",
 "amyl cinnamal",
+"amyl salicylate",
 "benzyl alcohol",
 "benzyl benzoate",
 "benzyl cinnamate",
 "benzyl salicylate",
+"benzyl silicate",
+"carvone",
 "cinnamal",
 "cinnamyl alcohol",
 "citral",
@@ -143,31 +147,36 @@ const alergeny = [
 "eugenol",
 "farnesol",
 "geraniol",
+"gernayl acetate", 
 "hexyl cinnamal",
 "hydroxycitronellal",
 "limonene",
 "linalool",
 "linalyl acetate",
+"menthol",
 "parfum (fragrance)",
 "parfum",
 "parfum(fragrance)",
 "parfum/fragrance",
-"menthol",
+"parfum (fragrance)",
+"parfum",
+"parfum(fragrance)",
+"parfum/fragrance",
 "raspberry ketone",
+"rose ketones",
 "phenethyl alcohol",
 "phenoxyethanol",
 "phenylethyl alcohol",
+"pinene-beta"
 "potasium sorbate",
 "potassium sorbate",
 "lauramidopropyl betaine", 
 "snail secretion filtrate",
-"alpha pinene", 
-"gernayl acetate", 
-"rose ketones",
-"amyl salicylate",
-"benzyl silicate",
-"carvone",
-"pinene-beta"
+
+
+
+
+
 ];
 
 return alergeny;
