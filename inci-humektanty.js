@@ -69,7 +69,29 @@ function getHumektanty(){
 "sodium alginate",
 "sodium carboxymethyl starch",
 "cocos nucifera (coconut) liquid endosperm",
-"algin"
+"algin",
+"hydrolyzed glycosaminoglycans",
+"hydrolyzed sodium hyaluronate",
+"hydroxypropyltrimonium hyaluronate",
+"potassium hyaluronate",
+"glycogen",
+"isopentyldiol",
+"lactitol",
+"lactose",
+"maltodextrin",
+"maltooligosyl glucoside",
+"maltose",
+"mannitol",
+"pantolactone",
+"polydextrose",
+"polyglucuronic acid",
+"rhamnose",
+"hexylene glycol",
+"pentylene glycol",
+"methyl gluceth-20",
+"methylpropanediol",
+"magnesium pca",
+"manganese pca"
 ];
   return humektanty;
 }
