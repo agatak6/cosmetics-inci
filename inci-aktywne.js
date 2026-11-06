@@ -73,7 +73,8 @@ let inciAktywne =[
 /* ----------------------------------- */
 
 let prebiotyki =[
-["Alpha-Glucan Oligosaccharide", "alpha-glucan oligosaccharide, alpha - glucan oligosaccharide", "prebiotyk; wspiera mikrobiom i wzmacnia barierę ochronną."]
+["Inulina", "inulin", "Prebiotyk. Wycisza stany zapalne i zapobiega namnażaniu patogenów poprzez stymulację ogólnej odporności mikroflory. Cera: Sucha, wrażliwa, atopowa, dojrzała."],
+["Alpha-Glucan Oligosaccharide", "alpha-glucan oligosaccharide, alpha - glucan oligosaccharide", "Prebiotyk. wspiera mikrobiom i wzmacnia barierę ochronną. Skuteczniej odcina pożywkę patogenom wywołującym trądzik lub stany zapalne. Cera: Trądzikowa, tłusta, mieszana, nadreaktywna"]
 ];
 let probiotyki =[
 ];
