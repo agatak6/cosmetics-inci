@@ -78,7 +78,12 @@ let prebiotyki =[
   ["Ekstrakt z Cykorii", "cichorium intybus (chicory) leaf extract, cichorium intybus (chicory) root extract", "Bogaty w inulinę, działa prebiotycznie, wygładzająco, odbudowująco i wspomaga syntezę kolagenu."],
 ["Oligosacharydy z korzenia cykorii", "cichorium intybus root oligosaccharides", "Łączą właściwości prebiotyczne z efektem wygładzającym. Wykazują natychmiastowe działanie napinające i liftingujące oraz stymulują syntezę kolagenu w głębszych warstwach skóry."],
 ["Sok z korzenia Yacon","polymnia sonchifolia root juice","Bogate naturalne źródło inuliny."], 
-  ["Ramnoza", "rhamnose", "Stymuluje produkcję kolagenu i elastyny, a także działa przeciwzapalnie i wyciszająco na podrażnienia."]
+  ["Ramnoza", "rhamnose", "Stymuluje produkcję kolagenu i elastyny, a także działa przeciwzapalnie i wyciszająco na podrażnienia."],
+["","fructooligosaccharides",""],
+["","saccharide isomerate",""],
+["","xylitol",""], ["","anhydroksylitol",""],
+["","lactitol",""],
+["","maltitol",""],["","mannitol",""]
 ];
 let probiotyki =[
 ];
