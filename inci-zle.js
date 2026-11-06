@@ -167,16 +167,11 @@ const alergeny = [
 "phenethyl alcohol",
 "phenoxyethanol",
 "phenylethyl alcohol",
-"pinene-beta"
+"pinene-beta",
 "potasium sorbate",
 "potassium sorbate",
 "lauramidopropyl betaine", 
-"snail secretion filtrate",
-
-
-
-
-
+"snail secretion filtrate"
 ];
 
 return alergeny;
