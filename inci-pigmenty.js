@@ -68,6 +68,10 @@ pigmenty = [
 "iron oxides (ci 77491)",
 "iron oxides (ci 77492)",
 "iron oxides (ci 77499)",
+"mica",
+"red 28 (ci 45410)",
+"red 28 lake (ci 45410)",
+"red iron oxide",
 "titanium dioxide (ci 77891)"
 ];
 
