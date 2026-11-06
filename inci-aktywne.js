@@ -88,6 +88,7 @@ let prebiotyki =[
 let probiotyki =[
 ];
 let postbiotyki =[
+["Filtrat Fermentacji Lactobacillus/Arundinaria Gigantea (Bambus)", "lactobacillus/arundinaria gigantea ferment filtrate", "Łączy nawilżające i wzmacniające właściwości bambusa z postbiotycznym działaniem, wspierając mikrobiom i barierę skórną. Nadaje kosmetykom jedwabiste wykończenie."]
 ];
 
 function getInciAktywne(){
