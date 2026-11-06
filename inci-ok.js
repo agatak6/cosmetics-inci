@@ -207,7 +207,6 @@ ok_inci = [
 "ferulic acid",
 "ficin",
 "folic acid",
-"fructooligosaccharides",
 "fructose",
 // g
 "gallic acid",
@@ -245,7 +244,6 @@ ok_inci = [
 "canadian colloidal clay",
 "cetyl ethylhexanoate",
 "chlorella vulgaris powder",
-
 "d-limonene",
 "dextrin", 
 "diglycerin",
