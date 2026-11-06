@@ -157,6 +157,8 @@ ok_inci = [
 "piroctone olamine",
 "platinum",
 "poloxamer 184",
+/* ---------------------------------- */
+/* biodegradowalne emulgatory, surfaktanty i ko-emulgatory pochodzenia roślinnego */
 "polyglyceiyl-3 methylglucose distearate",
 "polyglycerin-3",
 "polyglycerin-6",
@@ -186,6 +188,7 @@ ok_inci = [
 "polyglyceryl-4 laurate/sebacate",
 "polyglyceryl-4 oleate",
 "polyglyceryl-4-laurate/sebacate",
+/* ---------------------------------- */
 "polyhydroxystearic acid",
 "polyisobutene",
 "polylysine",
