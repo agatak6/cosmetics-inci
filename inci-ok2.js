@@ -223,6 +223,7 @@ ok_inci = [
 "betula platyphylla japonica juice",
 "camellia sinensis leaf aqua",
 "camellia sinensis leaf water",
+"chamomilla recutita flower water",
 "citrus aurantifolia (lime) juice",
 "citrus aurantium amara flower water",
 "citrus aurantium dulcis (orange) juice",
