@@ -149,7 +149,6 @@ ok_inci = [
 "poloxamer 184",
 /* ---------------------------------- */
 /* biodegradowalne emulgatory, surfaktanty i ko-emulgatory pochodzenia roślinnego */
-"polyglyceiyl-3 methylglucose distearate",
 "polyglycerin-3",
 "polyglycerin-6",
 "polyglyceryl-10 laurate",
@@ -162,7 +161,7 @@ ok_inci = [
 "polyglyceryl-2 stearate",
 "polyglyceryl-2 tetraisostearate",
 "polyglyceryl-2 triisostearate",
-"polyglyceryl-2-dipolyhydroxystearate",
+"polyglyceryl-2 dipolyhydroxystearate",
 "polyglyceryl-3 cocoate",
 "polyglyceryl-3 dicitrate/stearate", 
 "polyglyceryl-3 diisostearate",
@@ -177,7 +176,6 @@ ok_inci = [
 "polyglyceryl-4 laurate",
 "polyglyceryl-4 laurate/sebacate",
 "polyglyceryl-4 oleate",
-"polyglyceryl-4-laurate/sebacate",
 /* ---------------------------------- */
 "polyhydroxystearic acid",
 "polyisobutene",
