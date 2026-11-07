@@ -52,9 +52,11 @@ const bad_inci = [
 
 "bis-aminopropyl diglycol dimaleate",
 
-//parafina
+//parafina i inne pochodne ropy naftowej
 "paraffin", "paraffinum liquidum", "parafinum liquidum", "ceresin", "petrolatum","mineral oil",
 "ozokerite",
+"cera microcristallina (microcrystalline wax)",
+"cera microcristallina",  
 // olej palmowy
 "elaeis guineensis oil",
 "elaeis guineensis (palm) oil",
