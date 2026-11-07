@@ -154,6 +154,7 @@ function getOkluzja(){
 "hydrogenated coco-glycerides",
 "hydrogenated olive oil",
 //inne
+"cetearyl ethylhexanoate",
 "stearic acid",
 "synthetic beeswax", 
 "synthetic wax"
