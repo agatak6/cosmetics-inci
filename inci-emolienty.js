@@ -59,6 +59,7 @@ function getEmolienty2(){
 "c13-c15 alkane",
 "caprylic/capric/succinic triglyceride",
 "capryloyl glycerin/sebacic acid copolymer",
+"coco-caprylate",
 "coconut alkanes", 
 "decyl cocoate",
 "dicaprylyl carbonate",
@@ -155,6 +156,7 @@ function getOkluzja(){
 "hydrogenated olive oil",
 //inne
 "cetearyl ethylhexanoate",
+"cocoglycerides",
 "stearic acid",
 "synthetic beeswax", 
 "synthetic wax"
