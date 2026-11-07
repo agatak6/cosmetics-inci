@@ -41,6 +41,7 @@ function getEmolienty(){
 "jojoba esters / helianthus annuus seed wax / acacia decurrens flower wax / polyglycerin-3",
 "moringa oil/hydrogenated moringa oil esters",
 "raspberry seed oil/tocopheryl succinate aminopropanediol esters",
+"shea butter ethyl esters",
 "silybum marianum ethyl ester",
 "silybum marianum ethyl esters",
 "sunflower seed oil polyglyceryl-4 esters",
@@ -85,12 +86,14 @@ function getEmolienty2(){
 "polyglyceryl-4 pelargonate",
 "polyglyceryl-6 oleate",
 "phytosteryl macadamiate",
+"propylheptyl caprylate",
 "sodium stearoyl glutamate",
 "sorbitan isostearate",
 "sorbitan stearate", 
 "sorbityl laurate", 
 "tricaprylin",
-"tridecyl trimellitate"
+"tridecyl trimellitate",
+"undecane"
 ];
   return emolienty2;
 }
@@ -149,7 +152,11 @@ function getOkluzja(){
 "c10-18 triglycerides",
 //
 "hydrogenated coco-glycerides",
-"hydrogenated olive oil"
+"hydrogenated olive oil",
+//inne
+"stearic acid",
+"synthetic beeswax", 
+"synthetic wax"
 ];
   return okluzja;
 }
