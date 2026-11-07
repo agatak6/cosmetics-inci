@@ -6,13 +6,6 @@ author: agatak6@gmail.com
 function getOkInci2(){
 
 ok_inci = [
-"glycol distearate",
-"glycolipidis",
-"glycolipids",
-"glycoproteins",
-"gold (CI 77480)",
-"gold (nano)",
-"guar hydroxypropyltrimonium chloride",
 "hecamethylindanopyran",
 "hectorite",
 "heptyl glucoside",
