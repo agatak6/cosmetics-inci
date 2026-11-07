@@ -7,7 +7,9 @@ author: agatak6@gmail.com
 function getOkInci(){
 
 ok_inci = [
+//"1,2-hexanediol",
 "1-2-hexanediol",
+//"​3,4-dihydroxybenzoic acid",
 "​3-4-dihydroxybenzoic acid",
 "7-dehydrocholesterol",
 "acacia senegal gum",
@@ -47,7 +49,7 @@ ok_inci = [
 "benzyl glycol",
 "benzyl salicylate",
 "beta-caryophyllene",
-"beta-sisterol",
+"beta-sitosterol",
 "betaine salicylate",
 "bioflavonoids",
 "biosaccharide gum-4",
@@ -141,7 +143,6 @@ ok_inci = [
 "cyamopsis tetragonoloba (guar) gum",
 "cyamopsis tetragonoloba gum",
 "cyanocobalamin",
-"cyanocobalamina",
 "cyclodextrin",
 //d
 "d-limonene",
@@ -215,7 +216,6 @@ ok_inci = [
 "glyceryl stearate citrate",
 "glyceryl stearate se",
 "glycol distearate",
-"glycolipidis",
 "glycolipids",
 "glycoproteins",
 "gold (CI 77480)",
