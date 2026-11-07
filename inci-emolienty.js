@@ -156,6 +156,9 @@ function getOkluzja(){
 "hydrogenated olive oil",
 //inne
 "cetearyl ethylhexanoate",
+"cetyl esters",
+"cetyl palmitate",
+"cetyl ricinoleate",
 "cocoglycerides",
 "stearic acid",
 "synthetic beeswax", 
