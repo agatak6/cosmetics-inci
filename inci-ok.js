@@ -174,7 +174,6 @@ ok_inci = [
 "distearoylethyl hydroxyethylmonium methosulfate",
 "dna",
 // e
-"erythritol",
 "erythrulose",
 "ethoxydiglycol",
 "ethylhexyl dimethyl paba",
@@ -186,7 +185,6 @@ ok_inci = [
 "ferulic acid",
 "ficin",
 "folic acid",
-"fructose",
 // g
 "gallic acid",
 "gellan gum",
@@ -194,7 +192,6 @@ ok_inci = [
 "geranyl acetate",
 "glucomannan",
 "gluconamido amodimethicone",
-"glucose",
 "glucosyl ceramide",
 "glucosyl hesperidin",
 "glutamic acid",
