@@ -166,6 +166,7 @@ function getOkluzja(){
 "cetyl ricinoleate",
 "cocoglycerides",
 "diisostearyl malate",
+"diisostearoyl polyglyceryl-3 dimer dilinoleate",
 "stearic acid",
 "synthetic beeswax", 
 "synthetic wax"
