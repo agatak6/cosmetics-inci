@@ -1,5 +1,7 @@
 function getHumektanty(){
-  humektanty = ["glycerin", 
+  humektanty = [
+"glycerin", 
+"diglycerin",
 //Glycol, 
 "propanediol",
 "propylene glycol",
@@ -7,13 +9,22 @@ function getHumektanty(){
 //Kwas hialuronowy (wszystkie rodzaje, zwłaszcza wersja reperująca, 
 "c12-13 alkyl glyceryl hydrolyzed hyaluronic acid",
 //kwas hialuronowy
+ "dimethylsilanol hyaluronate",
  "hyaluronic acid", 
  "hydrolyzed hyaluronic acid", 
+ "hydrolyzed sodium hyaluronate",
+ "hydroxypropyltrimonium hyaluronate",
+ "potassium hyaluronate",
+ "sodium acetylated hyaluronate",
  "sodium hyaluronate", 
  "sodium hyaluronate crosspolymer",
+ "sodium hyaluronate dimethylsilanol",
  "sodium acetylated hyaluronate",
 //Proteiny i aminokwasy, INCI: 
-"collagen", "yeast amino acids", "inositol", "taurine", "betaine", "arginine", 
+"collagen", 
+"soy amino acids", 
+"yeast amino acids", 
+"inositol", "taurine", "betaine", "arginine", 
 "arginine hcl", 
 "arginine pca",
 "serine", "proline", "acetyl glutamine", "glycine", "silk", 
@@ -26,7 +37,8 @@ function getHumektanty(){
 //Witamina B3 (INCI: Niacinamide)
 //Związki cukrowe (INCI: 
 "trehalose", "saccharide isomerate", "xylitylglucoside", "anhydroxylitol", "xylitol", "acetyl glucosamine",
-"sucrose",
+"sucrose","erythritol", "fructose",
+"glucose",
 //Witamina B5 (INCI: 
 "panthenol","d-panthenol",
 //Mleczan sodu (INCI: 
@@ -35,9 +47,6 @@ function getHumektanty(){
 "sodium pca", "pca",
 //Nawilżające ekstrakty roślinne, np. z aloesu, lipy, rumianku, pszenicy, soi, owsa, lukrecji, tamaryndowca, alg
 "allantoin",
-"sodium acetylated hyaluronate",
-"sodium hyaluronate crosspolymer",
-"sodium hyaluronate",
 "sodium lactate",
 "sodium pca",
 "sorbitol",
@@ -71,9 +80,7 @@ function getHumektanty(){
 "cocos nucifera (coconut) liquid endosperm",
 "algin",
 "hydrolyzed glycosaminoglycans",
-"hydrolyzed sodium hyaluronate",
-"hydroxypropyltrimonium hyaluronate",
-"potassium hyaluronate",
+"galactoarabinan",
 "glycogen",
 "isopentyldiol",
 "lactitol",
@@ -91,7 +98,8 @@ function getHumektanty(){
 "methyl gluceth-20",
 "methylpropanediol",
 "magnesium pca",
-"manganese pca"
+"manganese pca",
+"soluble collagen"
 ];
   return humektanty;
 }
