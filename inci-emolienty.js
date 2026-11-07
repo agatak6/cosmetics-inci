@@ -148,7 +148,9 @@ function getOkluzja(){
 "rhus verniciflua peel cera",
 //alkohole tluszczowe
 "cetearyl alcohol",
+"cetyl alcohol",
 "c12-16 alcohols", 
+"c14-22 alcohols",
 //trojglicerydy
 "c10-18 triglycerides",
 //
