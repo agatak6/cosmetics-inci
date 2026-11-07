@@ -227,7 +227,14 @@ ok_inci = [
 "fructo-oligosaccharides",
 "galactoarabinan",
 "glycine",
-"gold"
+"gold",
+"glycol distearate",
+"glycolipidis",
+"glycolipids",
+"glycoproteins",
+"gold (CI 77480)",
+"gold (nano)",
+"guar hydroxypropyltrimonium chloride"
 ];
 
 return ok_inci;
