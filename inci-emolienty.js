@@ -7,6 +7,7 @@ function getEmolienty(){
 "phytosterols", 
 "sterols", "beta-sitosterol", 
 "glycine soja sterols",
+"glycine soja (soybean) sterols",
 "unsaponifiables",
 "olea europaea oil unsaponifiables",
 "hydrogenated olive oil unsaponifiables",
@@ -73,6 +74,7 @@ function getEmolienty2(){
 "ethylhexyl hydroxystearate",
 "ethylhexyl pelargoniate",
 "ethylhexyl pelargonate",
+"glyceryl arachidonate",
 "glyceryl caprylate/caprate",
 "glyceryl dioleate",
 "glyceryl laurate",
@@ -168,6 +170,7 @@ function getOkluzja(){
 //inne
 "cetearyl ethylhexanoate",
 "cetyl esters",
+"cetyl ethylhexanoate",
 "cetyl palmitate",
 "cetyl ricinoleate",
 "cocoglycerides",
