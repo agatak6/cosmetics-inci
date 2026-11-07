@@ -62,7 +62,9 @@ function getEmolienty2(){
 "coco-caprylate",
 "coconut alkanes", 
 "decyl cocoate",
+"decyl oleate",
 "dicaprylyl carbonate",
+"dicaprylyl ether",
 "diisopropyl sebacate",
 "diheptyl succinate",
 "dipentaerythrityl hexacaprylate/hexacaprate",
@@ -163,6 +165,7 @@ function getOkluzja(){
 "cetyl palmitate",
 "cetyl ricinoleate",
 "cocoglycerides",
+"diisostearyl malate",
 "stearic acid",
 "synthetic beeswax", 
 "synthetic wax"
