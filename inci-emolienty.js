@@ -142,6 +142,7 @@ function getOkluzja(){
 "copernicia cerifera wax",
 "euphorbia cerifera (candelilla) cera",
 "euphorbia cerifera (candelilla) wax",
+"candelilla cera",
 "euphorbia cerifera cera",
 "helianthus annuus (sunflower) seed wax",
 "helianthus annuus seed wax",
