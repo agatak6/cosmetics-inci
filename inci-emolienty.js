@@ -58,6 +58,7 @@ function getEmolienty2(){
 "arachidic acid",
 "biosaccharide gum-1", 
 "c13-c15 alkane",
+"c13-15 alkane",
 "caprylic/capric/succinic triglyceride",
 "capryloyl glycerin/sebacic acid copolymer",
 "coco-caprylate",
@@ -86,6 +87,7 @@ function getEmolienty2(){
 "hydrolyzed silk", 
 "hydrolyzed wheat protein",
 "hydroxystearic/linolenic/oleic polyglycerides",
+"isoamyl laurate",
 "isostearic acid",
 "lauryl lactate",
 "myristyl lactate",
@@ -104,6 +106,7 @@ function getEmolienty2(){
 "sorbityl laurate", 
 "tricaprylin",
 "tridecyl trimellitate",
+"tripelargonin",
 "undecane"
 ];
   return emolienty2;
