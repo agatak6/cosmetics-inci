@@ -213,6 +213,7 @@ ok_inci = [
 // woda i hydrolaty
 "aqua (water)",
 "aqua",
+"argentiere icecap water",
 "water",
 "aloe barbadensis leaf aqua",
 "aloe barbadensis leaf water",
@@ -235,11 +236,15 @@ ok_inci = [
 "helichrysum italicum flower/leaf/stem water",
 "himalaya water", "himalaya aqua",
 "hippophae rhamnoides fruit juice",
+"lavandula angustifolia flower water",
 "nulembo nucifera (pink lotus) aqua",
 "nulembo nucifera (pink lotus) water",
 "prunus persica (peach) juice",
+"rosa damascena flower water",
+"sea water",
 "sulfide/hydrogen sulfide mineral aqua",
-"sulfide/hydrogen sulfide mineral water"
+"sulfide/hydrogen sulfide mineral water",
+"vitis vinifera fruit water"
 ]
 return ok_inci;
 }
