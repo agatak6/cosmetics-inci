@@ -70,6 +70,7 @@ ok_inci = [
 "synthetic fluorophlogopite",
 "synthetic fluorphlogopite",
 "tapioca starch",
+"tartaric acid",
 "terpineol",
 "terpinolene",
 "tetramethyl acetyloctahydronaphthalenes",
