@@ -10,7 +10,7 @@ ok_inci = [
 //"1,2-hexanediol",
 "1-2-hexanediol",
 //"​3,4-dihydroxybenzoic acid",
-"​3-4-dihydroxybenzoic acid",
+"3-4-dihydroxybenzoic acid",
 "7-dehydrocholesterol",
 "acacia senegal gum",
 "acetic acid",
