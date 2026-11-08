@@ -87,6 +87,7 @@ ok_inci = [
 "magnesium stearate",
 "magnesium sulfate",
 "magnesium sulfate heptahydrate",
+"malic acid",
 "manicouagan clay",
 "maris aqua",
 "maris sal (sea salt)",
