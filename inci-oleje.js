@@ -131,7 +131,7 @@ function getOils(oils){
 "heliantus annus (sunflower) seed oil",
 "hippophae rhamnoides (sea buckthorn) fruit oil",
 "hippophae rhamnoides fruit oil",
-"hippophaë rhamnoides fruit oil (seabuckthorn oil)",
+"hippophae rhamnoides fruit oil (seabuckthorn oil)",
 "hippophae rhamnoides fruit (seabuckthorn) oil",
 "hippophae rhamnoides oil",
 "hippophae rhamnoides (sea buckthorn) oil",
