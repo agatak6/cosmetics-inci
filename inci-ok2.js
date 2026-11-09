@@ -66,7 +66,6 @@ ok_inci = [
 "l-proline",
 "laminaria digitata powder",
 "lauramidopropyl betaine",
-"laureth-2",
 "lauric acid",
 "lauroyl lysine",
 "lauryl alcohol",
@@ -137,7 +136,6 @@ ok_inci = [
 "phytosteryl/octyldodecyl lauroyl glutamate",
 "piroctone olamine",
 "platinum",
-"poloxamer 184",
 /* ---------------------------------- */
 /* biodegradowalne emulgatory, surfaktanty i ko-emulgatory pochodzenia roślinnego */
 "polyglycerin-3",
