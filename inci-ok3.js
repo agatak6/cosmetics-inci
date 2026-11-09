@@ -50,6 +50,7 @@ ok_inci = [
 "sodium sulphate",
 "solanum tuberosum starch",
 "solum diatomeae (diatomaceous earth)",
+"diatomaceous earth",
 "sorbic acid",
 "sorbitan oleate decylglucoside crosspolymer",
 "sorbitan oleate",
