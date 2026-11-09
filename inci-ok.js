@@ -24,8 +24,6 @@ ok_inci = [
 "aluminum starch octenylsuccinate",
 "amethyst powder",
 "aminobutyric acid",
-"aminomethyl propanediol",
-"aminomethyl propanol",
 "amyl cinnamal",
 "amylopectin",
 "arachidic acid",
