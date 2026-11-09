@@ -49,9 +49,7 @@ const bad_inci = [
 "tromethamine", 
 //inne
 "aluminum chloride", "aluminum chlorohydrate",
-
 "bis-aminopropyl diglycol dimaleate",
-
 //parafina i inne pochodne ropy naftowej
 "paraffin", "paraffinum liquidum", "parafinum liquidum", "ceresin", "petrolatum","mineral oil",
 "ozokerite",
@@ -73,6 +71,9 @@ const bad_inci = [
 "peg-7 glyceryl cocoate",
 "peg-20 glyceryl triisostearate",
 "ppg-26-buteth-26",
+"polysorbate 20",
+"polysorbate 60",
+"polysorbate 80",
 // olej palmowy
 "elaeis guineensis oil",
 "elaeis guineensis (palm) oil",
