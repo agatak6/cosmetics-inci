@@ -118,6 +118,7 @@ const mikroplastik = [
 "ethylene/va copolymer",
 "polyvinyl alcohol",
 "polyquaternium-7",
+"polyquaternium-37",
 "polyurethane", "polyurethane-14", "polyurethane-35", "polyurethane2",
 "pvp",
 "vp/eicosene copolymer", "vp/va copolymer","poloxamer 338",
