@@ -74,6 +74,7 @@ const bad_inci = [
 "polysorbate 20",
 "polysorbate 60",
 "polysorbate 80",
+"carbomer",
 // olej palmowy
 "elaeis guineensis oil",
 "elaeis guineensis (palm) oil",
