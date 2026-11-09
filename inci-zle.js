@@ -97,7 +97,7 @@ const bad_inci = [
 "sodium glycereth-1 polyphosphate",
 "sodium trideceth sulfate",
 "sorbeth-30 tetraisostearate",
-"sorbeth-30 tetraoleate,
+"sorbeth-30 tetraoleate",
 "steareth-2",
 "steareth-20",
 "steareth-21",
