@@ -68,6 +68,10 @@ const bad_inci = [
 "peg-60 hydrogenated castor oil",
 "peg-75 shea butter glycerides",
 "peg-8",
+"peg-12 dimethicone",
+"peg-75 stearate",
+"peg-7 glyceryl cocoate",
+"peg-20 glyceryl triisostearate",
 "ppg-26-buteth-26",
 // olej palmowy
 "elaeis guineensis oil",
