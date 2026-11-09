@@ -105,6 +105,9 @@ const bad_inci = [
 "trideceth-8",
 "trideceth-9",
 "trilaureth-4 phosphate",
+//Moga tworzyc nitrozoaminy
+"aminomethyl propanol",
+"aminomethyl propanediol",
 // olej palmowy
 "elaeis guineensis oil",
 "elaeis guineensis (palm) oil",
