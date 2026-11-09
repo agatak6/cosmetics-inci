@@ -182,7 +182,6 @@ ok_inci = [
 "potassium phosphate",
 "potassium sorbate",
 "potato starch modified",
-"ppg-26-buteth-26",
 "propylene carbonate",
 "protocatechuic acid",
 "prunus armeniaca (apricot) seed powder",
