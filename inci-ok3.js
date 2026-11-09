@@ -143,8 +143,6 @@ function getEmulgatory(emulgatory){
 
 emulgatory = [
   "ceteareth-25",
-  "peg-7 glyceryl cocoate",
-  "peg-20 glyceryl triisostearate",
   "sorbeth-30 tetraisostearate",
   "sorbeth-30 tetraoleate",
 "octyldodecyl xyloside",
@@ -168,7 +166,6 @@ emulgatory = [
   "steareth-21",
   "trideceth-7",
   "trideceth-8",
-"peg-75 stearate",
 "polyglyceryl-3 oleate"
 ];
 
@@ -251,7 +248,7 @@ return chelatory;
 
 
 let silikony = [
-"dimethicone", "amodimethicone", "alkyl dimethicone", "peg-12 dimethicone", "cyclopentasiloxane", "cyclohexasiloxane", "dimethiconol","silicone quaternium-18"
+"dimethicone", "amodimethicone", "alkyl dimethicone", "cyclopentasiloxane", "cyclohexasiloxane", "dimethiconol","silicone quaternium-18"
 ];
 
 function getSilikony(){
