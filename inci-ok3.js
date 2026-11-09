@@ -60,7 +60,6 @@ ok_inci = [
 "sorbitan sesquioleate",
 "soybean glycerides",
 "stearalkonium hectorite",
-"steareth-20",
 "stearyl alcohol",
 "succinic acid",
 "succinoglycan",
@@ -86,7 +85,6 @@ ok_inci = [
 "tributyl citrate",
 "tricalcium phosphate",
 "tridecane",
-"trideceth-9",
 "triethoxycaprylylsilane",
 "triethyl citrate",
 "triethylhexanoin",
@@ -94,7 +92,6 @@ ok_inci = [
 "trihydroxypalmitamidohydroxy propyl myristyl ether",
 "trihydroxypalmitamidohydroxypropyl myristyl ether",
 "triisostearin",
-"trilaureth-4 phosphate",
 "trimethylcyclopentenyl methylisopentenol",
 "trimethylsiloxysilicate",
 "trimyristin",
@@ -127,7 +124,7 @@ ok_inci = [
 "sodium cocoyl glutamate",
 "sodium cocoyl isethionate",
 // srednie detergenty 
-"sodium trideceth sulfate",
+//"sodium trideceth sulfate",
 "ammonium laureth sulfate",
 "potassium palmitate",
 // wysuszajace detergenty
@@ -142,9 +139,6 @@ return ok_inci;
 function getEmulgatory(emulgatory){
 
 emulgatory = [
-  "ceteareth-25",
-  "sorbeth-30 tetraisostearate",
-  "sorbeth-30 tetraoleate",
 "octyldodecyl xyloside",
   "polyglyceryl-6 caprylate",
   "polyglyceryl-6 behenate",
@@ -162,10 +156,6 @@ emulgatory = [
   "sodium stearoyl lactylate",
   "sorbitan laurate",
   "sorbitan trioleate",
-  "steareth-2",
-  "steareth-21",
-  "trideceth-7",
-  "trideceth-8",
 "polyglyceryl-3 oleate"
 ];
 
