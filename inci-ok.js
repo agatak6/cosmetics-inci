@@ -97,7 +97,6 @@ ok_inci = [
 "caprylyl/capryl glucoside",
 "capryloyl glycine",
 "caramel",
-"carbomer",
 "carrageenan",
 "cellulose gum", "cellulose",
 "cellulose acetate butyrate",
