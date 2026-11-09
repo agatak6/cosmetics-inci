@@ -56,7 +56,8 @@ const bad_inci = [
 "paraffin", "paraffinum liquidum", "parafinum liquidum", "ceresin", "petrolatum","mineral oil",
 "ozokerite",
 "cera microcristallina (microcrystalline wax)",
-"cera microcristallina",  
+"cera microcristallina", 
+"trimethylpentanediol/adipic acid copolymer",
 // olej palmowy
 "elaeis guineensis oil",
 "elaeis guineensis (palm) oil",
