@@ -138,6 +138,7 @@ ok_inci = [
 //d
 "d-limonene",
 "darutoside",
+"dead sea mud",
 "decyl alcohol",
 "dehydroacetic acid",
 "dehydroxanthan gum",
