@@ -378,7 +378,7 @@ let ekstraktyGlowne = [
   ["Ekstrakt z algi Padina pavonica", "padina pavonica thallus extract", "Stymuluje syntezę kwasu hialuronowego, ujędrnia i nawilża."],
   ["Ekstrakt z czerwonej algi (Palmaria palmata)", "palmaria palmata extract", "Poprawia mikrokrążenie, redukuje zaczerwienienia i działa ujędrniająco."],
   ["Ekstrakt z lilii nadmorskiej", "pancratium maritimum extract", "Zmniejsza widoczność przebarwień i zapobiega powstawaniu nowych plam pigmentacyjnych."],
-  ["Ekstrakt z Żeń-szenia (Jagód / Kalusa / Korzenia)", "panax ginseng berry extract, panax ginseng callus culture extract, panax ginseng root extract", "Słynny adaptogen bogaty w ginsenozydy. Działa silnie przeciwstarzeniowo, rewitalizująco, energetyzująco i ujędrniająco."],
+  ["Ekstrakt z Żeń-szenia", "panax ginseng berry extract, panax ginseng callus culture extract, panax ginseng root extract", "Słynny adaptogen bogaty w ginsenozydy. Działa silnie przeciwstarzeniowo, rewitalizująco, energetyzująco i ujędrniająco."],
   ["Ekstrakt z Prosa Zwyczajnego", "panicum miliaceum seed extract", "Bogaty w krzemionkę. Wzmacnia strukturę skóry i poprawia jej elastyczność."],
   ["Ekstrakt z Maku Polnego", "papaver rhoeas extract, papaver rhoeas petal extract", "Działa łagodząco, kojąco, nawilżająco i zmiękczająco."],
   ["Ekstrakt z Owoców Męczennicy (Passiflora)", "passiflora edulis fruit extract, passiflora incarnata extract", "Bogaty w witaminę C i antyoksydanty. Działa kojąco, odżywczo, nawilżająco i uspokajająco na skórę."],
