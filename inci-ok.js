@@ -29,6 +29,7 @@ ok_inci = [
 "arachidic acid",
 "arachidyl alcohol",
 "arachidyl glucoside",
+"argilla",
 "aroma (flavor)","aroma",
 // b
 "bee venom",
