@@ -217,6 +217,7 @@ function getOils(oils){
 "prunus amygdalus dulcis oil",
 "prunus armeniaca (apricot) kernel oil",
 "prunus armeniaca kernel oil",
+"prunus avium seed oil",
 "prunus cerasus (sour cherry) kernel oil",
 "prunus cerasus (bitter cherry) seed oil",
 "prunus domestica seed oil",
