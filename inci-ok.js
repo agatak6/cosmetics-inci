@@ -106,6 +106,7 @@ ok_inci = [
 "cetyl dimethicone",
 "cetyl hydroxyethylcellulose",
 "charcoal powder",
+"chia seeds",
 "chlorella vulgaris powder",
 "chlorhexidine digluconate",
 "chlorhexidine digluconate sodium citrate",
@@ -131,6 +132,7 @@ ok_inci = [
 "copaifera officinalis resin (copaiba balsam)",
 "copper",
 "copper gluconate",
+"corallina officinalis",
 "coumarin",
 "cyamopsis tetragonoloba (guar) gum",
 "cyamopsis tetragonoloba gum",
@@ -187,6 +189,7 @@ ok_inci = [
 "ficin",
 "folic acid",
 "fragrance",
+"freeze dried raspberry powder",
 "fructan",
 "fructo-oligosaccharides",
 // g
