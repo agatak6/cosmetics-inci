@@ -212,6 +212,7 @@ ok_inci = [
 "chamomilla recutita flower water",
 "citrus aurantifolia (lime) juice",
 "citrus aurantium amara flower water",
+"citrus aurantium amara (bitter orange) flower water",
 "citrus aurantium dulcis (orange) juice",
 "citrus aurantium dulcis fruit aqua",
 "citrus aurantium dulcis fruit water",
