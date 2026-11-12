@@ -170,6 +170,7 @@ ok_inci = [
 "polyglyceryl-4 laurate",
 "polyglyceryl-4 laurate/sebacate",
 "polyglyceryl-4 oleate",
+"polyglyceryl-4 diisostearate/polyhydroxystearate/sebacate",
 /* ---------------------------------- */
 "polyhydroxystearic acid",
 "polyisobutene",
