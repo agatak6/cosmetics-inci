@@ -1,37 +1,34 @@
+//zgodne z Green Chemistry
 function getHumektanty(){
   humektanty = [
 "glycerin", 
 "diglycerin",
 //Glycol, 
 "propanediol",
-"propylene glycol",
-"butylene glycol",
 //Kwas hialuronowy (wszystkie rodzaje, zwłaszcza wersja reperująca, 
-"c12-13 alkyl glyceryl hydrolyzed hyaluronic acid",
+
 //kwas hialuronowy
- "dimethylsilanol hyaluronate",
+ 
  "hyaluronic acid", 
  "hydrolyzed hyaluronic acid", 
  "hydrolyzed sodium hyaluronate",
- "hydroxypropyltrimonium hyaluronate",
+ 
  "potassium hyaluronate",
  "sodium acetylated hyaluronate",
  "sodium hyaluronate", 
- "sodium hyaluronate crosspolymer",
- "sodium hyaluronate dimethylsilanol",
+ 
  "sodium acetylated hyaluronate",
 //Proteiny i aminokwasy, INCI: 
-"collagen", 
 "soy amino acids", 
 "yeast amino acids", 
 "inositol", "taurine", "betaine", "arginine", 
 "arginine hcl", 
 "arginine pca",
-"serine", "proline", "acetyl glutamine", "glycine", "silk", 
+"serine", "proline", "acetyl glutamine", "glycine",  
 "aspartic acid",
 "alanine",
 //Mocznik i jego pochodne (Inci: 
-"urea", "hydroxyethyl urea",
+"urea",
 //Kwas mlekowy do 5% (INCI: : Lactic Acid)
 //Kwas migdałowy do 5%  (INCI: Mandelic Acid)
 //Witamina B3 (INCI: Niacinamide)
@@ -59,9 +56,9 @@ function getHumektanty(){
 "aloe barbadensis leaf juice",
 "avena sativa kernel flour",
 "avena sativa (oat) kernel flour",
-"methylsilanol mannuronate",
 "hydrolyzed rhizobian gum",
 "hydrolyzed rice protein", 
+"silk",
 "hydrolyzed silk", 
 "biosaccharide gum-1", 
 "hydrolyzed wheat protein",
@@ -70,7 +67,6 @@ function getHumektanty(){
 "polyglutamic acid", 
 "sodium polyglutamate",
 //
-"acetamidoethoxyethanol",
 "beta-glucan",
 "calcium lactate",
 "tremella fuciformis polysaccharide",
@@ -82,7 +78,6 @@ function getHumektanty(){
 "hydrolyzed glycosaminoglycans",
 "galactoarabinan",
 "glycogen",
-"isopentyldiol",
 "lactitol",
 "lactose",
 "maltodextrin",
@@ -93,13 +88,44 @@ function getHumektanty(){
 "polydextrose",
 "polyglucuronic acid",
 "rhamnose",
-"hexylene glycol",
-"pentylene glycol",
-"methyl gluceth-20",
-"methylpropanediol",
 "magnesium pca",
 "manganese pca",
-"soluble collagen"
+
+];
+  return humektanty;
+}
+
+//W nurcie Clean Beauty
+function getHumektanty2(){
+  humektanty = [
+"pentylene glycol",
+];
+  return humektanty;
+}
+
+//pozostale
+function getHumektanty3(){
+  humektanty = [
+/* Hybrydy kwasu hialuronowego lub kwasu mannuronowego z organicznym krzemem (silanolem). W standardach eko traktowane są jako silikony – całkowicie zakazane.*/
+"dimethylsilanol hyaluronate",
+"sodium hyaluronate dimethylsilanol",
+"methylsilanol mannuronate",
+/*
+Związki etoksylowane i petrochemiczne glikole*/
+"methyl gluceth-20",
+"acetamidoethoxyethanol",
+/*klasyczne glikole petrochemiczne z ropy naftowej*/
+"propylene glycol",
+"butylene glycol",
+"hexylene glycol",
+"isopentyldiol",
+"methylpropanediol",
+/*Silnie modyfikowane lub syntetyczne pochodne:*/
+"hydroxypropyltrimonium hyaluronate",
+"c12-13 alkyl glyceryl hydrolyzed hyaluronic acid",
+"hydroxyethyl urea",
+"sodium hyaluronate crosspolymer",
+"collagen", "soluble collagen"
 ];
   return humektanty;
 }
