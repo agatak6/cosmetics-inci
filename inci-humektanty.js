@@ -78,7 +78,16 @@ function getHumektanty(){
 "glycogen",
 "algin",
 "sodium alginate",
-"polyglucuronic acid"
+"polyglucuronic acid",
+//
+"glyceryl glucoside",
+"polyglycerin-3",
+"polyglycerin-6",
+"pullulan",
+"sclerotium gum",
+"caesalpinia spinosa gum",
+"astragalus gummifer gum",
+"acacia senegal gum"
 ];
   return humektanty;
 }
@@ -114,7 +123,10 @@ function getHumektanty2(){
 //moze byc w ecocert jesli ma certyfikat
 "pantolactone",
 "lactose",
-"glycogen"
+"glycogen",
+//"1,2-hexanediol",
+"1-2-hexanediol",
+"caprylyl glycol"
 ];
   return humektanty;
 }
