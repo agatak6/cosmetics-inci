@@ -34,10 +34,6 @@ function getHumektanty(){
 "sodium lactate",
 "calcium lactate",
 "pantolactone",
-
-"soy amino acids", 
-"yeast amino acids", 
-
 //Związki cukrowe (INCI: 
 "trehalose", 
 "saccharide isomerate", "xylitylglucoside", 
@@ -57,18 +53,18 @@ function getHumektanty(){
 "mannitol",
 "polydextrose",
 "rhamnose",
-
 //Nawilżające ekstrakty roślinne, np. z aloesu, lipy, rumianku, pszenicy, soi, owsa, lukrecji, tamaryndowca, alg
+"soy amino acids", 
+"yeast amino acids", 
 "wheat amino acids",
+"hydrolyzed rice protein", 
+"hydrolyzed wheat protein",
 "aloe barbadensis leaf powder",
 "aloe barbadensis leaf juice powder",
 "aloe barbadensis leaf juice",
 "avena sativa kernel flour",
 "avena sativa (oat) kernel flour",
-
-"hydrolyzed rice protein", 
-
-"hydrolyzed wheat protein",
+"cocos nucifera (coconut) liquid endosperm",
 //Ektoiny i bio-polimery (supergwiazdy biotechnologii)
 "ectoin",
 "hydroxyectoin", 
@@ -82,11 +78,7 @@ function getHumektanty(){
 "glycogen",
 "algin",
 "sodium alginate",
-"polyglucuronic acid",
-//
-
-"cocos nucifera (coconut) liquid endosperm",
-"lactose"
+"polyglucuronic acid"
 ];
   return humektanty;
 }
