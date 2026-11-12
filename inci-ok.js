@@ -7,12 +7,9 @@ author: agatak6@gmail.com
 function getOkInci(){
 
 ok_inci = [
-//"1,2-hexanediol",
-"1-2-hexanediol",
 //"​3,4-dihydroxybenzoic acid",
 "3-4-dihydroxybenzoic acid",
 "7-dehydrocholesterol",
-"acacia senegal gum",
 "acetic acid",
 "acetyl cedrene",
 "acetyl ethylhexyl polyhydroxystearate",  
@@ -69,7 +66,6 @@ ok_inci = [
 "c13-15 alkane",
 "c14-22 alkyl alcohol",
 "c15-19 alkane",
-"caesalpinia spinosa gum",
 "caffeic acid",
 "caffeyl glucoside",
 "calamine",
@@ -89,7 +85,6 @@ ok_inci = [
 "caprylic acid",
 "caprylic/capric dicaprylyl ether",
 "caprylyl alcohol",
-"caprylyl glycol",
 "caprylyl/capryl glucoside",
 "capryloyl glycine",
 "caramel",
@@ -203,7 +198,6 @@ ok_inci = [
 "glucosyl hesperidin",
 "glutamic acid",
 "glutamine",
-"glyceryl glucoside",
 "glyceryl mono stearate se",
 "glyceryl stearate citrate",
 "glyceryl stearate se",
