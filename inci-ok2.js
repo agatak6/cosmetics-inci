@@ -143,8 +143,6 @@ ok_inci = [
 "platinum",
 /* ---------------------------------- */
 /* biodegradowalne emulgatory, surfaktanty i ko-emulgatory pochodzenia roślinnego */
-"polyglycerin-3",
-"polyglycerin-6",
 "polyglyceryl-10 laurate",
 "polyglyceryl-10 myristate",
 "polyglyceryl-10 oleate",
@@ -186,7 +184,6 @@ ok_inci = [
 "propylene carbonate",
 "protocatechuic acid",
 "prunus armeniaca (apricot) seed powder",
-"pullulan",
 "punica granatum sterols",
 "quartz powder",
 "raspberry ketone",
@@ -194,7 +191,6 @@ ok_inci = [
 "rooibos",
 "rosa gallica flower powder",
 "rubus idaeus seed",
-"sclerotium gum",
 "sea salt",
 "silanetriol",
 "silica dimethyl silylate",
