@@ -131,7 +131,7 @@ let ekstraktyTwarz = [
 ];
 
 let ekstraktyHumektanty = [
-
+  ["Ekstrakt z Prawoślazu Lekarskiego", "althaea officinalis root extract, althaea officinalis leaf extract, althea officinalis extract", "Jest bogaty w śluzy, które działają silnie nawilżająco, zmiękczająco i osłonowo. Koi podrażnioną skórę, zmniejsza stany zapalne i tworzy delikatną barierę ochronną."]
 ];
 
 
