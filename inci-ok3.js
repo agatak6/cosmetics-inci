@@ -6,7 +6,6 @@ author: agatak6@gmail.com
 function getOkInci3(){
 
 ok_inci = [
-"sodium anisate",
 "sodium benzoate",
 "sodium benzotriazolyl butylphenol sulfonate",
 "sodium bicarbonate",
@@ -33,7 +32,6 @@ ok_inci = [
 "sodium lauroyl sarcosinate",
 "sodium lauryl glucose carboxylate",
 "sodium lauryl sulfoacetate",
-"sodium levulinate",
 "sodium metabisulfite",
 "sodium oleate",
 "sodium oleoyl sarcosinate",
