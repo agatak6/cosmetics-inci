@@ -147,7 +147,7 @@ function getHumektanty3(){
 
 
 let humektantyComplex = [
-
+["Hyalpol Matrix", "hyaluronic acid,sodium hyaluronate crosspolymer, hydrolyzed glycosaminoglycans, sodium hyaluronate, hydrolyzed hyaluronic acid", "Wieloskładnikowy preparat składający się z 5 rodzajów kwasów hialuronowych, który rozjaśnia skórę, działa przeciwzmarszczkowo i nawilżająco."]
 ];
 
 function getHumektantyComplex(){
