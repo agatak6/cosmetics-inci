@@ -87,7 +87,9 @@ function getHumektanty(){
 "sclerotium gum",
 "caesalpinia spinosa gum",
 "astragalus gummifer gum",
-"acacia senegal gum"
+"acacia senegal gum",
+"sodium anisate",
+"sodium levulinate"
 ];
   return humektanty;
 }
