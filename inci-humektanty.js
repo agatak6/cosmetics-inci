@@ -144,3 +144,12 @@ function getHumektanty3(){
 ];
   return humektanty;
 }
+
+
+let humektantyComplex = [
+
+];
+
+function getHumektantyComplex(){
+  return humektantyComplex;
+}
