@@ -130,6 +130,11 @@ let ekstraktyTwarz = [
   ["Ekstrakt z korzenia imbiru", "zingiber officinale root extract", "Silnie stymuluje mikrokrążenie twarzy, przywracając cerze zdrowy koloryt i promienny blask. Działa przeciwzapalnie, antybakteryjnie i ujędrniająco, wspomagając walkę z niedoskonałościami."]
 ];
 
+let ekstraktyHumektanty = [
+
+];
+
+
 function getEkstraktyAZS(){
 return ekstraktyAZS;
 }
@@ -144,4 +149,8 @@ return ekstraktyWlosy;
 
 function getEkstraktyTwarz(){
 return ekstraktyTwarz;
+}
+
+function getEkstraktyHumektanty(){
+return ekstraktyHumektanty;
 }
