@@ -131,7 +131,15 @@ let ekstraktyTwarz = [
 ];
 
 let ekstraktyHumektanty = [
-  ["Ekstrakt z Prawoślazu Lekarskiego", "althaea officinalis root extract, althaea officinalis leaf extract, althea officinalis extract", "Jest bogaty w śluzy, które działają silnie nawilżająco, zmiękczająco i osłonowo. Koi podrażnioną skórę, zmniejsza stany zapalne i tworzy delikatną barierę ochronną."]
+  ["Ekstrakt z Prawoślazu Lekarskiego", "althaea officinalis root extract, althaea officinalis leaf extract, althea officinalis extract", "Jest bogaty w śluzy, które działają silnie nawilżająco, zmiękczająco i osłonowo. Koi podrażnioną skórę, zmniejsza stany zapalne i tworzy delikatną barierę ochronną."],
+["Ekstrakt z Morszczynu Pęcherzykowatego", "fucus vesiculosus (bladderwrack) extract, fucus vesiculosus extract", "Bogaty w jod, minerały i polisacharydy. Działa silnie nawilżająco, detoksykująco, ujędrniająco i antycellulitowo."],
+["Ekstrakt z Laminaria", "laminaria digitata extract, laminaria hyperborea extract, laminaria japonica extract, laminaria ochroleuca extract, laminaria saccharina extract", "Bogata w minerały, fukoidany i polisacharydy. Działa silnie nawilżająco, odżywczo, detoksykująco, ochronnie przed UV i reguluje sebum."],
+["Ekstrakt z Lnu", "linum usitatissimum flower extract, linum usitatissimum (linseed) seed extract, hydrolyzed linseed extract, linum usitatissimum seed extract, linseed extract", "Bogaty w śluzy i omega-3. Działa silnie nawilżająco, zmiękczająco, osłonowo i łagodząco."],
+["Ekstrakt z Malwy (Czarnej / Leśnej)", "malva sylvestris (mallow) extract, malva sylvestris (mallow) flower/leaf/stem extract, malva sylvestris (mallow) leaf extract, malva sylvestris leaf extract, malva sylvestris extract, malva sylvestris flower/leaf extract, malva sylvestris (mallow) flower extract, malva sylvestris flower extract", "Bogaty w śluzy. Działa silnie nawilżająco, zmiękczająco, osłonowo i łagodząco."],
+["Ekstrakt z owoców opuncji", "opuntia tuna fruit extract", "Intensywnie nawilża, ujędrnia i działa antyoksydacyjnie."],
+["Ekstrakt z Opuncji Figowej", "opuntia ficus-indica extract, opuntia vulgaris leaf extract, hydrolyzed opuntia ficus-indica flower extract, opuntia ficus indica extract", "Niezwykle bogaty w witaminy i polisacharydy. Działa intensywnie nawilżająco, łagodząco, ujędrniająco i przeciwstarzeniowo."],
+["Ekstrakt z Opuncji Figowej", "opuntia ficus-indica stem extract", "Ekstrakt z łodygi opuncji figowej jest bogaty w polisacharydy i minerały. Działa silnie nawilżająco, łagodząco i zmiękczająco, wspomagając barierę ochronną skóry i redukując podrażnienia."],
+["Ekstrakt z Porphyra (Umbilicalis / Yezoensis / Porphyridium)", "porphyra umbilicalis extract, porphyra yezoensis extract, porphyridium cruentum extract", "Czerwona alga bogata w naturalne filtry UV i aminokwasy. Działa silnie nawilżająco i ujędrniająco."]
 ];
 
 
