@@ -137,6 +137,7 @@ function getOils(oils){
 "hippophae rhamnoides oil",
 "hippophae rhamnoides (sea buckthorn) oil",
 "hippophae rhamnoides seed oil",
+"hippophae rhamnoides (sea buckthorn) fruit/seed oil",
 "hydrogenated castor oil",
 "hydrogenated palm oil",
 "hydrogenated rapeseed oil",
