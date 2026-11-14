@@ -286,7 +286,8 @@ function getOils(oils){
 "sesamum indicum (sesame) seed oil",
 "plukenetia volubilis (sacha inchi) seed oil", 
 "camellia oleifera (green tea) seed oil",
-"avena sativa kernel (oat) oil"
+"avena sativa kernel (oat) oil",
+"caryodendron orinocense seed oil"
 ];
 return oils;
 }
