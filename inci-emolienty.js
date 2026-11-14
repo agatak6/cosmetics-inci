@@ -109,9 +109,15 @@ function getEmolienty2(){
 "phenoxyethyl caprylate",
 "propylheptyl caprylate",
 "tridecyl trimellitate",
+"cetearyl ethylhexanoate",
+"cetyl ethylhexanoate",
+"ethylhexyl palmitate",
+"ethylhexyl stearate", 
 //Cholesterol
 "cholesterol",
-"c10-30 cholesterol/lanosterol esters"
+"c10-30 cholesterol/lanosterol esters",
+//Lanolina (INCI: 
+"lanolin",
 ];
   return emolienty2;
 }
@@ -120,7 +126,7 @@ function getEmolienty2(){
 
 function getOkluzja(){
   okluzja = [
-//Masło shea (
+//Masło shea 
 "vitellaria paradoxa", 
 "butyrospermum parkii",
 "butyrospermum parkii (shea) butter",
@@ -128,11 +134,11 @@ function getOkluzja(){
 "butyrospermum parkii butter unsaponifiables",
 "butyrospermum parkii butter",
 "butyrospermum parkii (shea butter)",
-//kakaowe (
+//kakaowe 
 "theobroma cacao",
 "theobroma cacao (cocoa) seed butter",
 "theobroma cacao seed butter",
-//cupuacu (
+//cupuacu 
 "Theobroma Grandiflorum",
 "theobroma grandiflorum seed butter",
 //oraz inne, gęste i twarde masła roślinne
@@ -144,8 +150,6 @@ function getOkluzja(){
 "platonia insignis (bacuri) seed butter",
 "platonia insignis seed butter",
 "shorea stenoptera seed butter",
-//Lanolina (INCI: 
-"lanolin",
 //Wosk pszczeli (INCI: 
 "cera alba (beeswax)",
 "cera alba",
@@ -162,6 +166,10 @@ function getOkluzja(){
 "helianthus annuus (sunflower) seed wax",
 "helianthus annuus seed wax",
 "rhus verniciflua peel cera",
+"simmondsia chinensis (jojoba) oil",
+"simmondsia chinensis (jojoba) seed oil",
+"simmondsia chinensis seed oil",
+"crambe abyssinica seed oil",
 //alkohole tluszczowe
 "cetearyl alcohol",
 "cetyl alcohol",
@@ -175,14 +183,10 @@ function getOkluzja(){
 "hydrogenated coco-glycerides",
 "hydrogenated olive oil",
 //inne
-"cetearyl ethylhexanoate",
 "cetyl esters",
-"cetyl ethylhexanoate",
 "cetyl palmitate",
 "cetyl ricinoleate",
 "diisostearoyl polyglyceryl-3 dimer dilinoleate",
-"ethylhexyl palmitate",
-"ethylhexyl stearate", 
 "glyceryl behenate",
 "glyceryl caprylate",
 "glyceryl oleate",
