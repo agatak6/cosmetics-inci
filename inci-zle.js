@@ -133,7 +133,7 @@ const silikon = [
 "peg/ppg-18/18 dimethicone",
 "dimethicone/vinyl dimethicone crosspolymer",
 "vinyl dimethicone/methicone silsesquioxane crosspolymer",
----
+// ---
 "cyclopentasiloxane",
 "cyclohexasiloxane",
 "bis-peg-12 dimethicone",
