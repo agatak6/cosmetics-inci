@@ -1,29 +1,58 @@
 function getEmolienty(){
   emolienty = [
-//Skwalan (INCI: 
-"squalane","squalene",
-//Sterole roślinne (INCI: 
+//Skwalan, Bio-węglowodory i lekkie roślinne *silikony*
+"squalane",
+"squalene",
+"c13-15 alkane",
+"c15-19 alkane",
+"coconut alkanes",
+"undecane",
+"tridecane",
+"dodecane",
+//Sterole roślinne
 "phytosterol", 
 "phytosterols", 
-"sterols", "beta-sitosterol", 
+"sterols", 
+"beta-sitosterol", 
 "glycine soja sterols",
 "glycine soja (soybean) sterols",
 "unsaponifiables",
 "olea europaea oil unsaponifiables",
 "hydrogenated olive oil unsaponifiables",
+"hydrogenated olive oil decyl esters",
+"phytosteryl macadamiate",
 //Cholesterol (INCI: 
 "cholesterol",
 "c10-30 cholesterol/lanosterol esters",
-"beta sistosterol","beta-sistosterol",
-//Kwas linolowy, linolenowy, oleinowy i inne związki tłuszczowe (INCI:
+//Kwas linolowy, linolenowy, oleinowy i inne związki tłuszczowe
+//Nowoczesne estry z zielonej chemii
 "coco-caprylate/caprate", 
+"coco-caprylate",
+"caprylic/capric triglyceride",
+"caprylyl caprylate/caprate", 
+"ethyl macadamiate",
+"decyl cocoate",
+"decyl oleate",
+"dicaprylyl carbonate",
+"dicaprylyl ether",
+"diheptyl succinate",
+"caprylic/capric/succinic triglyceride",
+"capryloyl glycerin/sebacic acid copolymer",
+"ethyl oleate",
+"isoamyl laurate",
+"lauryl lactate",
+"myristyl lactate",
+"oleyl alcohol",
+"olive glycerides",
+"tricaprylin",
+"tripelargonin",
+
 "linoleic acid",
 "linolenic acid",
 "oleic acid",
-"caprylic/capric triglyceride",
-"caprylyl caprylate/caprate", 
+
 "capric/caprylic triglyceride",
-"ethyl macadamiate",
+
 //Lecytyna (INCI: 
 "lecithin", "phospholipids",
 //Witamina E (INCI: 
@@ -48,20 +77,8 @@ function getEmolienty2(){
   emolienty2 = [
 //inne
 "arachidic acid",
-"c13-c15 alkane",
-"c13-15 alkane",
-"caprylic/capric/succinic triglyceride",
-"capryloyl glycerin/sebacic acid copolymer",
-"coco-caprylate",
-"coconut alkanes", 
-"decyl cocoate",
-"decyl oleate",
-"dicaprylyl carbonate",
-"dicaprylyl ether",
 "diisopropyl sebacate",
-"diheptyl succinate",
 "dipentaerythrityl hexacaprylate/hexacaprate",
-"ethyl oleate",
 "ethylhexyl cocoate",
 "ethylhexyl hydroxystearate",
 "ethylhexyl pelargoniate",
@@ -76,25 +93,19 @@ function getEmolienty2(){
 "glyceryl undecylenate", 
 "hydrolyzed silk", 
 "hydroxystearic/linolenic/oleic polyglycerides",
-"isoamyl laurate",
 "isostearic acid",
-"lauryl lactate",
-"myristyl lactate",
-"oleyl alcohol",
-"olive glycerides",
 "pentaerythrityl tetraethylhexanoate",
 "phenoxyethyl caprylate",
 "polyglyceryl-4 pelargonate",
 "polyglyceryl-6 oleate",
-"phytosteryl macadamiate",
 "propylheptyl caprylate",
 "sorbitan isostearate",
 "sorbitan stearate", 
 "sorbityl laurate", 
-"tricaprylin",
 "tridecyl trimellitate",
-"tripelargonin",
-"undecane"
+
+
+
 ];
   return emolienty2;
 }
