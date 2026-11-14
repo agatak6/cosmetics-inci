@@ -42,6 +42,7 @@ function getOils(oils){
 "borago officinalis (borage) seed oil",
 "boswellia carterii oil",
 "boswellia carteri (frankincense) gum oil",
+"brassica alba oil",
 "brassica campestris seed oil",
 "brassica campestris (rapeseed) seed oil",
 "brassica oleracea italica seed oil",
