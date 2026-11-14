@@ -28,16 +28,8 @@ function getEmolienty(){
 "lecithin", "phospholipids",
 //Witamina E (INCI: 
 "tocopherol","tocopheryl acetate", "tocotrienols",
-//Lekkie silikony i elastomery silikonowe (INCI:
-"cyclopentasiloxane",
-"cyclohexasiloxane",
-"bis-peg-12 dimethicone",
-"dimethicone crosspolymer",
-"polymethylsilsesquioxane",
-"dimethiconol",
 //estry olejow
 "apricot kernel oil polyglyceryl-4 esters",
-"babassu oil glycereth-8 esters",
 "jojoba oil/macadamia seed oil esters",
 "jojoba esters / helianthus annuus seed wax / acacia decurrens flower wax / polyglycerin-3",
 "moringa oil/hydrogenated moringa oil esters",
@@ -93,7 +85,6 @@ function getEmolienty2(){
 "myristyl lactate",
 "oleyl alcohol",
 "olive glycerides",
-"peg-5 ethylhexanoate",
 "pentaerythrityl tetraethylhexanoate",
 "phenoxyethyl caprylate",
 "polyglyceryl-4 pelargonate",
@@ -140,8 +131,6 @@ function getOkluzja(){
 "platonia insignis (bacuri) seed butter",
 "platonia insignis seed butter",
 "shorea stenoptera seed butter",
-//Dimetikon o wysokiej gęstości (INCI:  
-"dimethicone",
 //Lanolina (INCI: 
 "lanolin",
 //Wosk pszczeli (INCI: 
@@ -179,15 +168,12 @@ function getOkluzja(){
 "cocoglycerides",
 "diisostearyl malate",
 "diisostearoyl polyglyceryl-3 dimer dilinoleate",
-"dimethiconol behenate",
 "ethylhexyl palmitate",
 "ethylhexyl stearate", 
 "glyceryl behenate",
 "glyceryl caprylate",
 "glyceryl oleate",
-"stearic acid",
-"synthetic beeswax", 
-"synthetic wax"
+"stearic acid"
 ];
   return okluzja;
 }
