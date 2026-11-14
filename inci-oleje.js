@@ -283,7 +283,9 @@ function getOils(oils){
 "corylus avellana (hazelnut) seed oil", 
 "oenothera biennis (evening primrose) oil",
 "pongamia glabra seed oil", 
-"sesamum indicum (sesame) seed oil"
+"sesamum indicum (sesame) seed oil",
+"plukenetia volubilis (sacha inchi) seed oil", 
+"camellia oleifera (green tea) seed oil"
 ];
 return oils;
 }
