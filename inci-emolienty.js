@@ -48,7 +48,6 @@ function getEmolienty2(){
   emolienty2 = [
 //inne
 "arachidic acid",
-"biosaccharide gum-1", 
 "c13-c15 alkane",
 "c13-15 alkane",
 "caprylic/capric/succinic triglyceride",
@@ -74,10 +73,8 @@ function getEmolienty2(){
 "glyceryl monostearate",
 "glyceryl stearates",
 "glyceryl stearate", 
-"glyceryl undecylenate",
-"hydrolyzed rice protein", 
+"glyceryl undecylenate", 
 "hydrolyzed silk", 
-"hydrolyzed wheat protein",
 "hydroxystearic/linolenic/oleic polyglycerides",
 "isoamyl laurate",
 "isostearic acid",
@@ -91,7 +88,6 @@ function getEmolienty2(){
 "polyglyceryl-6 oleate",
 "phytosteryl macadamiate",
 "propylheptyl caprylate",
-"sodium stearoyl glutamate",
 "sorbitan isostearate",
 "sorbitan stearate", 
 "sorbityl laurate", 
