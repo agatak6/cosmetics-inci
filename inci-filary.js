@@ -68,6 +68,8 @@ let filtry = [
 
 ["Parsol HS/Ensulizol", "phenylbenzimidazole sulfonic acid",""],
 
+["Parsol SLX", "polysilicone-15",""],
+
 ["Tinosorb A2B","tris-biphenyl triazine (nano),tris-biphenyl triazine",""],
 ["Tinosorb S","bis-ethylhexyloxyphenol methoxyphenyl triazine",""],
 ["Tinosorb M","methylene bis-benzotriazolyl tetramethylbutylphenol (nano),methylene bis-benzotriazolyl tetramethylbutylphenol",""],
