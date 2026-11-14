@@ -60,6 +60,7 @@ const bad_inci = [
 "trimethylpentanediol/adipic acid copolymer",
 "carbomer",
 "babassu oil glycereth-8 esters",
+"methyl salicylate",
 /* Zwiazki etoksylowane */
 "c12-13 pareth-3",
 "c12-13 pareth-9",
