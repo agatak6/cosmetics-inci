@@ -21,9 +21,6 @@ function getEmolienty(){
 "hydrogenated olive oil unsaponifiables",
 "hydrogenated olive oil decyl esters",
 "phytosteryl macadamiate",
-//Cholesterol (INCI: 
-"cholesterol",
-"c10-30 cholesterol/lanosterol esters",
 //Kwas linolowy, linolenowy, oleinowy i inne związki tłuszczowe
 //Nowoczesne estry z zielonej chemii
 "coco-caprylate/caprate", 
@@ -39,6 +36,7 @@ function getEmolienty(){
 "caprylic/capric/succinic triglyceride",
 "capryloyl glycerin/sebacic acid copolymer",
 "ethyl oleate",
+"isoamyl cocoate",
 "isoamyl laurate",
 "lauryl lactate",
 "myristyl lactate",
@@ -46,15 +44,16 @@ function getEmolienty(){
 "olive glycerides",
 "tricaprylin",
 "tripelargonin",
-
+// kwasy tluszczowe
+"arachidic acid",
+"isostearic acid",
 "linoleic acid",
 "linolenic acid",
 "oleic acid",
-
-//Lecytyna (INCI: 
+//Lecytyna
 "lecithin", "phospholipids",
-//Witamina E (INCI: 
-"tocopherol","tocopheryl acetate", "tocotrienols",
+//Witamina E
+"tocopherol", "tocotrienols",
 //estry olejow
 "apricot kernel oil polyglyceryl-4 esters",
 "jojoba oil/macadamia seed oil esters",
@@ -68,6 +67,9 @@ function getEmolienty(){
 "hydrogenated sunflower seed oil polyglyceryl-3 esters",
 "polyglyceryl-4 pelargonate",
 "polyglyceryl-6 oleate",
+"polyglyceryl-2 tetraisostearate",
+"polyglyceryl-2 triisostearate",
+"polyglyceryl-3 diisostearate",
 "hydroxystearic/linolenic/oleic polyglycerides",
 "glyceryl arachidonate",
 "glyceryl caprylate/caprate",
@@ -80,7 +82,12 @@ function getEmolienty(){
 "sorbitan isostearate",
 "sorbitan stearate", 
 "sorbityl laurate", 
-
+"brassica campestris/aleurites fordi oil copolymer",
+"hydrogenated farnesene",
+"heptyl undecylenate",
+"octyldodecyl myristate",
+"octyldodecyl oleate",
+"triheptanoin"
 ];
   return emolienty;
 }
@@ -89,19 +96,22 @@ function getEmolienty2(){
   emolienty2 = [
 //inne
 "raspberry seed oil/tocopheryl succinate aminopropanediol esters",
-"arachidic acid",
+"tocopheryl acetate",
 "diisopropyl sebacate",
 "dipentaerythrityl hexacaprylate/hexacaprate",
 "ethylhexyl cocoate",
 "ethylhexyl hydroxystearate",
 "ethylhexyl pelargoniate",
 "ethylhexyl pelargonate",
-"hydrolyzed silk", 
-"isostearic acid",
+"hydrogenated ethylhexyl olivate",
+"hydrolyzed silk",
 "pentaerythrityl tetraethylhexanoate",
 "phenoxyethyl caprylate",
 "propylheptyl caprylate",
 "tridecyl trimellitate",
+//Cholesterol
+"cholesterol",
+"c10-30 cholesterol/lanosterol esters"
 ];
   return emolienty2;
 }
