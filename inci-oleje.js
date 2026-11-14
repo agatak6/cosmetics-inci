@@ -125,6 +125,7 @@ function getOils(oils){
 "gossypium herbaceum (cotton) seed oil",
 "gossypium herbaceum seed oil",
 "helianthus annuus (sunflower) seed oil",
+"helianthus annuus (sunflower) oil",
 "helianthus annuus seed oil",
 "helianthus annuus hybrid oil",
 "heliantus annus (sunflower) seed oil",
