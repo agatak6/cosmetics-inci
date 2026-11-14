@@ -55,8 +55,11 @@ const bad_inci = [
 "ozokerite",
 "cera microcristallina (microcrystalline wax)",
 "cera microcristallina", 
+"synthetic beeswax",
+"synthetic wax",
 "trimethylpentanediol/adipic acid copolymer",
 "carbomer",
+"babassu oil glycereth-8 esters",
 /* Zwiazki etoksylowane */
 "c12-13 pareth-3",
 "c12-13 pareth-9",
@@ -89,6 +92,7 @@ const bad_inci = [
 "peg-7 glyceryl cocoate",
 "peg-20 glyceryl triisostearate",
 "ppg-26-buteth-26",
+"peg-5 ethylhexanoate",
 //
 "poloxamer 184",
 "polysorbate 20",
@@ -117,14 +121,27 @@ return bad_inci;
 
 }
 
+/* -------------------------- */
+
 function getSilikon(){
 const silikon = [
 "cetyl peg/ppg-10/1 dimethicone",
 "dimethicone/peg-10/15 crosspolymer",
-"peg-10 dimethicone", "peg-12 dimethicone",
-"peg/ppg-10/1 dimethicone", "peg/ppg-18/18 dimethicone",
+"peg-10 dimethicone", 
+"peg-12 dimethicone",
+"peg/ppg-10/1 dimethicone", 
+"peg/ppg-18/18 dimethicone",
 "dimethicone/vinyl dimethicone crosspolymer",
-"vinyl dimethicone/methicone silsesquioxane crosspolymer"
+"vinyl dimethicone/methicone silsesquioxane crosspolymer",
+---
+"cyclopentasiloxane",
+"cyclohexasiloxane",
+"bis-peg-12 dimethicone",
+"dimethicone crosspolymer",
+"polymethylsilsesquioxane",
+"dimethiconol",
+ "dimethicone",
+"dimethiconol behenate"
 ];
 return silikon;
 }
