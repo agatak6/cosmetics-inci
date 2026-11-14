@@ -51,8 +51,6 @@ function getEmolienty(){
 "linolenic acid",
 "oleic acid",
 
-"capric/caprylic triglyceride",
-
 //Lecytyna (INCI: 
 "lecithin", "phospholipids",
 //Witamina E (INCI: 
@@ -62,27 +60,15 @@ function getEmolienty(){
 "jojoba oil/macadamia seed oil esters",
 "jojoba esters / helianthus annuus seed wax / acacia decurrens flower wax / polyglycerin-3",
 "moringa oil/hydrogenated moringa oil esters",
-"raspberry seed oil/tocopheryl succinate aminopropanediol esters",
 "shea butter ethyl esters",
 "silybum marianum ethyl ester",
 "silybum marianum ethyl esters",
 "sunflower seed oil polyglyceryl-4 esters",
 "hydrogenated sunflower seed oil glyceryl esters",
-"hydrogenated sunflower seed oil polyglyceryl-3 esters"
-];
-  return emolienty;
-}
-
-function getEmolienty2(){
-  emolienty2 = [
-//inne
-"arachidic acid",
-"diisopropyl sebacate",
-"dipentaerythrityl hexacaprylate/hexacaprate",
-"ethylhexyl cocoate",
-"ethylhexyl hydroxystearate",
-"ethylhexyl pelargoniate",
-"ethylhexyl pelargonate",
+"hydrogenated sunflower seed oil polyglyceryl-3 esters",
+"polyglyceryl-4 pelargonate",
+"polyglyceryl-6 oleate",
+"hydroxystearic/linolenic/oleic polyglycerides",
 "glyceryl arachidonate",
 "glyceryl caprylate/caprate",
 "glyceryl dioleate",
@@ -91,21 +77,31 @@ function getEmolienty2(){
 "glyceryl stearates",
 "glyceryl stearate", 
 "glyceryl undecylenate", 
-"hydrolyzed silk", 
-"hydroxystearic/linolenic/oleic polyglycerides",
-"isostearic acid",
-"pentaerythrityl tetraethylhexanoate",
-"phenoxyethyl caprylate",
-"polyglyceryl-4 pelargonate",
-"polyglyceryl-6 oleate",
-"propylheptyl caprylate",
 "sorbitan isostearate",
 "sorbitan stearate", 
 "sorbityl laurate", 
+
+];
+  return emolienty;
+}
+
+function getEmolienty2(){
+  emolienty2 = [
+//inne
+"raspberry seed oil/tocopheryl succinate aminopropanediol esters",
+"arachidic acid",
+"diisopropyl sebacate",
+"dipentaerythrityl hexacaprylate/hexacaprate",
+"ethylhexyl cocoate",
+"ethylhexyl hydroxystearate",
+"ethylhexyl pelargoniate",
+"ethylhexyl pelargonate",
+"hydrolyzed silk", 
+"isostearic acid",
+"pentaerythrityl tetraethylhexanoate",
+"phenoxyethyl caprylate",
+"propylheptyl caprylate",
 "tridecyl trimellitate",
-
-
-
 ];
   return emolienty2;
 }
@@ -163,6 +159,8 @@ function getOkluzja(){
 "c14-22 alcohols",
 //trojglicerydy
 "c10-18 triglycerides",
+"cocoglycerides",
+"diisostearyl malate",
 //
 "hydrogenated coco-glycerides",
 "hydrogenated olive oil",
@@ -172,8 +170,6 @@ function getOkluzja(){
 "cetyl ethylhexanoate",
 "cetyl palmitate",
 "cetyl ricinoleate",
-"cocoglycerides",
-"diisostearyl malate",
 "diisostearoyl polyglyceryl-3 dimer dilinoleate",
 "ethylhexyl palmitate",
 "ethylhexyl stearate", 
