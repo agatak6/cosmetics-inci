@@ -278,7 +278,12 @@ function getOils(oils){
 "vanilla planifolia fruit oil",
 "vegetable oil",
 "vitis vinifera (grape) seed oil",
-"vitis vinifera seed oil"
+"vitis vinifera seed oil",
+//
+"corylus avellana (hazelnut) seed oil", 
+"oenothera biennis (evening primrose) oil",
+"pongamia glabra seed oil", 
+"sesamum indicum (sesame) seed oil"
 ];
 return oils;
 }
