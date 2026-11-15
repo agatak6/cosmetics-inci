@@ -6,9 +6,16 @@ author: agatak6@gmail.com
 
 //peptydy sygnalowe
 function getPeptydy1(){
-        peptydy = ["palmitoyl tripeptide-1", "oligopeptide-1", "n-prolyl palmitoyl tripeptide-56 acetate",
-        "oligopeptide-68","palmitoyl tripeptide-8", "oligopeptide-24","palmitoyl pentapeptide-3"];
-        return peptydy;
+peptydy = [
+"palmitoyl tripeptide-1", 
+"oligopeptide-1", 
+"n-prolyl palmitoyl tripeptide-56 acetate",
+"oligopeptide-68",
+"palmitoyl tripeptide-8", "oligopeptide-24",
+"palmitoyl pentapeptide-3",
+"pentapeptide-48"
+];
+return peptydy;
 }
 
 //neuromodulacyjne, neuropeptydy 
