@@ -107,6 +107,7 @@ ok_inci = [
 "myristyl myristate",
 "natto gum",
 "nelumbo nucifera flower powder",
+"o-cymen-5-ol",
 "oat amino acids",
 "octyldodecanol",
 "octyldodecyl stearoyl stearate",
