@@ -156,6 +156,7 @@ function getOkluzja(){
 //Woski roślinne (INCI: 
 "acacia decurrens flower wax",
 "euphorbia cerifera wax", 
+"citrus aurantium dulcis (orange) peel wax",
 "copernicia cerifera (carnauba) wax",
 "copernicia cerifera cera",
 "copernicia cerifera wax",
