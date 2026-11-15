@@ -99,7 +99,7 @@ ok_inci = [
 "cetearyl olivate",
 "cetrimonium bromide",
 "cetrimonium chloride",
-"cetyl dimethicone",
+"cetyl betaine",
 "cetyl hydroxyethylcellulose",
 "charcoal powder",
 "chia seeds",
