@@ -135,6 +135,7 @@ ok_inci = [
 "phospholipids",
 "phytosteryl/octyldodecyl lauroyl glutamate",
 "piroctone olamine",
+"pistacia lentiscus (mastic) gum",
 "platinum",
 /* ---------------------------------- */
 /* biodegradowalne emulgatory, surfaktanty i ko-emulgatory pochodzenia roślinnego */
