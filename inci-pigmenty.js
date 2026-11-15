@@ -124,10 +124,10 @@ pigmenty = [
 "ci 77499/iron oxides",
 "ci 77891 / titanium dioxide",
 "ci 77891/titanium dioxide"
-manganese violet (ci 77742), 
-red 7 (ci 15850), 
-ultramarines (ci 77007), 
-yellow 5 lake (ci 19140)
+"manganese violet (ci 77742)", 
+"red 7 (ci 15850)", 
+"ultramarines (ci 77007)", 
+"yellow 5 lake (ci 19140)"
 ];
 
 return pigmenty;
