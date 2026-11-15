@@ -124,6 +124,7 @@ ok_inci = [
 "sodium methyl cocoyl taurate",
 "sodium cocoyl glutamate",
 "sodium cocoyl isethionate",
+"sodium lauroyl methyl isethionate",
 // srednie detergenty 
 //"sodium trideceth sulfate",
 "ammonium laureth sulfate",
