@@ -27,6 +27,8 @@ ok_inci = [
 "arachidyl alcohol",
 "arachidyl glucoside",
 "argilla",
+"argilla / magnesium aluminum silicate",
+"argilla/magnesium aluminum silicate",
 "aroma (flavor)","aroma",
 // b
 "bee venom",
@@ -127,6 +129,7 @@ ok_inci = [
 "copper",
 "copper gluconate",
 "corallina officinalis",
+"corn starch modified",
 "coumarin",
 "cyamopsis tetragonoloba (guar) gum",
 "cyamopsis tetragonoloba gum",
