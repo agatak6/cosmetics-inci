@@ -7,6 +7,7 @@ function getOkInci2(){
 
 ok_inci = [
 "hectorite",
+"heptanol",
 "heptyl glucoside",
 "hexamethylindanopyran",
 "hexamidine diisethionate",
