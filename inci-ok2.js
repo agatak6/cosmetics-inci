@@ -18,6 +18,7 @@ ok_inci = [
 "hydrated silica",
 "hydrogenated lecithin",
 "hydrogenated palm glycerides citrate",
+"hydrogenated phosphatidylcholine",
 "hydrogenated polycyclopentadiene",
 "hydrogenated polydecene",
 "hydrogenated polyisobutene",
