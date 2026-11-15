@@ -151,6 +151,7 @@ emulgatory = [
   "polyglyceryl-10 diisostearate",
   "polyglyceryl-10 pentastearate",
   "polyglyceryl-4 isostearate",
+  "sodium stearoyl glutamate",
   "sodium stearoyl lactylate",
   "sorbitan laurate",
   "sorbitan trioleate",
