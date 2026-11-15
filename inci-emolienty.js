@@ -194,7 +194,8 @@ function getOkluzja(){
 "glyceryl behenate",
 "glyceryl caprylate",
 "glyceryl oleate",
-"stearic acid"
+"stearic acid",
+"lauryl laurate"
 ];
   return okluzja;
 }
