@@ -70,6 +70,7 @@ const bad_inci = [
 "ceteareth-12",
 "ceteareth-20",
 "ceteareth-25",
+"ceteareth-30",
 "ceteareth-60 myristyl glycol",
 "ceteth-10 phosphate",
 "ceteth-20",
