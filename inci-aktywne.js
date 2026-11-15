@@ -112,7 +112,9 @@ return postbiotyki;
 
 function getAktywne(){
   akt_inci = [
-"ornithine"
+"ornithine",
+"glutamylamidoethyl indole",
+"1-methylhydantoin-2-imide"
 ];
   return akt_inci;
 }
