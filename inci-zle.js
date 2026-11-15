@@ -33,8 +33,8 @@ const bad_inci = [
 "ethylhexyl methoxycinnamate",
 // inne
 "benzylhemiformal",
-"sodium hydroxymethylglycinate"
-
+"sodium hydroxymethylglycinate",
+"castor oil/ipdi copolymer"
 ];
 
 return bad_inci;
@@ -57,10 +57,12 @@ const bad_inci = [
 "cera microcristallina", 
 "synthetic beeswax",
 "synthetic wax",
+"hydrogenated poly(c6-20 olefin)",
 "trimethylpentanediol/adipic acid copolymer",
 "carbomer",
 "babassu oil glycereth-8 esters",
 "methyl salicylate",
+"dilinoleic acid/butanediol copolymer",
 /* Zwiazki etoksylowane */
 "c12-13 pareth-3",
 "c12-13 pareth-9",
@@ -190,7 +192,8 @@ const mikroplastik = [
 "polyurethane", "polyurethane-14", "polyurethane-35", "polyurethane2",
 "pvp",
 "vp/eicosene copolymer", "vp/va copolymer","poloxamer 338",
-"polyamide"
+"polyamide",
+"hdi/trimethylol hexyllactone crosspolymer"
 ];
 
 return mikroplastik;
