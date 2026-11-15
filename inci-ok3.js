@@ -60,6 +60,7 @@ ok_inci = [
 "sorbitan sesquioleate",
 "soybean glycerides",
 "stearalkonium hectorite",
+"stearamidopropyl dimethylamine",
 "stearyl alcohol",
 "succinic acid",
 "succinoglycan",
