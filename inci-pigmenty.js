@@ -7,6 +7,17 @@ author: agatak6@gmail.com
 function getPigmenty(){
 
 pigmenty = [
+"(ci 15850) d&c red 6",
+"(ci 15850) red 6",
+"(ci 15850) red 7",
+"(ci 15985) yellow 6 lake",
+"(ci 45410) d&c red 28",
+"(ci 73360) d&c red 30 lake",
+"(ci 77007) ultramarines",
+"(ci 77491) iron oxides",
+"(ci 77499) iron oxides",
+"(ci 77742) manganese violet",
+"(ci 77891) titanium dioxide",
 "blue 1 lake (ci 42090)",
 "black iron oxide",
 "chromium oxide greens (ci 77288)",
