@@ -90,7 +90,9 @@ function getHumektanty(){
 "acacia senegal gum",
 "sodium anisate",
 "sodium levulinate",
-"hydrolyzed milk protein"
+"hydrolyzed milk protein",
+"biosaccharide gum-2",
+"vitreoscilla ferment"
 ];
   return humektanty;
 }
