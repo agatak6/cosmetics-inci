@@ -37,7 +37,9 @@ const bad_inci = [
 "castor oil/ipdi copolymer",
 "tipa-laureth sulfate",
 "cocamide mea",
-"polyaminopropyl biguanide"
+"polyaminopropyl biguanide",
+"ppg-12/smdi copolymer",
+"ppg-51/smdi copolymer"
 ];
 
 return bad_inci;
@@ -75,6 +77,7 @@ const bad_inci = [
 "ceteareth-25",
 "ceteareth-30",
 "ceteareth-60 myristyl glycol",
+"ceteth-2",
 "ceteth-10 phosphate",
 "ceteth-20",
 "deceth-7",
@@ -104,6 +107,14 @@ const bad_inci = [
 "peg-5 ethylhexanoate",
 "peg-40 hydrogenated castor oil",
 "peg-7 caprylic/capric glycerides",
+"peg-4 dilaurate",
+"peg-5 pentaerythrityl ether",
+"peg-7 glyceryl",
+"ppg-11 stearyl ether",
+"ppg-13-decyltetradeceth-24",
+"ppg-3 benzyl ether myristate",
+"ppg-5 pentaerythrityl ether",
+"ppg-5-ceteth-20",
 //
 "poloxamer 124",
 "poloxamer 184",
@@ -117,6 +128,7 @@ const bad_inci = [
 "steareth-2",
 "steareth-20",
 "steareth-21",
+"trideceth-6",
 "trideceth-7",
 "trideceth-8",
 "trideceth-9",
@@ -155,7 +167,9 @@ const silikon = [
 "dimethiconol",
  "dimethicone",
 "dimethiconol behenate",
-"trisiloxane", "phenylisopropyl dimethicone"
+"trisiloxane", "phenylisopropyl dimethicone",
+"polysilicone-29",
+"silicone quaternium-18"
 ];
 return silikon;
 }
@@ -208,7 +222,9 @@ const mikroplastik = [
 "poly c10-30 alkyl acrylate",
 "sodium polyacryloyl dimethyl taurate",
 "styrene/isoprene copolymer",
-"polyquaternium-10"
+"polyquaternium-10",
+"polyquaternium-55",
+"vp/methacrylamide/vinyl imidazole copolymer"
 ];
 
 return mikroplastik;
