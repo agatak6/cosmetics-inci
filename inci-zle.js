@@ -34,7 +34,10 @@ const bad_inci = [
 // inne
 "benzylhemiformal",
 "sodium hydroxymethylglycinate",
-"castor oil/ipdi copolymer"
+"castor oil/ipdi copolymer",
+"tipa-laureth sulfate",
+"cocamide mea",
+"polyaminopropyl biguanide"
 ];
 
 return bad_inci;
@@ -80,6 +83,8 @@ const bad_inci = [
 "glycereth-26 phosphate",
 "glycereth-7 caprylate/caprate",
 "laureth-2",
+"laureth-3",
+"lauryl peg-10 tris (trimethylsiloxy)silylethyl dimethicone",
 //PEG / PPG derivatives 
 "peg-10 olive glycerides",
 "peg-10 phytosterol",
@@ -97,7 +102,10 @@ const bad_inci = [
 "peg-20 glyceryl triisostearate",
 "ppg-26-buteth-26",
 "peg-5 ethylhexanoate",
+"peg-40 hydrogenated castor oil",
+"peg-7 caprylic/capric glycerides",
 //
+"poloxamer 124",
 "poloxamer 184",
 "polysorbate 20",
 "polysorbate 60",
@@ -113,6 +121,7 @@ const bad_inci = [
 "trideceth-8",
 "trideceth-9",
 "trilaureth-4 phosphate",
+"homosalate",
 //Moga tworzyc nitrozoaminy
 "aminomethyl propanol",
 "aminomethyl propanediol",
@@ -195,7 +204,11 @@ const mikroplastik = [
 "pvp",
 "vp/eicosene copolymer", "vp/va copolymer","poloxamer 338",
 "polyamide",
-"hdi/trimethylol hexyllactone crosspolymer"
+"hdi/trimethylol hexyllactone crosspolymer",
+"poly c10-30 alkyl acrylate",
+"sodium polyacryloyl dimethyl taurate",
+"styrene/isoprene copolymer",
+"polyquaternium-10"
 ];
 
 return mikroplastik;
