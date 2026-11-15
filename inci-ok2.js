@@ -223,6 +223,7 @@ ok_inci = [
 "himalaya water", "himalaya aqua",
 "hippophae rhamnoides fruit juice",
 "lavandula angustifolia flower water",
+"malus domestica fruit water",
 "nulembo nucifera (pink lotus) aqua",
 "nulembo nucifera (pink lotus) water",
 "prunus persica (peach) juice",
