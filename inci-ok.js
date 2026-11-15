@@ -73,6 +73,7 @@ ok_inci = [
 "calcium carbonate",
 "calcium chloride",
 "calcium gluconate",
+"calcium ketogluconate",
 "calcium pantothenate",
 "calcium pca",
 "calcium sulfate", 
