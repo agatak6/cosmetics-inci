@@ -116,6 +116,8 @@ function getEmolienty2(){
 "cetyl ethylhexanoate",
 "ethylhexyl palmitate",
 "ethylhexyl stearate", 
+"neopentyl glycol dicaprylate/dicaprate",
+"glycol stearate",
 //Cholesterol
 "cholesterol",
 "c10-30 cholesterol/lanosterol esters",
