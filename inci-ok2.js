@@ -111,6 +111,7 @@ ok_inci = [
 "oleyl erucate",
 "oryza sativa (rice) starch",
 "oryza sativa starch",
+"oryza sativa (rice) bran",
 "oryza sativa bran wax",
 "p-anisic acid",
 "palmitic acid",
