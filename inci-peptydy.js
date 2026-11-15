@@ -49,7 +49,8 @@ function getPeptydy4(){
   "palmitoyl tetrapeptide-7",
   "palmitoyl tripeptide-1",
   "palmitoyl tripeptide-38",
-  "palmitoyl tripeptide-8"
+  "palmitoyl tripeptide-8",
+  "alanyl glutamine"
 ];
         return peptydy;
 }
