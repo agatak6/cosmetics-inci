@@ -111,7 +111,9 @@ return postbiotyki;
 }
 
 function getAktywne(){
-  akt_inci = [];
+  akt_inci = [
+"ornithine"
+];
   return akt_inci;
 }
 /* rozjasniajace */
