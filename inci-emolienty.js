@@ -99,6 +99,7 @@ function getEmolienty2(){
 "tocopheryl acetate",
 "diisopropyl sebacate",
 "dipentaerythrityl hexacaprylate/hexacaprate",
+"ethyl linoleate",
 "ethylhexyl cocoate",
 "ethylhexyl hydroxystearate",
 "ethylhexyl pelargoniate",
