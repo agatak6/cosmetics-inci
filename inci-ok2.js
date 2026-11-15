@@ -225,6 +225,7 @@ ok_inci = [
 "cocos nucifera fruit juice",
 "cucumis melo (melon) juice",
 "fragaria vesca (strawberry) juice",
+"hamamelis virginiana (witch hazel) water",
 "helichrysum italicum flower/leaf/stem water",
 "himalaya water", "himalaya aqua",
 "hippophae rhamnoides fruit juice",
