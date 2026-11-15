@@ -145,7 +145,8 @@ const silikon = [
 "polymethylsilsesquioxane",
 "dimethiconol",
  "dimethicone",
-"dimethiconol behenate"
+"dimethiconol behenate",
+"trisiloxane", "phenylisopropyl dimethicone"
 ];
 return silikon;
 }
