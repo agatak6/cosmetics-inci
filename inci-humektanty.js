@@ -44,7 +44,7 @@ function getHumektanty(){
 "erythritol", 
 "fructose",
 "glucose",
-"sorbitol",
+"sorbitol","d-sorbitol",
 "isomalt",
 "lactitol",
 "maltodextrin",
