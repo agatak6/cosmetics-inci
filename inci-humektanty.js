@@ -89,7 +89,8 @@ function getHumektanty(){
 "astragalus gummifer gum",
 "acacia senegal gum",
 "sodium anisate",
-"sodium levulinate"
+"sodium levulinate",
+"hydrolyzed milk protein"
 ];
   return humektanty;
 }
@@ -128,7 +129,8 @@ function getHumektanty2(){
 "glycogen",
 //"1,2-hexanediol",
 "1-2-hexanediol",
-"caprylyl glycol"
+"caprylyl glycol",
+"ammonium lactate"
 ];
   return humektanty;
 }
