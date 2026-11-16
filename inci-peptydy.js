@@ -53,7 +53,10 @@ function getPeptydy4(){
   "alanyl glutamine",
   "acetyl carnosine",
   "acetylarginyltryptophyl diphenylglycine",
-  "myristoyl nonapeptide-3"
+  "myristoyl nonapeptide-3",
+"hexapeptide-11",
+"myristoyl pentapeptide-17",
+"sh-oligopeptide-78"
 ];
         return peptydy;
 }
