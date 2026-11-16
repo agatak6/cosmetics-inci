@@ -225,7 +225,14 @@ const mikroplastik = [
 "styrene/isoprene copolymer",
 "polyquaternium-10",
 "polyquaternium-55",
-"vp/methacrylamide/vinyl imidazole copolymer"
+"vp/methacrylamide/vinyl imidazole copolymer",
+"sodium polyacryloyldimethyl taurate",
+"sodium acryloyldimethyltaurate/vp crosspolymer",
+"acrylates/stearyl methacrylate copolymer",
+"sodium polyacrylate",
+"amp-acrylates/allyl methacrylate copolymer",
+"acrylamidopropyltrimonium chloride/acrylate copolymer",
+"lauryl methacrylate/glycol dimethacrylate copolymer"
 ];
 
 return mikroplastik;
