@@ -241,7 +241,8 @@ const mikroplastik = [
 "acrylamidopropyltrimonium chloride/acrylate copolymer",
 "lauryl methacrylate/glycol dimethacrylate copolymer",
 "ethylene/propylene/styrene copolymer", 
-"butylene/ethylene/styrene copolymer"
+"butylene/ethylene/styrene copolymer",
+"hydrogenated poly(c6-14 olefin)", "hydrogenated styrene/isoprene copolymer"
 ];
 
 return mikroplastik;
