@@ -3,6 +3,9 @@ function getEmolienty(){
 //Skwalan, Bio-węglowodory i lekkie roślinne *silikony*
 "squalane",
 "squalene",
+"c11-13 isoalkanes",
+"c13-16 isoalkane",
+"c9-12 alkanes",
 "c13-15 alkane",
 "c15-19 alkane",
 "c15-19 alkanes",
@@ -140,6 +143,7 @@ function getOkluzja(){
 "butyrospermum parkii butter unsaponifiables",
 "butyrospermum parkii butter",
 "butyrospermum parkii (shea butter)",
+"butyrospermum parkii butter / shea butter",
 //kakaowe 
 "theobroma cacao",
 "theobroma cacao (cocoa) seed butter",
@@ -172,6 +176,7 @@ function getOkluzja(){
 "euphorbia cerifera cera",
 "helianthus annuus (sunflower) seed wax",
 "helianthus annuus seed wax",
+"helianthus annuus seed oil unsaponifiables/sunflower seed oil unsaponifiables",
 "rhus verniciflua peel cera",
 "simmondsia chinensis (jojoba) oil",
 "simmondsia chinensis (jojoba) seed oil",
@@ -211,7 +216,13 @@ function getOkluzja(){
 "rhus verniciflua peel wax",
 "glyceryl rosinate",
 "polyglyceryl-2 isostearate/dimer dilinoleate copolymer",
-"bis-behenyl/isostearyl/phytosteryl dimer dilinoleyl dimer dilinoleate"
+"bis-behenyl/isostearyl/phytosteryl dimer dilinoleyl dimer dilinoleate",
+"sclerocarya birrea seed butter",
+"caprylic/capric/myristic/stearic triglyceride",
+"dimer dilinoleyl dimer dilinoleate",
+"castor isostearate succinate",
+"myristyl alcohol",
+"hydrogenated coconut acid"
 ];
   return okluzja;
 }
