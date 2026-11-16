@@ -53,6 +53,7 @@ ok_inci = [
 "biotin",
 "bis-(isostearoyl/oleoyl isopropyl) dimonium methosulfate",
 "bis-diglyceryl polyacyladipate-2",
+"bis-ethyl (isostearylimidazoline) isostearamide",
 "boron nitride",
 "boswellia serrata gum",
 "brassica alcohol",
