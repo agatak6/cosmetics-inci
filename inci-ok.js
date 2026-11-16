@@ -79,6 +79,7 @@ ok_inci = [
 "calcium ketogluconate",
 "calcium pantothenate",
 "calcium pca",
+"calcium silicate",
 "calcium sulfate", 
 "camphor",
 "canadian colloidal clay",
@@ -148,6 +149,7 @@ ok_inci = [
 "dextrin palmitate",
 "diamond powder",
 "dibutyl adipate",
+"dicalcium phosphate",
 "dicetyl phosphate",
 "didecyldimonium chloride",
 "diethylhexyl sodium sulfosuccinate",
@@ -176,6 +178,7 @@ ok_inci = [
 // e
 "erythrulose",
 "ethoxydiglycol",
+"ethylcellulose",
 "ethyl hexanediol",
 "ethylhexyl dimethyl paba",
 "ethylhexyl salicylate",
