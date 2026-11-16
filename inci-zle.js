@@ -42,7 +42,9 @@ const bad_inci = [
 "ppg-51/smdi copolymer",
 "isostearamide mipa",
 "myristalkonium chloride",
-"quaternium-14"
+"quaternium-14",
+"isopropyl cloprostenate",
+"hypochlorous acid"
 ];
 
 return bad_inci;
