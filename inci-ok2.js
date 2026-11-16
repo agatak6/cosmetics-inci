@@ -154,6 +154,7 @@ ok_inci = [
 "polyglyceryl-10 myristate",
 "polyglyceryl-10 oleate",
 "polyglyceryl-10 stearate",
+"polyglyceryl-10 dioleate",
 "polyglyceryl-2 caprate",
 "polyglyceryl-2 dipolyhydroxystearate",
 "polyglyceryl-2 oleate",
@@ -173,6 +174,9 @@ ok_inci = [
 "polyglyceryl-4 laurate/sebacate",
 "polyglyceryl-4 oleate",
 "polyglyceryl-4 diisostearate/polyhydroxystearate/sebacate",
+"polyglyceryl-6 dicaprate",
+"polyglyceryl-6 distearate",
+"polyglyceryl-6 ximenia americana seedate",
 /* ---------------------------------- */
 "polyhydroxystearic acid",
 "polyisobutene",
