@@ -114,7 +114,9 @@ function getAktywne(){
   akt_inci = [
 "ornithine",
 "glutamylamidoethyl indole",
-"1-methylhydantoin-2-imide"
+"1-methylhydantoin-2-imide",
+"hydroxypropyl tetrahydropyrantriol",
+"n-hydroxysuccinimide"
 ];
   return akt_inci;
 }
