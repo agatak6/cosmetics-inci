@@ -136,6 +136,7 @@ const bad_inci = [
 "trideceth-9",
 "trilaureth-4 phosphate",
 "homosalate",
+"distearyldimonium chloride",
 //Moga tworzyc nitrozoaminy
 "aminomethyl propanol",
 "aminomethyl propanediol",
