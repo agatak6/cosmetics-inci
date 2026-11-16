@@ -40,7 +40,9 @@ const bad_inci = [
 "polyaminopropyl biguanide",
 "ppg-12/smdi copolymer",
 "ppg-51/smdi copolymer",
-"isostearamide mipa"
+"isostearamide mipa",
+"myristalkonium chloride",
+"quaternium-14"
 ];
 
 return bad_inci;
@@ -135,9 +137,11 @@ const bad_inci = [
 "trideceth-7",
 "trideceth-8",
 "trideceth-9",
+"trideceth-12",
 "trilaureth-4 phosphate",
 "homosalate",
 "distearyldimonium chloride",
+"lauryl methyl gluceth-10 hydroxypropyldimonium chloride",
 //Moga tworzyc nitrozoaminy
 "aminomethyl propanol",
 "aminomethyl propanediol",
