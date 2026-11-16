@@ -39,7 +39,8 @@ const bad_inci = [
 "cocamide mea",
 "polyaminopropyl biguanide",
 "ppg-12/smdi copolymer",
-"ppg-51/smdi copolymer"
+"ppg-51/smdi copolymer",
+"isostearamide mipa"
 ];
 
 return bad_inci;
@@ -296,7 +297,9 @@ const alergeny = [
 "potasium sorbate",
 "potassium sorbate",
 "lauramidopropyl betaine", 
-"snail secretion filtrate"
+"snail secretion filtrate",
+"cocamidopropyl dimethylamine",
+"cocamidopropyl betaine"
 ];
 
 return alergeny;
