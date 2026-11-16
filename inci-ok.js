@@ -126,6 +126,7 @@ ok_inci = [
 "coconut fatty acid",
 "colloidal gold",
 "colloidal platinum",
+"copaifera officinalis (balsam copaiba) resin",
 "copaifera officinalis resin (balsam copaiba)",
 "copaifera officinalis resin (copaiba balsam)",
 "copper",
