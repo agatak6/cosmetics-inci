@@ -187,8 +187,7 @@ ok_inci = [
 "polyglyceryl-6 distearate",
 "polyglyceryl-6 ximenia americana seedate",
 "polyglyceryl-10 dipalmitate",
-"polyglyceryl-2 
-dipolyhydroxystearate",
+"polyglyceryl-2 dipolyhydroxystearate",
 "polyglyceryl-2 isostearate",
 "polyglyceryl-3 laurate/sebacate",
 "polyglyceryl-3 stearate/sebacate crosspolymer",
