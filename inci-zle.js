@@ -168,6 +168,7 @@ const silikon = [
  "dimethicone",
 "dimethiconol behenate",
 "trisiloxane", "phenylisopropyl dimethicone",
+"polysilicone-11",
 "polysilicone-29",
 "silicone quaternium-18"
 ];
