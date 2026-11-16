@@ -44,7 +44,8 @@ const bad_inci = [
 "myristalkonium chloride",
 "quaternium-14",
 "isopropyl cloprostenate",
-"hypochlorous acid"
+"hypochlorous acid",
+"cyclomethicone",
 ];
 
 return bad_inci;
@@ -186,7 +187,21 @@ const silikon = [
 "diphenylsiloxy phenyl trimethicone", 
 "cetyl diglyceryl tris(trimethylsiloxy)silylethyl dimethicone",
 "phenylpropyldimethylsiloxysilicate",
-"stearoxymethicone/dimethicone copolymer"
+"stearoxymethicone/dimethicone copolymer",
+"amodimethicone",
+"amodimethicone/silsesquioxane copolymer",
+"bis-cetearyl amodimethicone",
+"bis-stearyl dimethicone",
+"c20-24 alkyl dimethicone",
+"cetearyl dimethicone crosspolymer",
+"cetearyl methicone",
+"cetyl ­peg/ppg-­10/1 ­dimethicone",
+"divinyldimethicone",
+"divinyldimethicone/dimethicone crosspolymer",
+"hydrolyzed vegetable protein pg-propyl silanetriol",
+"lauryl peg-10 tris(trimethylsiloxy)silylethyl dimethicone",
+"lauryl peg-9 polydimethylsiloxyethyl dimethicone",
+"methicone"
 ];
 return silikon;
 }
