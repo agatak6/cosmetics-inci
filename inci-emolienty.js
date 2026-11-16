@@ -37,6 +37,7 @@ function getEmolienty(){
 "diheptyl succinate",
 "caprylic/capric/succinic triglyceride",
 "capryloyl glycerin/sebacic acid copolymer",
+"dilinoleic acid/propanediol copolymer",
 "ethyl oleate",
 "isoamyl cocoate",
 "isoamyl laurate",
