@@ -182,7 +182,9 @@ const silikon = [
 "methyl trimethicone", 
 "caprylyl methicone", 
 "diphenylsiloxy phenyl trimethicone", 
-"cetyl diglyceryl tris(trimethylsiloxy)silylethyl dimethicone"
+"cetyl diglyceryl tris(trimethylsiloxy)silylethyl dimethicone",
+"phenylpropyldimethylsiloxysilicate",
+"stearoxymethicone/dimethicone copolymer"
 ];
 return silikon;
 }
@@ -194,7 +196,7 @@ return silikon;
 function getMikroplastik(){
 
 const mikroplastik = [
-  "polyethylene", "polypropylene", "polyamide", "nylon", "polyester", "polyacrylamide", 
+  "polybutene", "polyethylene", "polypropylene", "polyamide", "nylon", "polyester", "polyacrylamide", 
   "acrylates copolymer", 
   "acrylates crosspolymer", 
   "acrylates/c10-30 alkyl acrylate crosspolymer",
