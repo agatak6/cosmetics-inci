@@ -84,10 +84,12 @@ const bad_inci = [
 "disodium laureth sulfosuccinate",
 "glycereth-26",
 "glycereth-26 phosphate",
+"glycereth-2 cocoate",
 "glycereth-7 caprylate/caprate",
 "laureth-2",
 "laureth-3",
 "lauryl peg-10 tris (trimethylsiloxy)silylethyl dimethicone",
+"octyldodeceth-16",
 //PEG / PPG derivatives 
 "peg-10 olive glycerides",
 "peg-10 phytosterol",
@@ -170,7 +172,11 @@ const silikon = [
 "trisiloxane", "phenylisopropyl dimethicone",
 "polysilicone-11",
 "polysilicone-29",
-"silicone quaternium-18"
+"silicone quaternium-18",
+"methyl trimethicone", 
+"caprylyl methicone", 
+"diphenylsiloxy phenyl trimethicone", 
+"cetyl diglyceryl tris(trimethylsiloxy)silylethyl dimethicone"
 ];
 return silikon;
 }
@@ -276,6 +282,7 @@ const alergeny = [
 "parfum",
 "parfum(fragrance)",
 "parfum/fragrance",
+"fragrance (parfum)",
 "raspberry ketone",
 "rose ketones",
 "phenethyl alcohol",
