@@ -175,7 +175,6 @@ ok_inci = [
 "polyhydroxystearic acid",
 "polyisobutene",
 "polylysine",
-"polysilicone-11",
 "potassium aspartate",
 "potassium cetyl phosphate",
 "potassium chloride",
