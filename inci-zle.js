@@ -239,7 +239,9 @@ const mikroplastik = [
 "potassium sodium polyacrylate",
 "amp-acrylates/allyl methacrylate copolymer",
 "acrylamidopropyltrimonium chloride/acrylate copolymer",
-"lauryl methacrylate/glycol dimethacrylate copolymer"
+"lauryl methacrylate/glycol dimethacrylate copolymer",
+"ethylene/propylene/styrene copolymer", 
+"butylene/ethylene/styrene copolymer"
 ];
 
 return mikroplastik;
