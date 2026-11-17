@@ -116,7 +116,8 @@ function getAktywne(){
 "glutamylamidoethyl indole",
 "1-methylhydantoin-2-imide",
 "hydroxypropyl tetrahydropyrantriol",
-"n-hydroxysuccinimide"
+"n-hydroxysuccinimide",
+"totarol"
 ];
   return akt_inci;
 }
