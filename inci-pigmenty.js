@@ -64,7 +64,8 @@ let pigmenty1 = [
 "calcium sodium borosilicate", 
 "calcium aluminum borosilicate", 
 "calcium titanium borosilicate", 
-"synthetic fluorphlogopite"
+"synthetic fluorphlogopite",
+"black iron oxide", "red iron oxide"
 ];
 
 // Pigmenty naturalne (pochodzenia roślinnego, mikrobiologicznego lub zwierzęcego — Zielona Strefa COSMOS)
@@ -83,7 +84,9 @@ let pigmenty2 = [
 "anthocyanins", 
 "beta vulgaris root powder", 
 "spirulina platensis extract", "maltodextrin", 
-"gardenia florida fruit extract", "carthamus tinctorius flower extract", "alkanna tinctoria root extract", "lawsone"
+"gardenia florida fruit extract", "carthamus tinctorius flower extract", "alkanna tinctoria root extract", "lawsone",
+"ci 40800", "ci 40800 / beta-carotene", 
+"ci 75120", "ci 75300", "ci 75810"
 ];
 
 // Barwniki syntetyczne (azowe, ksantenowe, chinolinowe) i Laki (Lake) (Czerwona Flaga)
@@ -134,7 +137,23 @@ let pigmenty3 = [
 "ci 60730", "ext. violet 2", 
 "ci 61565", "green 6", 
 "ci 61570", "green 5", 
-"ci 59040", "green 8"
+"ci 59040", "green 8",
+"red 7 (ci 15850)", "ci 14700", 
+"ci 14720", "ci 16035", "ci 16185", 
+"ci 16255", "ci 17200", "ci 12490", 
+"ci 14700 (red 4)", "ci 14700 / red 4", 
+"ci 15195", "ci 15850 (red 7 lake)", 
+"ci 15850 (red 7)", "ci 15850/red 7 lake", 
+"ci 15985/yellow 6 lake", 
+"ci 16035/red 40", 
+"ci 17200/red 33 lake", 
+"yellow 5 lake (ci 19140)", 
+"ci 20285", "ci 26100", 
+"ci 26100 (red 17)", 
+"ci 26100 (rouge 17)", "ci 28440", 
+"ci 42051", "ci 45100", 
+"ci 51319", "ci 74160"
+
 ];
 
 function getPigmenty(){
