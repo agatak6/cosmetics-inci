@@ -82,6 +82,8 @@ let pigmenty3 = [
 
 function getPigmenty(){
 
+const pigmenty = [...pigmenty1, ...pigmenty2, ...pigmenty3];
+
 /*
 pigmenty = [
 "(ci 15850) d&c red 6",
