@@ -291,6 +291,8 @@ const alergeny = [
 "alpha-isomethyl ionone",
 "amyl cinnamal",
 "amyl salicylate",
+"anethole",
+"anise alcohol",
 "benzyl alcohol",
 "benzyl benzoate",
 "benzyl cinnamate",
