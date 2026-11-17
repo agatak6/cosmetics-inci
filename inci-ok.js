@@ -14,6 +14,7 @@ ok_inci = [
 "acacia decurrens/jojoba/sunflower seed cera/polyglyceryl-3 esters",
 "acacia decurrens/jojoba/sunflower seed wax/polyglyceryl-3 esters",
 "acetic acid",
+"acetum",
 "acetyl cedrene",
 "acetyl ethylhexyl polyhydroxystearate",  
 "adenosine",
