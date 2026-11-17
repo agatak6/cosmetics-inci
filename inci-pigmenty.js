@@ -54,12 +54,35 @@ let pigmenty2 = [
 // Barwniki syntetyczne (azowe, ksantenowe, chinolinowe) i Laki (Lake) (Czerwona Flaga)
 
 let pigmenty3 = [
-"CI 15850", "Red 6", "Red 6 Lake", "Red 7", "Red 7 Lake", "CI 15985", "Yellow 6", "Yellow 6 Lake", "CI 19140", "Yellow 5", "Yellow 5 Lake", "CI 45410", "Red 27", "Red 27 Lake", "Red 28", "Red 28 Lake", "CI 45380", "Red 21", "Red 21 Lake", "Red 22", "Red 22 Lake", "CI 17200", "Red 33", "Red 33 Lake", "CI 73360", "Red 30", "Red 30 Lake", "CI 15510", "Orange 4", "Orange 4 Lake", "CI 45370", "Orange 5", "Orange 5 Lake", "CI 42090", "Blue 1", "Blue 1 Lake", "CI 73015", "Blue 2", "Blue 2 Lake", "CI 47005", "Yellow 10", "Yellow 10 Lake", "CI 47000", "Yellow 11", "CI 16035", "Red 40", "Red 40 Lake", "CI 14700", "Red 4", "Red 4 Lake", "CI 16255", "Ponceau 4R", "CI 60725", "Violet 2", "CI 60730", "Ext. Violet 2", "CI 61565", "Green 6", "CI 61570", "Green 5", "CI 59040", "Green 8"
-
+"CI 15850", "Red 6", "Red 6 Lake", 
+"Red 7", "Red 7 Lake", 
+"CI 15985", "Yellow 6", "Yellow 6 Lake", 
+"CI 19140", "Yellow 5", "Yellow 5 Lake", 
+"CI 45410", "Red 27", "Red 27 Lake", 
+"Red 28", "Red 28 Lake", 
+"CI 45380", "Red 21", "Red 21 Lake", 
+"Red 22", "Red 22 Lake", 
+"CI 17200", "Red 33", "Red 33 Lake", 
+"CI 73360", "Red 30", "Red 30 Lake", 
+"CI 15510", "Orange 4", "Orange 4 Lake", 
+"CI 45370", "Orange 5", "Orange 5 Lake", 
+"CI 42090", "Blue 1", "Blue 1 Lake", 
+"CI 73015", "Blue 2", "Blue 2 Lake", 
+"CI 47005", "Yellow 10", "Yellow 10 Lake", 
+"CI 47000", "Yellow 11", 
+"CI 16035", "Red 40", "Red 40 Lake", 
+"CI 14700", "Red 4", "Red 4 Lake", 
+"CI 16255", "Ponceau 4R", 
+"CI 60725", "Violet 2", 
+"CI 60730", "Ext. Violet 2", 
+"CI 61565", "Green 6", 
+"CI 61570", "Green 5", 
+"CI 59040", "Green 8"
 ];
 
 function getPigmenty(){
 
+/*
 pigmenty = [
 "(ci 15850) d&c red 6",
 "(ci 15850) red 6",
@@ -184,6 +207,7 @@ pigmenty = [
 "ultramarines (ci 77007)", 
 "yellow 5 lake (ci 19140)"
 ];
+*/
 
 return pigmenty;
 
