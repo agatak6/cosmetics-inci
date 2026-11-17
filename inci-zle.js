@@ -201,7 +201,11 @@ const silikon = [
 "hydrolyzed vegetable protein pg-propyl silanetriol",
 "lauryl peg-10 tris(trimethylsiloxy)silylethyl dimethicone",
 "lauryl peg-9 polydimethylsiloxyethyl dimethicone",
-"methicone"
+"methicone",
+"polypropylsilsesquioxane",
+"silsesquioxane crosspolymer",
+"stearyl dimethicone",
+"trimethylsiloxysilicate/dimethiconol crosspolymer"
 ];
 return silikon;
 }
@@ -266,7 +270,14 @@ const mikroplastik = [
 "lauryl methacrylate/glycol dimethacrylate copolymer",
 "ethylene/propylene/styrene copolymer", 
 "butylene/ethylene/styrene copolymer",
-"hydrogenated poly(c6-14 olefin)", "hydrogenated styrene/isoprene copolymer"
+"hydrogenated poly(c6-14 olefin)", "hydrogenated styrene/isoprene copolymer",
+"styrene/vp copolymer",
+"hydrogenated ­styrene/isoprene ­copolymer",
+"polyquaternium-28",
+"polyquaternium-51",
+"polyquaternium-80",
+"trimethylpentanediol/adipic acid/glycerin crosspolymer",
+"maleated soybean oil glyceryl/ octyldodecanol polymer"
 ];
 
 return mikroplastik;
