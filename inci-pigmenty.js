@@ -4,6 +4,60 @@ last modified: 2026-09-24
 author: agatak6@gmail.com
 */
 
+//​1. Pigmenty mineralne (nieorganiczne — Zielona Strefa COSMOS / Clean Beauty)
+
+let pigmenty1 = [
+"ci 77491", 
+"ci 77492", 
+"ci 77499", "iron oxides", 
+"ci 77891", "titanium dioxide", 
+"ci 77947", "zinc oxide", 
+"ci 77007", "ultramarines", 
+"ci 77742", "manganese violet", 
+"ci 77288", "chromium oxide greens", 
+"ci 77289", "chromium hydroxide green", 
+"ci 77510", "ferric ferrocyanide", 
+"ferric ammonium ferrocyanide", 
+"ci 77019", "mica", 
+"ci 77163", "bismuth oxychloride", 
+"ci 77861", 
+"tin oxide", 
+"ci 77000", "aluminum powder", 
+"ci 77400", "bronze powder", 
+"ci 77480", "gold", 
+"ci 77820", "silver", 
+"calcium sodium borosilicate", 
+"calcium aluminum borosilicate", 
+"calcium titanium borosilicate", 
+"synthetic fluorphlogopite"
+];
+
+// Pigmenty naturalne (pochodzenia roślinnego, mikrobiologicznego lub zwierzęcego — Zielona Strefa COSMOS)
+
+let pigmenty2 = [
+"CI 75470", "Carmine", 
+"CI 75120", "Annatto", 
+"Bixa Orellana Seed Extract", 
+"CI 75130", "Beta-Carotene", 
+"CI 75810", "Chlorophyllin-Copper Complex", 
+"CI 77266", "Carbon Black", 
+"Charcoal Powder", 
+"CI 75300", "Curcumin", 
+"CI 75100", "Crocetin", 
+"CI 75170", "Guanine", 
+"Anthocyanins", 
+"Beta Vulgaris Root Powder", 
+"Spirulina Platensis Extract", "Maltodextrin", 
+"Gardenia Florida Fruit Extract", "Carthamus Tinctorius Flower Extract", "Alkanna Tinctoria Root Extract", "Lawsone"
+];
+
+// Barwniki syntetyczne (azowe, ksantenowe, chinolinowe) i Laki (Lake) (Czerwona Flaga)
+
+let pigmenty3 = [
+"CI 15850", "Red 6", "Red 6 Lake", "Red 7", "Red 7 Lake", "CI 15985", "Yellow 6", "Yellow 6 Lake", "CI 19140", "Yellow 5", "Yellow 5 Lake", "CI 45410", "Red 27", "Red 27 Lake", "Red 28", "Red 28 Lake", "CI 45380", "Red 21", "Red 21 Lake", "Red 22", "Red 22 Lake", "CI 17200", "Red 33", "Red 33 Lake", "CI 73360", "Red 30", "Red 30 Lake", "CI 15510", "Orange 4", "Orange 4 Lake", "CI 45370", "Orange 5", "Orange 5 Lake", "CI 42090", "Blue 1", "Blue 1 Lake", "CI 73015", "Blue 2", "Blue 2 Lake", "CI 47005", "Yellow 10", "Yellow 10 Lake", "CI 47000", "Yellow 11", "CI 16035", "Red 40", "Red 40 Lake", "CI 14700", "Red 4", "Red 4 Lake", "CI 16255", "Ponceau 4R", "CI 60725", "Violet 2", "CI 60730", "Ext. Violet 2", "CI 61565", "Green 6", "CI 61570", "Green 5", "CI 59040", "Green 8"
+
+];
+
 function getPigmenty(){
 
 pigmenty = [
