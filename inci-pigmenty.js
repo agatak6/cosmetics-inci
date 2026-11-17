@@ -156,57 +156,12 @@ let pigmenty3 = [
 
 ];
 
+
 function getPigmenty(){
+ const pigmenty = [...pigmenty1, ...pigmenty2];
+ return pigmenty;
+}
 
-const pigmenty = [...pigmenty1, ...pigmenty2, ...pigmenty3];
-
-/*
-pigmenty = [
-
-"black iron oxide",
-"red iron oxide",
-
-"red 7 (ci 15850)", 
-"ci 14700",
-"ci 14720",
-"ci 16035",
-"ci 16185",
-"ci 16255",
-"ci 17200",
-"ci 12490",
-"ci 14700 (red 4)",
-"ci 14700 / red 4",
-"ci 15195",
-"ci 15850 (red 7 lake)",
-"ci 15850 (red 7)",
-"ci 15850/red 7 lake",
-"ci 15985/yellow 6 lake",
-"ci 16035/red 40",
-"ci 17200/red 33 lake",
-"yellow 5 lake (ci 19140)"
-
-"ci 20285", 
-"ci 26100",
-"ci 26100 (red 17)",
-"ci 26100 (rouge 17)",
-"ci 28440",
-
-"ci 40800",
-"ci 40800 / beta-carotene",
-"ci 42051",
-"ci 45100",
-"ci 51319",
-
-"ci 74160",
-"ci 75120",
-"ci 75300",
-"ci 75470",
-"ci 75810",
-
-
-];
-*/
-
-return pigmenty;
-
+function getPigmentyB(){
+ return pigmenty3;
 }
