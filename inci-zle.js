@@ -1,5 +1,3 @@
-function getInciBad(){
-
 const bad_inci = [
 //  BK - ksiazki
 "methylisothiazolinone",
@@ -44,13 +42,11 @@ const bad_inci = [
 "myristalkonium chloride",
 "quaternium-14",
 "isopropyl cloprostenate",
-"hypochlorous acid",
-"cyclomethicone",
+"hypochlorous acid"
 ];
 
-return bad_inci;
 
-}
+
 /* -------------------------- */
 // Kontrowersyjne 
 function getKontrowersje(){
@@ -157,6 +153,17 @@ return bad_inci;
 
 }
 
+/* Silikony cykliczne i lotne (Czerwona Flaga — Krytyczna / Zakazane lub ograniczane przez REACH w UE) */
+let silikony_red = [
+"cyclopentasiloxane", 
+"cyclotetrasiloxane", 
+"cyclohexasiloxane", 
+"cyclomethicone", 
+"cyclotrisiloxane", 
+"cycloheptasiloxane"
+];
+
+
 /* -------------------------- */
 
 function getSilikon(){
@@ -170,8 +177,6 @@ const silikon = [
 "dimethicone/vinyl dimethicone crosspolymer",
 "vinyl dimethicone/methicone silsesquioxane crosspolymer",
 // ---
-"cyclopentasiloxane",
-"cyclohexasiloxane",
 "bis-peg-12 dimethicone",
 "dimethicone crosspolymer",
 "polymethylsilsesquioxane",
@@ -211,6 +216,10 @@ return silikon;
 }
 
 
+function getInciBad(){
+let bad_combo = [...bad_inci, ...silikony_red];
+return bad_combo;
+}
 
 /* ------------------------------------------------------- */
 //polimery syntetyczne
