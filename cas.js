@@ -1,111 +1,131 @@
-let cas = [
-"musk ketone", 
-"hexamethylindanopyran", 
-"acetyl hexamethyl tetralin", 
-"acetyl hexamethyl indan", 
-//"2-bromo-2-nitropropane-1,3-diol", 
-//"5-bromo-5-nitro-1,3-dioxane", "benzylhemiformal", 
-"diazolidinyl urea", 
-"dmdm hydantoin", 
-"formaldehyde", 
-"imidazolidinyl urea", 
-"methenamine", 
-"quaternium-15", 
-"sodium hydroxymethylglycinate", 
-"methanediol", 
-"methylene glycol", 
-"glyoxal", 
-"methylchloroisothiazolinone", 
-"methylisothiazolinone", 
-"methylparaben", 
-"ethylparaben", 
-"propylparaben", 
-"butylparaben", 
-"isobutylparaben", 
-"isopropylparaben", 
-"benzylparaben", 
-"resorcinol", 
-"triclosan", 
-"triclocarban", 
-"paraffinum liquidum", 
-"mineral oil", 
-"hydrogenated mineral oil", 
-"petrolatum", 
-"paraffin", 
-"retinyl palmitate", 
-"acetone", 
-"butoxyethanol", 
-"toluene", 
-"sodium lauryl sulfate", 
-"sodium laureth sulfate", 
-"talc", 
-"ethyl acrylate", 
-"ethyl methacrylate", 
-"butyl methacrylate", 
-"methyl methacrylate", 
-"hydroxypropyl methacrylate", 
-"tetrahydrofurfuryl methacrylate", 
-"trimethylolpropane trimethacrylate", "benzophenone", 
-"benzophenone-1", 
-"benzophenone-2", 
-"benzophenone-3", 
-"oxybenzone", 
-"benzophenone-4", 
-"benzophenone-5", 
-"benzophenone-6", 
-"benzophenone-7", 
-"benzophenone-8", 
-"benzophenone-9", 
-"benzophenone-10", 
-"benzophenone-11", 
-"benzophenone-12", 
-"methyl benzophenone", 
-"stearaminocarbonyl benzophenone-4", 
-"trimethylbenzophenone", 
-"va/crotonates/methacryloxybenzophenone-1 copolymer", 
-"ethylhexyl methoxycinnamate", 
-"octinoxate", 
-"octyl methoxycinnamate", 
-"octocrylene", 
-"bha", 
-"bht", 
-"cyclotetrasiloxane", 
-"cyclopentasiloxane", 
-"cyclohexasiloxane", 
-"cyclomethicone", 
-"aluminum chloride", 
-"aluminum chlorohydrate", 
-"aluminum chlorohydrex", 
-"aluminum dichlorohydrate", 
-"aluminum sesquichlorohydrate", 
-"aluminum zirconium octachlorohydrate", "aluminum zirconium octachlorohydrex gly", "aluminum zirconium pentachlorohydrate", "aluminum zirconium pentachlorohydrex gly", 
-"aluminum zirconium tetrachlorohydrate", "aluminum zirconium tetrachlorohydrex gly", 
-"aluminum zirconium trichlorohydrate", "aluminum zirconium trichlorohydrex gly", "diethanolamine", 
-"ethanolamine", 
-"monoethanolamine", 
-"triethanolamine", 
-"edta", 
-"ethylenediaminetetraacetic acid", 
-"disodium edta", 
-"calcium disodium edta", 
-"tetrasodium edta", 
-"trisodium edta", 
-"ptfe", 
-"polytetrafluoroethylene", 
-"perfluorodecalin", 
-"perfluorohexane", "perfluoroperhydrophenanthrene", "perfluorodimethylcyclohexane", "perfluorononylethyl dimethicone", "perfluorononyl dimethicone", 
-"perfluorooctyl triethoxysilane", "polyperfluoromethylisopropyl ether", "polyperfluoroethoxymethoxy difluoroethyl peg phosphate", 
-"c9-15 fluoroalcohol phosphate", 
-"ammonium c6-16 perfluoroalkylethyl phosphate", 
-"dea-c8-18 perfluoroalkylethyl phosphate", "perfluorooctanoic acid", 
-"pfoa", 
-"perfluorooctane sulfonate", 
-"pfos", 
-"methyl perfluorobutyl ether", 
-"methyl perfluoroisobutyl ether", 
-"ethyl perfluorobutyl ether", 
-"ethyl perfluoroisobutyl ether", 
-"trifluoropropyl dimethicone", 
-"trifluoropropyl cyclopentasiloxane", 
-"trifluoropropyl cyclotetrasiloxane"
+const CLEAN_AT_SEPHORA_LIST = [
+  "Parfum", "Fragrance", "Musk Ketone", "Hexamethylindanopyran",
+  "Acetyl Hexamethyl Tetralin", "Acetyl Hexamethyl Indan",
+  "2-Bromo-2-Nitropropane-1,3-Diol", "5-Bromo-5-Nitro-1,3-Dioxane",
+  "Benzylhemiformal", "Diazolidinyl Urea", "DMDM Hydantoin", "Formaldehyde",
+  "Imidazolidinyl Urea", "Methenamine", "Quaternium-15",
+  "Sodium Hydroxymethylglycinate", "Methanediol", "Methylene Glycol",
+  "Glyoxal", "Methylchloroisothiazolinone", "Methylisothiazolinone",
+  "Methylparaben", "Ethylparaben", "Propylparaben", "Butylparaben",
+  "Isobutylparaben", "Isopropylparaben", "Benzylparaben", "Resorcinol",
+  "Triclosan", "Triclocarban", "Paraffinum Liquidum", "Mineral Oil",
+  "Hydrogenated Mineral Oil", "Petrolatum", "Paraffin", "Retinyl Palmitate",
+  "Acetone", "Butoxyethanol", "Toluene", "Sodium Lauryl Sulfate",
+  "Sodium Laureth Sulfate", "Talc", "Ethyl Acrylate", "Ethyl Methacrylate",
+  "Butyl Methacrylate", "Methyl Methacrylate", "Hydroxypropyl Methacrylate",
+  "Tetrahydrofurfuryl Methacrylate", "Trimethylolpropane Trimethacrylate",
+  "Benzophenone", "Benzophenone-1", "Benzophenone-2", "Benzophenone-3",
+  "Oxybenzone", "Benzophenone-4", "Benzophenone-5", "Benzophenone-6",
+  "Benzophenone-7", "Benzophenone-8", "Benzophenone-9", "Benzophenone-10",
+  "Benzophenone-11", "Benzophenone-12", "Methyl Benzophenone",
+  "Stearaminocarbonyl Benzophenone-4", "Trimethylbenzophenone",
+  "VA/Crotonates/Methacryloxybenzophenone-1 Copolymer",
+  "Ethylhexyl Methoxycinnamate", "Octinoxate", "Octyl Methoxycinnamate",
+  "Octocrylene", "BHA", "BHT", "Cyclotetrasiloxane", "Cyclopentasiloxane",
+  "Cyclohexasiloxane", "Cyclomethicone", "Aluminum Chloride",
+  "Aluminum Chlorohydrate", "Aluminum Chlorohydrex",
+  "Aluminum Dichlorohydrate", "Aluminum Sesquichlorohydrate",
+  "Aluminum Zirconium Octachlorohydrate",
+  "Aluminum Zirconium Octachlorohydrex Gly",
+  "Aluminum Zirconium Pentachlorohydrate",
+  "Aluminum Zirconium Pentachlorohydrex Gly",
+  "Aluminum Zirconium Tetrachlorohydrate",
+  "Aluminum Zirconium Tetrachlorohydrex Gly",
+  "Aluminum Zirconium Trichlorohydrate",
+  "Aluminum Zirconium Trichlorohydrex Gly", "Diethanolamine",
+  "Ethanolamine", "Monoethanolamine", "Triethanolamine", "EDTA",
+  "Ethylenediaminetetraacetic Acid", "Disodium EDTA",
+  "Calcium Disodium EDTA", "Tetrasodium EDTA", "Trisodium EDTA", "PTFE",
+  "Polytetrafluoroethylene", "Perfluorodecalin", "Perfluorohexane",
+  "Perfluoroperhydrophenanthrene", "Perfluorodimethylcyclohexane",
+  "Perfluorononylethyl Dimethicone", "Perfluorononyl Dimethicone",
+  "Perfluorooctyl Triethoxysilane", "Polyperfluoromethylisopropyl Ether",
+  "Polyperfluoroethoxymethoxy Difluoroethyl PEG Phosphate",
+  "C9-15 Fluoroalcohol Phosphate",
+  "Ammonium C6-16 Perfluoroalkylethyl Phosphate",
+  "DEA-C8-18 Perfluoroalkylethyl Phosphate", "Perfluorooctanoic Acid",
+  "PFOA", "Perfluorooctane Sulfonate", "PFOS",
+  "Methyl Perfluorobutyl Ether", "Methyl Perfluoroisobutyl Ether",
+  "Ethyl Perfluorobutyl Ether", "Ethyl Perfluoroisobutyl Ether",
+  "Trifluoropropyl Dimethicone", "Trifluoropropyl Cyclopentasiloxane",
+  "Trifluoropropyl Cyclotetrasiloxane"
 ];
+
+const normalize = (str) =>
+  str
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .trim();
+
+/**
+ * Wyszukuje w składzie INCI składniki z listy Clean at Sephora (+ PFAS).
+ * @param {string} inciText - Pełny skład INCI jako ciąg znaków (np. z pola textarea).
+ * @param {object} [options]
+ * @param {boolean} [options.detectAnyPfas=true] - Czy łapać też inne związki po frazach perfluoro/polyfluoro/fluoroalcohol/trifluoropropyl.
+ * @returns {{ matches: Array<{ matchedAs: string, foundInInci: string, reason: string }>, hasMatches: boolean }}
+ */
+function findBannedCleanAtSephoraIngredients(inciText, { detectAnyPfas = true } = {}) {
+  if (!inciText || typeof inciText !== "string") {
+    return { matches: [], hasMatches: false };
+  }
+
+  const normalizedListMap = new Map(
+    CLEAN_AT_SEPHORA_LIST.map((item) => [normalize(item), item])
+  );
+
+  // Dzielimy po przecinkach, średnikach lub nowych liniach
+  const tokens = inciText
+    .split(/[,;\n\r]+/)
+    .map((part) => part.trim())
+    .filter(Boolean);
+
+  const pfasPattern = /(perfluoro|polyfluoro|fluoroalcohol|trifluoropropyl)/i;
+  const seen = new Set();
+  const matches = [];
+
+  for (const rawToken of tokens) {
+    // Usuwamy ewentualne nawiasy z dodatkowymi informacjami na końcu tokenu, np. "Parfum (Fragrance)"
+    const withoutParens = rawToken.replace(/\(.*?\)/g, " ").trim();
+    const candidates = Array.from(
+      new Set([normalize(rawToken), normalize(withoutParens)].filter(Boolean))
+    );
+
+    for (const candidate of candidates) {
+      if (normalizedListMap.has(candidate)) {
+        const canonicalName = normalizedListMap.get(candidate);
+        const key = `list:${canonicalName}`;
+        if (!seen.has(key)) {
+          seen.add(key);
+          matches.push({
+            matchedAs: canonicalName,
+            foundInInci: rawToken,
+            reason: "Lista Clean at Sephora + PFAS"
+          });
+        }
+      } else if (detectAnyPfas && pfasPattern.test(candidate)) {
+        const key = `pfas:${candidate}`;
+        if (!seen.has(key)) {
+          seen.add(key);
+          matches.push({
+            matchedAs: rawToken,
+            foundInInci: rawToken,
+            reason: "Wykryto wzorzec związku PFAS"
+          });
+        }
+      }
+    }
+  }
+
+  return {
+    matches,
+    hasMatches: matches.length > 0
+  };
+}
+
+// --- Przykładowe użycie z polem tekstowym (<textarea id="inci-input">) ---
+const textarea = document.getElementById("inci-input");
+if (textarea) {
+  const result = findBannedCleanAtSephoraIngredients(textarea.value);
+  console.log("Czy znaleziono składniki z listy:", result.hasMatches);
+  console.log("Dopasowania:", result.matches);
+}
