@@ -51,51 +51,59 @@ const CLEAN_AT_SEPHORA_LIST = [
   "Trifluoropropyl Cyclotetrasiloxane"
 ];
 
-const normalize = (str) =>
-  str
+function normalizeIngredient(str) {
+  return String(str || "")
     .toLowerCase()
     .replace(/\s+/g, " ")
     .trim();
+}
 
-/**
- * Wyszukuje w składzie INCI składniki z listy Clean at Sephora (+ PFAS).
- * @param {string} inciText - Pełny skład INCI jako ciąg znaków (np. z pola textarea).
- * @param {object} [options]
- * @param {boolean} [options.detectAnyPfas=true] - Czy łapać też inne związki po frazach perfluoro/polyfluoro/fluoroalcohol/trifluoropropyl.
- * @returns {{ matches: Array<{ matchedAs: string, foundInInci: string, reason: string }>, hasMatches: boolean }}
- */
-function findBannedCleanAtSephoraIngredients(inciText, { detectAnyPfas = true } = {}) {
+function findBannedCleanAtSephoraIngredients(inciText, options) {
+  var opts = options || {};
+  var detectAnyPfas = opts.detectAnyPfas !== undefined ? opts.detectAnyPfas : true;
+
   if (!inciText || typeof inciText !== "string") {
     return { matches: [], hasMatches: false };
   }
 
-  const normalizedListMap = new Map(
-    CLEAN_AT_SEPHORA_LIST.map((item) => [normalize(item), item])
-  );
+  var normalizedListMap = {};
+  for (var i = 0; i < CLEAN_AT_SEPHORA_LIST.length; i++) {
+    var item = CLEAN_AT_SEPHORA_LIST[i];
+    normalizedListMap[normalizeIngredient(item)] = item;
+  }
 
-  // Dzielimy po przecinkach, średnikach lub nowych liniach
-  const tokens = inciText
+  var tokens = inciText
     .split(/[,;\n\r]+/)
-    .map((part) => part.trim())
-    .filter(Boolean);
+    .map(function (part) {
+      return part.trim();
+    })
+    .filter(function (part) {
+      return Boolean(part);
+    });
 
-  const pfasPattern = /(perfluoro|polyfluoro|fluoroalcohol|trifluoropropyl)/i;
-  const seen = new Set();
-  const matches = [];
+  var pfasPattern = /(perfluoro|polyfluoro|fluoroalcohol|trifluoropropyl)/i;
+  var seen = {};
+  var matches = [];
 
-  for (const rawToken of tokens) {
-    // Usuwamy ewentualne nawiasy z dodatkowymi informacjami na końcu tokenu, np. "Parfum (Fragrance)"
-    const withoutParens = rawToken.replace(/\(.*?\)/g, " ").trim();
-    const candidates = Array.from(
-      new Set([normalize(rawToken), normalize(withoutParens)].filter(Boolean))
-    );
+  for (var t = 0; t < tokens.length; t++) {
+    var rawToken = tokens[t];
+    var withoutParens = rawToken.replace(/\(.*?\)/g, " ").trim();
+    var candidates = [normalizeIngredient(rawToken)];
+    var normWithoutParens = normalizeIngredient(withoutParens);
 
-    for (const candidate of candidates) {
-      if (normalizedListMap.has(candidate)) {
-        const canonicalName = normalizedListMap.get(candidate);
-        const key = `list:${canonicalName}`;
-        if (!seen.has(key)) {
-          seen.add(key);
+    if (normWithoutParens && candidates.indexOf(normWithoutParens) === -1) {
+      candidates.push(normWithoutParens);
+    }
+
+    for (var c = 0; c < candidates.length; c++) {
+      var candidate = candidates[c];
+      if (!candidate) continue;
+
+      if (Object.prototype.hasOwnProperty.call(normalizedListMap, candidate)) {
+        var canonicalName = normalizedListMap[candidate];
+        var listKey = "list:" + canonicalName;
+        if (!seen[listKey]) {
+          seen[listKey] = true;
           matches.push({
             matchedAs: canonicalName,
             foundInInci: rawToken,
@@ -103,13 +111,13 @@ function findBannedCleanAtSephoraIngredients(inciText, { detectAnyPfas = true } 
           });
         }
       } else if (detectAnyPfas && pfasPattern.test(candidate)) {
-        const key = `pfas:${candidate}`;
-        if (!seen.has(key)) {
-          seen.add(key);
+        var pfasKey = "pfas:" + candidate;
+        if (!seen[pfasKey]) {
+          seen[pfasKey] = true;
           matches.push({
             matchedAs: rawToken,
             foundInInci: rawToken,
-            reason: "Wykryto wzorzec związku PFAS"
+            reason: "Wykryto wzorzec zwiazku PFAS"
           });
         }
       }
@@ -117,15 +125,15 @@ function findBannedCleanAtSephoraIngredients(inciText, { detectAnyPfas = true } 
   }
 
   return {
-    matches,
+    matches: matches,
     hasMatches: matches.length > 0
   };
 }
 
-// --- Przykładowe użycie z polem tekstowym (<textarea id="inci-input">) ---
-//const textarea = document.getElementById("inci-input");
-//if (textarea) {
-//  const result = findBannedCleanAtSephoraIngredients(textarea.value);
-//  console.log("Czy znaleziono składniki z listy:", result.hasMatches);
-//  console.log("Dopasowania:", result.matches);
-//}
+/*
+var textarea = document.getElementById("inci-input");
+if (textarea) {
+  var result = findBannedCleanAtSephoraIngredients(textarea.value);
+  console.log("Czy znaleziono skladniki z listy:", result.hasMatches);
+  console.log("Dopasowania:", result.matches);
+}*/
