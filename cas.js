@@ -1,5 +1,5 @@
 var CLEAN_AT_SEPHORA_LIST = [
-  "Parfum", "Fragrance", "Musk Ketone", "Hexamethylindanopyran",
+  "Musk Ketone", "Hexamethylindanopyran",
   "Acetyl Hexamethyl Tetralin", "Acetyl Hexamethyl Indan",
   "2-Bromo-2-Nitropropane-1,3-Diol", "5-Bromo-5-Nitro-1,3-Dioxane",
   "Benzylhemiformal", "Diazolidinyl Urea", "DMDM Hydantoin", "Formaldehyde",
