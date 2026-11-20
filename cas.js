@@ -124,10 +124,9 @@ function findBannedCleanAtSephoraIngredients(inciText, options) {
     }
   }
 
-  return {
-    matches: matches,
-    hasMatches: matches.length > 0
-  };
+const returnText = matches.length > 0 ? "" + matches.join(", ") : "";
+
+  return returnText;
 }
 
 /*
