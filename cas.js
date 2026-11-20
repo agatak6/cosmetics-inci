@@ -1,4 +1,4 @@
-const CLEAN_AT_SEPHORA_LIST = [
+var CLEAN_AT_SEPHORA_LIST = [
   "Parfum", "Fragrance", "Musk Ketone", "Hexamethylindanopyran",
   "Acetyl Hexamethyl Tetralin", "Acetyl Hexamethyl Indan",
   "2-Bromo-2-Nitropropane-1,3-Diol", "5-Bromo-5-Nitro-1,3-Dioxane",
@@ -58,12 +58,17 @@ function normalizeIngredient(str) {
     .trim();
 }
 
+/**
+ * Zwraca znalezione składniki jako:
+ * - list: tablica stringów (np. ["Parfum", "Sodium Lauryl Sulfate"])
+ * - text: tekst rozdzielony przecinkiem (np. "Parfum, Sodium Lauryl Sulfate")
+ */
 function findBannedCleanAtSephoraIngredients(inciText, options) {
   var opts = options || {};
   var detectAnyPfas = opts.detectAnyPfas !== undefined ? opts.detectAnyPfas : true;
 
   if (!inciText || typeof inciText !== "string") {
-    return { matches: [], hasMatches: false };
+    return { list: [], text: "", hasMatches: false };
   }
 
   var normalizedListMap = {};
@@ -83,7 +88,7 @@ function findBannedCleanAtSephoraIngredients(inciText, options) {
 
   var pfasPattern = /(perfluoro|polyfluoro|fluoroalcohol|trifluoropropyl)/i;
   var seen = {};
-  var matches = [];
+  var foundIngredients = [];
 
   for (var t = 0; t < tokens.length; t++) {
     var rawToken = tokens[t];
@@ -101,38 +106,26 @@ function findBannedCleanAtSephoraIngredients(inciText, options) {
 
       if (Object.prototype.hasOwnProperty.call(normalizedListMap, candidate)) {
         var canonicalName = normalizedListMap[candidate];
-        var listKey = "list:" + canonicalName;
-        if (!seen[listKey]) {
-          seen[listKey] = true;
-          matches.push({
-            matchedAs: canonicalName,
-            foundInInci: rawToken,
-            reason: "Lista Clean at Sephora + PFAS"
-          });
+        if (!seen[canonicalName]) {
+          seen[canonicalName] = true;
+          foundIngredients.push(canonicalName);
         }
       } else if (detectAnyPfas && pfasPattern.test(candidate)) {
-        var pfasKey = "pfas:" + candidate;
-        if (!seen[pfasKey]) {
-          seen[pfasKey] = true;
-          matches.push({
-            matchedAs: rawToken,
-            foundInInci: rawToken,
-            reason: "Wykryto wzorzec zwiazku PFAS"
-          });
+        if (!seen[rawToken]) {
+          seen[rawToken] = true;
+          foundIngredients.push(rawToken);
         }
       }
     }
   }
 
-const returnText = matches.length > 0 ? "" + matches.join(", ") : "";
-
-  return returnText;
+  return foundIngredients.join(", ");
 }
 
-/*
-var textarea = document.getElementById("inci-input");
+// --- Przykład użycia z <textarea id="inci-input"> ---
+/* var textarea = document.getElementById("inci-input");
 if (textarea) {
   var result = findBannedCleanAtSephoraIngredients(textarea.value);
-  console.log("Czy znaleziono skladniki z listy:", result.hasMatches);
-  console.log("Dopasowania:", result.matches);
+  console.log(result.list); // np. ["Parfum", "BHT"]
+  console.log(result.text); // np. "Parfum, BHT"
 }*/
