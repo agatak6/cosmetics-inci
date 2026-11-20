@@ -124,8 +124,8 @@ function findBannedCleanAtSephoraIngredients(inciText, { detectAnyPfas = true } 
 
 // --- Przykładowe użycie z polem tekstowym (<textarea id="inci-input">) ---
 const textarea = document.getElementById("inci-input");
-if (textarea) {
-  const result = findBannedCleanAtSephoraIngredients(textarea.value);
-  console.log("Czy znaleziono składniki z listy:", result.hasMatches);
-  console.log("Dopasowania:", result.matches);
-}
+//if (textarea) {
+//  const result = findBannedCleanAtSephoraIngredients(textarea.value);
+//  console.log("Czy znaleziono składniki z listy:", result.hasMatches);
+//  console.log("Dopasowania:", result.matches);
+//}
