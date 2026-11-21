@@ -38,7 +38,7 @@ const bad_inci = [
 "sodium lauryl sulfate"
 ];
 
-const konserwanty_red = ["dmdm hydantoin", "imidazolidinyl urea", "diazolidinyl urea", "quaternium-15", "bronopol", 
+let konserwanty_red = ["dmdm hydantoin", "imidazolidinyl urea", "diazolidinyl urea", "quaternium-15", "bronopol", 
 "2-bromo-2-nitropropane-1,3-diol",
 "2-bromo-2-nitropropane-1",
 "2-bromo-2-nitropropane",
@@ -89,8 +89,7 @@ let etoksylaty_inne = [
 "babassu oil glycereth-8 esters",
 "sodium glycereth-1 polyphosphate",
 "trilaureth-4 phosphate",
-"lauryl methyl gluceth-10 hydroxypropyldimonium chloride",
-
+"lauryl methyl gluceth-10 hydroxypropyldimonium chloride"
 ];
 
 let ingr_orange = [
@@ -159,13 +158,12 @@ let silikony_orange = [
 "polymethylsilsesquioxane", 
 "dimethicone crosspolymer", 
 "dimethicone/vinyl dimethicone crosspolymer", 
-"vinyl dimethicone/methicone silsesquioxane crosspolymer", "bis-peg-18 methyl ether dimethyl silane", "peg-12 dimethicone", "peg-10 dimethicone", "peg-8 dimethicone", "peg/ppg-18/18 dimethicone", "peg/ppg-20/15 dimethicone", "lauryl peg-9 polydimethylsiloxyethyl dimethicone", "cetyl peg/ppg-10/1 dimethicone", "dimethicone/peg-10/15 crosspolymer", "peg/ppg-10/1 dimethicone", "bis-peg-12 dimethicone", "lauryl peg-10 tris(trimethylsiloxy)silylethyl dimethicone",
+"vinyl dimethicone/methicone silsesquioxane crosspolymer", "bis-peg-18 methyl ether dimethyl silane", "peg-12 dimethicone", "peg-10 dimethicone", "peg-8 dimethicone", "peg/ppg-18/18 dimethicone", "peg/ppg-20/15 dimethicone", "lauryl peg-9 polydimethylsiloxyethyl dimethicone", "cetyl peg/ppg-10/1 dimethicone", "dimethicone/peg-10/15 crosspolymer", "peg/ppg-10/1 dimethicone", "bis-peg-12 dimethicone", "lauryl peg-10 tris(trimethylsiloxy)silylethyl dimethicone"
 ];
 
 /* Ciężkie silikony bez PEG (Czerwona Flaga — Średnia/Niska: główny problem to brak biodegradacji i nadbudowa build-up na włosach) */
 let silikony_yellow = [
-"polysilicone-11", "dimethiconol", "amodimethicone", "cetearyl methicone", "cetyl dimethicone", "stearyl dimethicone", "stearoxy dimethicone", "behenoxy dimethicone", "bis-aminopropyl dimethicone", "trimethylsilylamodimethicone", "silicone quaternium-16", "silicone quaternium-18", "silicone quaternium-22"
-
+"polysilicone-11", "dimethiconol", "amodimethicone", "cetearyl methicone", "cetyl dimethicone", "stearyl dimethicone", "stearoxy dimethicone", "behenoxy dimethicone", "bis-aminopropyl dimethicone", "trimethylsilylamodimethicone", "silicone quaternium-16", "silicone quaternium-18", "silicone quaternium-22"
 ];
 
 /* Silikony lekkie liniowe i niecykliczne (Bezpieczne dla skóry, ale syntetyczne i niebiodegradowalne) */
