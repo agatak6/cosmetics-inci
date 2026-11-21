@@ -81,6 +81,22 @@ function analizujSkladINCI(inciText, bazaKategorii, regulyRegex = []) {
 }
 
 
+const aZle = getInciBad();
+const aMplastik = getMikroplastik();
+const aSilikon = getSilikon();
+const aKontrow = getKontrowersje();
+const aAlergeny = getAlergeny();
+
+const mojaBazaINCI = {
+silikony: aSilikon,
+uwagi: aKontrow,
+akrylany: aMplastik,
+banned: aZle,
+alergeny: aAlergeny
+};
+
+
+
 
 /*
 const mojaBazaINCI = {
@@ -89,7 +105,7 @@ const mojaBazaINCI = {
   silikony_3_lekkie: ["Dimethicone", "Trisiloxane", "Caprylyl Methicone"],
   akrylany_3A_starsze: ["Carbomer", "Acrylates/C10-30 Alkyl Acrylate Crosspolymer"],
   konserwanty_syntetyczne: ["Phenoxyethanol", "Methylparaben"]
-};
+};*/
 
 const mojeRegulyRegex = [
   {
@@ -98,6 +114,7 @@ const mojeRegulyRegex = [
   }
 ];
 
+/*
 const skladDoAnalizy = `
   Aqua (Water), Caprylic/Capric Triglyceride, Glycerin, Dimethicone,
   Polysilicone-11, Carbomer, PEG-55 Propylene Glycol Oleate, Phenoxyethanol.
