@@ -1,12 +1,3 @@
-/**
- * Analizuje skład INCI i zwraca dla każdej kategorii (oraz 'nieznalezione')
- * osobny string z dopasowanymi składnikami rozdzielonymi ", ".
- *
- * @param {string} inciText - Surowy tekst składu INCI.
- * @param {Object.<string, string[]>} bazaKategorii - Obiekt z listami nazw INCI dla każdej grupy.
- * @param {Array<{kategoria: string, wzorzec: RegExp}>} [regulyRegex=[]] - Opcjonalne reguły Regex.
- * @returns {Object.<string, string>} Obiekt, gdzie każdą kategorią jest string (np. "Dimethicone, Polysilicone-11").
- */
 function analizujSkladINCI(inciText, bazaKategorii, regulyRegex = []) {
   const normalizuj = (nazwa) => {
     if (typeof nazwa !== 'string') return '';
