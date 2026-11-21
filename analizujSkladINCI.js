@@ -1,72 +1,72 @@
-function analizujSkladINCI(inciText, bazaKategorii, regulyRegex = []) {
-  const normalizuj = (nazwa) => {
+function analizujSkladINCI(inciText, bazaKategorii, regulyRegex) {
+  if (!regulyRegex) {
+    regulyRegex = [];
+  }
+
+  function normalizuj(nazwa) {
     if (typeof nazwa !== 'string') return '';
     return nazwa
       .toLowerCase()
       .replace(/^\+\/-\s*/, '')
       .replace(/\s*\(.*?\)\s*/g, '')
       .replace(/\.$/, '')
-      .trim();
-  };
+      .replace(/^\s+|\s+$/g, '');
+  }
 
-  const mapaSkladnikow = new Map();
-  const tymczasoweGrupy = {};
+  var mapaSkladnikow = {};
+  var tymczasoweGrupy = {};
 
-  // 1. Inicjalizacja grup tymczasowych dla list dokładnych (bez Object.entries i destrukturyzacji)
   if (bazaKategorii && typeof bazaKategorii === 'object') {
-    for (const kategoria in bazaKategorii) {
+    for (var kategoria in bazaKategorii) {
       if (!Object.prototype.hasOwnProperty.call(bazaKategorii, kategoria)) continue;
       if (kategoria === 'nieznalezione') continue;
 
       tymczasoweGrupy[kategoria] = [];
-      const lista = bazaKategorii[kategoria];
+      var lista = bazaKategorii[kategoria];
 
-      if (Array.isArray(lista)) {
-        for (let i = 0; i < lista.length; i++) {
-          const znormalizowany = normalizuj(lista[i]);
+      if (lista && typeof lista.length === 'number') {
+        for (var i = 0; i < lista.length; i++) {
+          var znormalizowany = normalizuj(lista[i]);
           if (znormalizowany) {
-            mapaSkladnikow.set(znormalizowany, kategoria);
+            mapaSkladnikow[znormalizowany] = kategoria;
           }
         }
       }
     }
   }
 
-  // 2. Inicjalizacja grup tymczasowych dla reguł Regex
-  if (Array.isArray(regulyRegex)) {
-    for (let i = 0; i < regulyRegex.length; i++) {
-      const regula = regulyRegex[i];
+  if (regulyRegex && typeof regulyRegex.length === 'number') {
+    for (var r = 0; r < regulyRegex.length; r++) {
+      var regula = regulyRegex[r];
       if (regula && regula.kategoria && regula.kategoria !== 'nieznalezione' && !tymczasoweGrupy[regula.kategoria]) {
         tymczasoweGrupy[regula.kategoria] = [];
       }
     }
   }
 
-  // 3. Grupa na składniki niepasujące do żadnej listy ani reguły
   tymczasoweGrupy.nieznalezione = [];
 
-  if (typeof inciText === 'string' && inciText.trim().length > 0) {
-    const surowaLista = inciText
-      .split(/,(?![^(]*\))/)
-      .map(item => item.trim())
-      .filter(item => item.length > 0);
+  if (typeof inciText === 'string' && inciText.replace(/^\s+|\s+$/g, '').length > 0) {
+    var surowaLista = inciText.split(/,(?![^(]*\))/);
 
-    for (let i = 0; i < surowaLista.length; i++) {
-      const oryginalnySkladnik = surowaLista[i];
-      const czystySkladnik = normalizuj(oryginalnySkladnik);
+    for (var s = 0; s < surowaLista.length; s++) {
+      var oryginalnySkladnik = surowaLista[s].replace(/^\s+|\s+$/g, '');
+      if (!oryginalnySkladnik) continue;
 
-      if (mapaSkladnikow.has(czystySkladnik)) {
-        const znalezionaKategoria = mapaSkladnikow.get(czystySkladnik);
+      var czystySkladnik = normalizuj(oryginalnySkladnik);
+
+      if (Object.prototype.hasOwnProperty.call(mapaSkladnikow, czystySkladnik)) {
+        var znalezionaKategoria = mapaSkladnikow[czystySkladnik];
         tymczasoweGrupy[znalezionaKategoria].push(oryginalnySkladnik);
         continue;
       }
 
-      let dopasowanoRegex = false;
-      if (Array.isArray(regulyRegex)) {
-        for (let j = 0; j < regulyRegex.length; j++) {
-          const regula = regulyRegex[j];
-          if (regula && regula.wzorzec instanceof RegExp && regula.wzorzec.test(czystySkladnik)) {
-            tymczasoweGrupy[regula.kategoria].push(oryginalnySkladnik);
+      var dopasowanoRegex = false;
+      if (regulyRegex && typeof regulyRegex.length === 'number') {
+        for (var j = 0; j < regulyRegex.length; j++) {
+          var reg = regulyRegex[j];
+          if (reg && reg.wzorzec && typeof reg.wzorzec.test === 'function' && reg.wzorzec.test(czystySkladnik)) {
+            tymczasoweGrupy[reg.kategoria].push(oryginalnySkladnik);
             dopasowanoRegex = true;
             break;
           }
@@ -79,16 +79,16 @@ function analizujSkladINCI(inciText, bazaKategorii, regulyRegex = []) {
     }
   }
 
-  // 4. Konwersja każdej tablicy na pojedynczy string
-  const wynikStringi = {};
-  for (const kategoria in tymczasoweGrupy) {
-    if (Object.prototype.hasOwnProperty.call(tymczasoweGrupy, kategoria)) {
-      wynikStringi[kategoria] = tymczasoweGrupy[kategoria].join(', ');
+  var wynikStringi = {};
+  for (var klucz in tymczasoweGrupy) {
+    if (Object.prototype.hasOwnProperty.call(tymczasoweGrupy, klucz)) {
+      wynikStringi[klucz] = tymczasoweGrupy[klucz].join(', ');
     }
   }
 
   return wynikStringi;
 }
+
 
 
 const aZle = getInciBad();
