@@ -91,18 +91,18 @@ function analizujSkladINCI(inciText, bazaKategorii, regulyRegex) {
 
 
 
-const aZle = getInciBad();
-const aMplastik = getMikroplastik();
-const aSilikon = getSilikon();
-const aKontrow = getKontrowersje();
-const aAlergeny = getAlergeny();
+let aZle2 = getInciBad();
+let aMplastik2 = getMikroplastik();
+let aSilikon2 = getSilikon();
+let aKontrow2 = getKontrowersje();
+let aAlergeny2 = getAlergeny();
 
 let mojaBazaINCI = {
-silikony: aSilikon,
-uwagi: aKontrow,
-akrylany: aMplastik,
-banned: aZle,
-alergeny: aAlergeny
+silikony: aSilikon2,
+uwagi: aKontrow2,
+akrylany: aMplastik2,
+banned: aZle2,
+alergeny: aAlergeny2
 };
 
 
