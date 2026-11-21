@@ -1,4 +1,4 @@
-const bad_inci = [
+let bad_inci = [
 //skladnik farb
 "p-phenylenediamine",
 //zle alkohole
