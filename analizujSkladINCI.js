@@ -9,29 +9,45 @@
  */
 function analizujSkladINCI(inciText, bazaKategorii, regulyRegex = []) {
   const normalizuj = (nazwa) => {
+    if (typeof nazwa !== 'string') return '';
     return nazwa
       .toLowerCase()
-      .replace(/^\+\/-\s*/, '')     // Usuwa "+/- " przed barwnikami (np. "+/- CI 16035")
-      .replace(/\s*\(.*?\)\s*/g, '') // Usuwa dopiski w nawiasach (np. "Aqua (Water)" -> "aqua")
-      .replace(/\.$/, '')            // Usuwa kropkę na końcu składu
+      .replace(/^\+\/-\s*/, '')
+      .replace(/\s*\(.*?\)\s*/g, '')
+      .replace(/\.$/, '')
       .trim();
   };
 
   const mapaSkladnikow = new Map();
   const tymczasoweGrupy = {};
 
-  // 1. Inicjalizacja grup tymczasowych dla list dokładnych
-  for (const [kategoria, lista] of Object.entries(bazaKategorii)) {
-    tymczasoweGrupy[kategoria] = [];
-    for (const skladnik of lista) {
-      mapaSkladnikow.set(normalizuj(skladnik), kategoria);
+  // 1. Inicjalizacja grup tymczasowych dla list dokładnych (bez Object.entries i destrukturyzacji)
+  if (bazaKategorii && typeof bazaKategorii === 'object') {
+    for (const kategoria in bazaKategorii) {
+      if (!Object.prototype.hasOwnProperty.call(bazaKategorii, kategoria)) continue;
+      if (kategoria === 'nieznalezione') continue;
+
+      tymczasoweGrupy[kategoria] = [];
+      const lista = bazaKategorii[kategoria];
+
+      if (Array.isArray(lista)) {
+        for (let i = 0; i < lista.length; i++) {
+          const znormalizowany = normalizuj(lista[i]);
+          if (znormalizowany) {
+            mapaSkladnikow.set(znormalizowany, kategoria);
+          }
+        }
+      }
     }
   }
 
   // 2. Inicjalizacja grup tymczasowych dla reguł Regex
-  for (const regula of regulyRegex) {
-    if (!tymczasoweGrupy[regula.kategoria]) {
-      tymczasoweGrupy[regula.kategoria] = [];
+  if (Array.isArray(regulyRegex)) {
+    for (let i = 0; i < regulyRegex.length; i++) {
+      const regula = regulyRegex[i];
+      if (regula && regula.kategoria && regula.kategoria !== 'nieznalezione' && !tymczasoweGrupy[regula.kategoria]) {
+        tymczasoweGrupy[regula.kategoria] = [];
+      }
     }
   }
 
@@ -44,27 +60,28 @@ function analizujSkladINCI(inciText, bazaKategorii, regulyRegex = []) {
       .map(item => item.trim())
       .filter(item => item.length > 0);
 
-    for (const oryginalnySkladnik of surowaLista) {
+    for (let i = 0; i < surowaLista.length; i++) {
+      const oryginalnySkladnik = surowaLista[i];
       const czystySkladnik = normalizuj(oryginalnySkladnik);
 
-      // Priorytet 1: Dokładne dopasowanie z list
       if (mapaSkladnikow.has(czystySkladnik)) {
         const znalezionaKategoria = mapaSkladnikow.get(czystySkladnik);
         tymczasoweGrupy[znalezionaKategoria].push(oryginalnySkladnik);
         continue;
       }
 
-      // Priorytet 2: Dopasowanie przez reguły Regex
       let dopasowanoRegex = false;
-      for (const regula of regulyRegex) {
-        if (regula.wzorzec.test(czystySkladnik)) {
-          tymczasoweGrupy[regula.kategoria].push(oryginalnySkladnik);
-          dopasowanoRegex = true;
-          break;
+      if (Array.isArray(regulyRegex)) {
+        for (let j = 0; j < regulyRegex.length; j++) {
+          const regula = regulyRegex[j];
+          if (regula && regula.wzorzec instanceof RegExp && regula.wzorzec.test(czystySkladnik)) {
+            tymczasoweGrupy[regula.kategoria].push(oryginalnySkladnik);
+            dopasowanoRegex = true;
+            break;
+          }
         }
       }
 
-      // Priorytet 3: Składnik spoza list i reguł
       if (!dopasowanoRegex) {
         tymczasoweGrupy.nieznalezione.push(oryginalnySkladnik);
       }
@@ -73,8 +90,10 @@ function analizujSkladINCI(inciText, bazaKategorii, regulyRegex = []) {
 
   // 4. Konwersja każdej tablicy na pojedynczy string
   const wynikStringi = {};
-  for (const [kategoria, tablica] of Object.entries(tymczasoweGrupy)) {
-    wynikStringi[kategoria] = tablica.join(', ');
+  for (const kategoria in tymczasoweGrupy) {
+    if (Object.prototype.hasOwnProperty.call(tymczasoweGrupy, kategoria)) {
+      wynikStringi[kategoria] = tymczasoweGrupy[kategoria].join(', ');
+    }
   }
 
   return wynikStringi;
