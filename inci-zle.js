@@ -138,7 +138,7 @@ let konserwanty_orange = ["Chlorphenesin", "Iodopropynyl Butylcarbamate", "Tricl
 /* -------------------------- */
 // Kontrowersyjne 
 function getKontrowersje(){
-const inci_warnings = [...etoksylaty_orange, ...etoksylaty_yellow, ...etoksylaty_inne, ...ingr_orange, ...mikroplastik_exc, ...konserwanty_orange];
+let inci_warnings = [...etoksylaty_orange, ...etoksylaty_yellow, ...etoksylaty_inne, ...ingr_orange, ...mikroplastik_exc, ...konserwanty_orange];
 return inci_warnings;
 }
 
@@ -198,7 +198,7 @@ let silikony_inne = [
 /* -------------------------- */
 
 function getSilikon(){
-const silikon = [...silikony_orange, ...silikony_yellow, ...silikony_light, ...silikony_inne];
+let silikon = [...silikony_orange, ...silikony_yellow, ...silikony_light, ...silikony_inne];
 
 return silikon;
 }
@@ -270,7 +270,7 @@ let mikroplastik_inne = [
 
 
 function getMikroplastik(){
-const mikroplastik = [...akrylany_red, ...akrylany_marron, ...akrylany_orange, ...akrylany_yellow, ...mikroplastik_inne];
+let mikroplastik = [...akrylany_red, ...akrylany_marron, ...akrylany_orange, ...akrylany_yellow, ...mikroplastik_inne];
 
 return mikroplastik;
 }
@@ -295,7 +295,7 @@ let alergeny_yellow = [
 
 function getAlergeny(){
 
-const alergeny = [...alergeny_red, ...alergeny_orange, ...alergeny_yellow];
+let alergeny = [...alergeny_red, ...alergeny_orange, ...alergeny_yellow];
 
 return alergeny;
 }
