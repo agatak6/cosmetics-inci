@@ -97,7 +97,7 @@ const aSilikon = getSilikon();
 const aKontrow = getKontrowersje();
 const aAlergeny = getAlergeny();
 
-const mojaBazaINCI = {
+let mojaBazaINCI = {
 silikony: aSilikon,
 uwagi: aKontrow,
 akrylany: aMplastik,
