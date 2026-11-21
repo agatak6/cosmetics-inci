@@ -59,9 +59,7 @@ function normalizeIngredient(str) {
 }
 
 /**
- * Zwraca znalezione składniki jako:
- * - list: tablica stringów (np. ["Parfum", "Sodium Lauryl Sulfate"])
- * - text: tekst rozdzielony przecinkiem (np. "Parfum, Sodium Lauryl Sulfate")
+ * Zwraca znalezione składniki jako tekst
  */
 function findBannedCleanAtSephoraIngredients(inciText, options) {
   var opts = options || {};
@@ -126,6 +124,5 @@ function findBannedCleanAtSephoraIngredients(inciText, options) {
 /* var textarea = document.getElementById("inci-input");
 if (textarea) {
   var result = findBannedCleanAtSephoraIngredients(textarea.value);
-  console.log(result.list); // np. ["Parfum", "BHT"]
-  console.log(result.text); // np. "Parfum, BHT"
+  console.log(result); // np. "Parfum, BHT"
 }*/
