@@ -38,7 +38,7 @@ const bad_inci = [
 "sodium lauryl sulfate"
 ];
 
-konserwanty_red = ["dmdm hydantoin", "imidazolidinyl urea", "diazolidinyl urea", "quaternium-15", "bronopol", 
+const konserwanty_red = ["dmdm hydantoin", "imidazolidinyl urea", "diazolidinyl urea", "quaternium-15", "bronopol", 
 "2-bromo-2-nitropropane-1,3-diol",
 "2-bromo-2-nitropropane-1",
 "2-bromo-2-nitropropane",
