@@ -53,7 +53,7 @@ let konserwanty_red = ["dmdm hydantoin", "imidazolidinyl urea", "diazolidinyl ur
 let etoksylaty_red = ["sodium laureth sulfate", "ammonium laureth sulfate", "sodium myreth sulfate", "sodium trideceth sulfate", "sodium c12-15 pareth sulfate", "magnesium laureth sulfate", "tea-laureth sulfate", "c11-15 pareth-7", "c12-13 pareth-9", "c12-15 pareth-12", "nonoxynol-9", "nonoxynol-10", "octoxynol-9", "octoxynol-10"];
 
 /* Lista 2: Klasyczne emulgatory, solubilizatory i zagęstniki PEG- / PPG- / -eth / Polysorbate (Czerwona Flaga — Średnia: łagodniejsze na skórze, ale pełna etoksylacja i potencjał promotora przenikania)*/
-let etoksylaty_orange = ["peg-40 hydrogenated castor oil", "peg-60 hydrogenated castor oil", "peg-100 stearate", "peg-20 stearate", "peg-40 stearate", "peg-150 distearate", "peg-150 pentaerythrityl tetrastearate", "peg-120 methyl glucose dioleate", "peg-7 glyceryl cocoate", "peg-200 hydrogenated glyceryl palmate", "peg-6 caprylic/capric glycerides", "peg-8 caprylic/capric glycerides", "peg-30 dipolyhydroxystearate", "peg-10 dimethicone", "peg-12 dimethicone", "polysorbate 20", "polysorbate 40", "polysorbate 60", "polysorbate 80", "polysorbate 85", "ceteareth-12", "ceteareth-20", "ceteareth-25", "ceteareth-30", "steareth-2", "steareth-20", "steareth-21", "oleth-5", "oleth-10", "oleth-20", "laureth-3", "laureth-4", "laureth-7", "laureth-9", "laureth-23", "isoceteth-20", "ceteth-10", "ceteth-20", "beheneth-10", "beheneth-25", "trideceth-6", "trideceth-7", "trideceth-8", "trideceth-9", "trideceth-12", "ppg-15 stearyl ether", "ppg-26-buteth-26", "ppg-3 benzyl ether myristate", "ppg-14 butyl ether", "ppg-5-ceteth-20", "glycereth-26", "methyl gluceth-10", "methyl gluceth-20", "sorbeth-30 tetraoleate", "peg-20 glyceryl triisostearate"];
+let etoksylaty_orange = ["peg-40 hydrogenated castor oil", "peg-60 hydrogenated castor oil", "peg-100 stearate", "peg-20 stearate", "peg-40 stearate", "peg-150 distearate", "peg-150 pentaerythrityl tetrastearate", "peg-120 methyl glucose dioleate", "peg-7 glyceryl cocoate", "peg-200 hydrogenated glyceryl palmate", "peg-6 caprylic/capric glycerides", "peg-8 caprylic/capric glycerides", "peg-30 dipolyhydroxystearate", "peg-10 dimethicone", "peg-12 dimethicone", "polysorbate 20", "polysorbate 40", "polysorbate 60", "polysorbate 80", "polysorbate 85", "ceteareth-12", "ceteareth-20", "ceteareth-25", "ceteareth-30", "steareth-2", "steareth-20", "steareth-21", "oleth-5", "oleth-10", "oleth-20", "laureth-3", "laureth-4", "laureth-7", "laureth-9", "laureth-23", "isoceteth-20", "ceteth-10", "ceteth-10 phosphate", "ceteth-20", "beheneth-10", "beheneth-25", "trideceth-6", "trideceth-7", "trideceth-8", "trideceth-9", "trideceth-12", "ppg-15 stearyl ether", "ppg-26-buteth-26", "ppg-3 benzyl ether myristate", "ppg-14 butyl ether", "ppg-5-ceteth-20", "glycereth-26", "methyl gluceth-10", "methyl gluceth-20", "sorbeth-30 tetraoleate", "peg-20 glyceryl triisostearate"];
 
 /* Lista 3: Poloksamery i czyste polimery glikolu polietylenowego (Czerwona Flaga — Niska: bardzo dobra tolerancja dermatologiczna, odrzucane wyłącznie za syntezę z tlenku etylenu)*/
 let etoksylaty_yellow = ["poloxamer 184", "poloxamer 188", "poloxamer 407", "poloxamer 124", "peg-4", "peg-6", "peg-8", "peg-12", "peg-32", "peg-75", "peg-90m", "peg-14m", "peg-180", "peg-400"];
@@ -76,8 +76,7 @@ let etoksylaty_inne = [
 "c12-13 pareth-3",
 "c12-14 pareth-12",
 "ceteareth-60 myristyl glycol",
-"ceteth-2",
-"ceteth-10 phosphate",
+"ceteth-2",
 "deceth-7",
 "disodium laureth sulfosuccinate",
 "glycereth-26 phosphate",
