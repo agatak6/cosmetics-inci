@@ -509,7 +509,7 @@ let ekstraktyGlowne = [
   ["Ekstrakt z Tymianku / Macierzanki", "thymus vulgaris extract, thymus serpyllum extract, thymus vulgaris flower/leaf extract", "Silny antyseptyk. Działa przeciwbakteryjnie, ściągająco i oczyszcza skórę."],
   ["Ekstrakt z Lipy (Drobnolistnej / Szerokolistnej)", "tilia cordata flower extract, tilia platyphyllos flower extract, tilia tomentosa bud extract, tilia cordata wood extract", "Bogaty w śluzy i flawonoidy. Działa silnie kojąco, nawilżająco i przeciwzapalnie."],
   ["Ekstrakt z Wróżki Różnobarwnej (Turkey Tail)", "trametes versicolor extract", "Bogaty w polisacharydy. Wzmacnia odporność skóry i działa antyoksydacyjnie."],
-  ["Ekstrakt z Tremella Fuciformis (Grzyb Śnieżny)", "tremella fuciformis (mushroom) extract, tremella fuciformis sporocarp extract", "Potężny humektant, nawilża silniej niż kwas hialuronowy."],
+  ["Ekstrakt z Tremella Fuciformis (Grzyb Śnieżny)", "tremella fuciformis (mushroom) extract, tremella fuciformis sporocarp extract, tremella fuciformis extract", "Potężny humektant, nawilża silniej niż kwas hialuronowy."],
   ["Ekstrakt z Grzyba Matsutake", "tricholoma matsutake extract", "Działa nawilżająco, przeciwstarzeniowo, rozjaśnia przebarwienia i dodaje blasku."],
   ["Ekstrakt z Koniczyny Łąkowej", "trifolium pratense (clover) flower extract, trifolium pratense flower extract", "Bogaty w fitoestrogeny. Działa przeciwstarzeniowo i uelastyczniająco."],
   ["Ekstrakt z Kozieradki Pospolitej", "trigonella foenum-graecum seed extract", "Działa odżywczo, nawilżająco i kondycjonująco."],
