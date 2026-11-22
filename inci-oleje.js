@@ -211,8 +211,6 @@ function getOils(oils){
 "passiflora edulis (passion flower) seed oil",
 "passiflora edulis (passion fruit) seed oil",
 "passiflora incarnata seed oil",
-"peg-40 hydrogenated castor oil",
-"peg 40 hydrogenated castor oil",
 "pelargonium graveolens (geranium) flower oil",
 "pelargonium graveolens (geranium) oil", 
 "pelargonium graveolens flower oil",
