@@ -62,6 +62,7 @@ ok_inci = [
 "sorbitan palmitate",
 "sorbitan sesquioleate",
 "soybean glycerides",
+"starch hydroxypropyltrimonium chloride",
 "stearalkonium hectorite",
 "stearamidopropyl dimethylamine",
 "stearyl alcohol",
