@@ -1,5 +1,4 @@
-
-export async function analyzeInci(inciText, apiKey) {
+async function analyzeInci(inciText, apiKey) {
   if (!apiKey) {
     throw new Error("Brak klucza API.");
   }
