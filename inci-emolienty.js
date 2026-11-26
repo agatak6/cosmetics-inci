@@ -71,6 +71,9 @@ function getEmolienty(){
 "sunflower seed oil polyglyceryl-4 esters",
 "hydrogenated sunflower seed oil glyceryl esters",
 "hydrogenated sunflower seed oil polyglyceryl-3 esters",
+"argan oil polyglyceryl-6 esters",
+"olive oil decyl esters",
+"olive oil polyglyceryl-4 esters",
 "polyglyceryl-4 pelargonate",
 "polyglyceryl-6 oleate",
 "polyglyceryl-2 tetraisostearate",
@@ -201,6 +204,11 @@ function getOkluzja(){
 "hydrogenated castor oil",
 "hydrogenated castor oil behenyl esters",
 "hydrogenated castor oil/sebacic acid copolymer",
+"hydrogenated palm oil",
+"hydrogenated rapeseed oil",
+"hydrogenated soy vegetable oil",
+"hydrogenated soybean oil",
+"hydrogenated vegetable oil"
 "trihydroxystearin",
 //inne
 "cetyl esters",
@@ -235,6 +243,307 @@ let oleje = [
 function getOleje(){
   return oleje;
 }
+
+
+
+/*
+1. Oleje eteryczne i aromatyczne (Alert alergenowy / zapachowy)
+Składniki lotne, silnie skoncentrowane — w kosmetykach odpowiadają za zapach, działanie antyseptyczne lub pobudzające mikrokrążenie, ale niosą najwyższe ryzyko podrażnień i alergii kontaktowej (wymagają niskich stężeń).
+*/
+
+let oleje1 = [
+"aniba rosodora (rosewood) wood oil",
+"anthemis nobilis flower oil",
+"anthemis nobilis (chamomile) flower oil",
+"artemisia vulgaris oil",
+"backhousia citriodora leaf oil",
+"boswellia carterii oil",
+"boswellia carteri (frankincense) gum oil",
+"cananga odorata flower oil",
+"cananga odorata (ylang) flower oil",
+"cananga odorata (ylang ylang) flower oil",
+"carum petroselinum seed oil",
+"cinnamomum zeylanicum bark oil",
+"cinnamomum zeylanicum leaf oil",
+"cistus ladaniferus oil",
+"citrus aurantifolia (lime) oil",
+"citrus aurantifolia peel oil",
+"citrus aurantium amara (bitter orange) peel oil",
+"citrus aurantium amara (bitter orange) leaf oil",
+"citrus aurantium bergamia (bergamot) fruit oil",
+"citrus auranitum bergamia fruit oil",
+"citrus aurantium bergamia (bergamot) peel oil",
+"citrus aurantium bergamia fruit oil",
+"citrus aurantium bergamia peel oil",
+"citrus aurantium dulcis oil",
+"citrus aurantium dulcis (orange) oil",
+"citrus aurantium dulcis (orange) peel oil",
+"citrus aurantium dulcis (orange) peel oil expressed",
+"citrus aurantium peel oil",
+"citrus grandis (grapefruit) peel oil",
+"citrus junos peel oil",
+"citrus limon (lemon) peel oil",
+"citrus limon peel oil",
+"citrus medica limonum (lemon) fruit oil",
+"citrus nobilis (mandarin orange) peel oil",
+"citrus nobilis (mandarin orange) oil",
+"citrus nobilis peel oil expressed",
+"citrus tangerina (tangerine) peel oil",
+"cupressus sempervirens leaf/nut/stem oil",
+"cymbopogon citratus leaf oil",
+"cymbopogon martini oil",
+"cymbopogon nardus (citronella) oil",
+"dalbergia sissoo wood oil",
+"damask rose flower oil",
+"eucalyptus globulus leaf oil",
+"eucalyptus globulus (eucalyptus) leaf oil",
+"eucalyptus globulus oil",
+"helichrysum gymnocephalum oil",
+"illicum verum oil",
+"jasminum officinale oil",
+"juniperus communis (juniper) fruit oil",
+"juniperus oxycedrus wood oil",
+"juniperus virginiana oil",
+"lavandula angustifolia (lavender) flower oil",
+"lavandula angustifolia (lavender) oil",
+"lavandula angustifolia oil",
+"lavandula hybrida oil",
+"leptospermum scoparium branch/leaf oil",
+"litsea cubeba fruit oil",
+"melaleuca alternifolia (tea tree) leaf oil",
+"melaleuca alternifolia leaf oil",
+"melaleuca leucadendron cajuputi (cajuput) oil",
+"mentha arvensis leaf oil",
+"mentha piperita (peppermint) leaf oil",
+"mentha piperita (peppermint) oil",
+"mentha piperita oil",
+"pelargonium graveolens (geranium) flower oil",
+"pelargonium graveolens (geranium) oil",
+"pelargonium graveolens flower oil",
+"petroselinum crispum (parsley) leaf oil",
+"pinus sylvestris (pine) leaf oil",
+"pogostemon cablin (patchouli) oil",
+"pogostemon cablin oil",
+"rosa damascena flower oil",
+"rosa damascena oil",
+"rose flower oil",
+"rose oil",
+"rosmarinus officinalis oil",
+"rosmarinus officinalis (rosemary) leaf oil",
+"salvia officinalis (sage) oil",
+"santalum album (sandalwood) oil",
+"santalum album oil",
+"vanilla planifolia fruit oil"
+];
+
+/*
+2. Oleje lekkie i schnące (Cera tłusta, mieszana, trądzikowa / Włosy niskoporowate)
+Bogate w wielonienasycone kwasy tłuszczowe (linolowy, alfa- i gamma-linolenowy). Szybko się wchłaniają, regulują sebum, nie zapychają porów i nie obciążają cienkich włosów.
+*/
+
+let oleje2 = [
+"aleurites moluccana seed oil",
+"aleurites moluccanus (kukui) seed oil",
+"aleurites moluccanus seed oil",
+"amaranthus cruentus seed oil",
+"amaranthus caudatus seed oil",
+"borago officinalis seed oil",
+"borago officinalis (borage) seed oil",
+"brassica oleracea italica seed oil",
+"brassica oleracea italica (broccoli) seed oil",
+"cannabis sativa (hemp) seed oil",
+"cannabis sativa oil",
+"cannabis sativa seed oil",
+"carthamus tinctorius seed oil",
+"carthamus tinctorius (safflower) seed oil",
+"citrullus lanatus seed oil",
+"citrullus lanatus (aquamelon) seed oil",
+"corylus avellana (hazel) seed oil",
+"corylus avellana (hazelnut) seed oil",
+"echium plantagineum seed oil",
+"ficus carica seed oil",
+"fragaria ananassa seed oil",
+"fragaria ananassa (strawberry) seed oil",
+"gossypium herbaceum (cotton) seed oil",
+"gossypium herbaceum seed oil",
+"hylocereus undatus (dragonfruit) seed oil",
+"juglans regia seed oil",
+"linum usitatissimum seed oil",
+"linum usitatissimum (linseed) seed oil",
+"luffa cylindrica seed oil",
+"nigella sativa seed oil (black cumin seed oil)",
+"nigella sativa (black cumin) seed oil",
+"nigella sativa seed oil",
+"oenothera biennis (evening primrose) seed oil",
+"oenothera biennis oil",
+"oenothera biennis seed oil",
+"oeonthera biennis seed oil",
+"oenothera biennis (evening primrose) oil",
+"opuntia ficus-indica seed oil",
+"opuntia ficus-indica (prickly pear) seed oil",
+"passiflora edulis seed oil",
+"passiflora edulis (passion flower) seed oil",
+"passiflora edulis (passion fruit) seed oil",
+"passiflora incarnata seed oil",
+"perilla ocymoides seed oil",
+"plukenetia volubilis seed oil",
+"plukenetia volubilis (sacha inchi) seed oil",
+"punica granatum (pomegranate) seed oil",
+"pyrus malus (apple) seed oil",
+"ribes nigrum (black currant) seed oil",
+"ribes nigrum (blackcurrant) seed oil",
+"ribes nigrum seed oil",
+"rosa canina (fruit) oil",
+"rosa canina (rosa canina) fruit oil",
+"rosa canina fruit oil",
+"rosa canina (rosehip) fruit oil",
+"rosa canina seed oil",
+"rosa moschata seed oil",
+"rosa mosqueta (rosehip) oil",
+"rosa rubiginosa (rosehip) seed oil",
+"rubus fruticosus seed oil",
+"rubus idaeus (raspberry) seed oil",
+"rubus idaeus seed oil",
+"salvia hispanica seed oil",
+"salvia hispanica (chia) seed oil",
+"silybum marianum seed oil",
+"sisymbrium irio seed oil",
+"solanum lycopersicum (tomato) seed oil",
+"vaccinium corymbosum (blueberry) seed oil",
+"vaccinium macrocarpon seed oil",
+"vaccinium macrocarpon (cranberry) seed oil",
+"vitis vinifera (grape) seed oil",
+"vitis vinifera seed oil"
+];
+
+/*3. Oleje średnie i bazowe (Uniwersalne / Cera normalna i mieszana / Włosy średnioporowate)
+Zbalansowane oleje bogate w kwas oleinowy i linolowy, fitosterole oraz tokoferole. Stanowią stabilną bazę formulacji, zmiękczają i wygładzają bez skrajnego efektu okluzji.*/
+
+let oleje3 = [
+"adansonia digitata seed oil",
+"adansonia digitata (baobab) oil",
+"apricot kernel oil",
+"arachis hypogaea oil",
+"argania spinosa kernel oil",
+"argania spinosa seed oil",
+"argania spinosa oil",
+"avena sativa (oat) kernel oil",
+"avena sativa kernel oil",
+"avena sativa kernel (oat) oil",
+"brassica alba oil",
+"brassica campestris seed oil",
+"brassica campestris (rapeseed) seed oil",
+"camellia japonica seed oil",
+"camellia oleifera seed oil",
+"camellia seed oil",
+"camellia oleifera (camellia) seed oil",
+"camellia oleifera (green tea) seed oil",
+"camellia sinensis seed oil",
+"canola (canola) oil",
+"canola oil",
+"caryodendron orinocense (kahai) seed oil",
+"caryodendron orinocense seed oil",
+"chaenomeles japonica seed oil",
+"coffea arabica seed oil",
+"coffea arabica (coffee) seed oil",
+"cucurbita pepo seed oil",
+"cucurbita pepo (pumpkin) seed oil",
+"drumstick seed oil",
+"glycine soja (soybean) oil",
+"glycine soja oil",
+"helianthus annuus (sunflower) seed oil",
+"helianthus annuus (sunflower) oil",
+"helianthus annuus (sunflower) hybrid oil",
+"helianthus annuus seed oil",
+"helianthus annuus hybrid oil",
+"heliantus annus (sunflower) seed oil",
+"limnanthes alba seed oil",
+"limnanthes alba (meadowfoam) seed oil",
+"lupinus albus seed oil",
+"moringa oleifera seed oil",
+"olus (vegetable) oil",
+"olus oil",
+"oryza sativa (rice) bran oil",
+"oryza sativa bran oil",
+"oryza sativa seed oil",
+"prunus amygdalus dulcis (sweet almond) oil",
+"prunus amygdalus dulcis oil",
+"prunus armeniaca (apricot) kernel oil",
+"prunus armeniaca kernel oil",
+"prunus avium seed oil",
+"prunus cerasus (sour cherry) kernel oil",
+"prunus cerasus (bitter cherry) seed oil",
+"prunus domestica seed oil",
+"prunus persica (peach) kernel oil",
+"prunus persica kernel oil",
+"sesamum indicum seed oil",
+"sesamum indicum (sesame) seed oil",
+"vegetable oil"
+];
+
+/*4. Oleje odżywcze, okluzyjne i masła (Cera sucha, dojrzała / Włosy wysokoporowate, zniszczone)
+Bogate w nasycone kwasy tłuszczowe (laurynowy, palmitynowy, stearynowy), kwas oleinowy lub rycynolowy. Tworzą silną barierę ochronną zapobiegającą ucieczce wody (TEWL), natłuszczają i wygładzają.*/
+
+let oleje4 = [
+"astrocaryum vulgare kernel oil",
+"bertholletia excels seed oil",
+"bertholletia excelsa (brazil nut) seed oil",
+"bertholletia excelsa (brazil) nut oil",
+"castor oil",
+"cocos nucifera (coconut) oil",
+"cocos nucifera oil",
+"elaeis guineensis oil",
+"elaeis guineensis (palm) oil",
+"elaeis guineensis (palm) kernel oil",
+"macadamia integrifolia seed oil",
+"macadamia ternifolia seed oil",
+"olea europaea (olive) fruit oil",
+"olea europaea fruit oil",
+"olea europaea husk oil",
+"olea europaea (olive) husk oil",
+"olea europea (olive) fruit oil",
+"orbignya oleifera (babassu) seed oil",
+"orbignya oleifera seed oil",
+"persea gratissima (avocado) oil",
+"persea gratissima oil",
+"ricinus communis (castor) seed oil",
+"ricinus communis seed oil",
+"sclerocarya birrea (marula) seed oil",
+"sclerocarya birrea seed oil",
+"triticum vulgare germ oil"
+];
+
+/*
+5. Oleje specjalistyczne i aktywne (Antyoksydacyjne, regenerujące, bio-retinol)
+Oleje stosowane w niższych stężeniach jako składniki aktywne — bogate w karotenoidy (nadają pomarańczowy kolor), polifenole, bakuchiol, kwas kalofillowy czy związki o działaniu przeciwzapalnym i łagodzącym.
+*/
+
+let oleje5 = [
+"bixa orellana seed oil", // Annatto - karotenoidy, ochrona UV/antyoksydant
+"calophyllum inophyllum seed oil", // Tamanu - silna regeneracja, blizny, trądzik
+"carapa guaianensis seed oil (andiroba oil)", // Andiroba - kojący, przeciwzapalny
+"carapa guaianensis seed oil",
+"daucus carota sativa (carrot) seed oil", // Nasiona marchwi - beta-karoten, regeneracja
+"daucus carota sativa seed oil",
+"euterpe oleracea fruit oil (açai fruit oil)", // Acai - silne polifenole
+"hippophae rhamnoides (sea buckthorn) fruit oil", // Rokitnik - kwas palmitooleinowy (omega-7) i karotenoidy
+"hippophae rhamnoides fruit oil",
+"hippophae rhamnoides fruit oil (seabuckthorn oil)",
+"hippophae rhamnoides fruit (seabuckthorn) oil",
+"hippophae rhamnoides oil",
+"hippophae rhamnoides (sea buckthorn) oil",
+"hippophae rhamnoides seed oil",
+"hippophae rhamnoides (sea buckthorn) fruit/seed oil",
+"mauritia flexuosa fruit oil", // Buriti - bogate źródło beta-karotenu
+"mauritia flexuosa (buriti) fruit oil",
+"pongamia glabra seed oil", // Karanja - naturalny booster ochrony UV i antyoksydant
+"psoralea corylifolia (bakuchi) seed oil", // Bakuchi - roślinna alternatywa retinolu
+"symphytum officinale leaf oil", // Żywokost - łagodzenie i regeneracja
+"oxidized corn oil", //Aktywny lipid łagodzący (nie olej do włosów na długość). Działanie: Silnie kojące, przeciwświądowe, odbudowujące barierę.
+"ozonized olive oil" //Aktywny lipid antyseptyczny / trychologiczny. Typowe uzycie: Skóra głowy z łupieżem, ŁZS, stany zapalne, trądzik
+];
+
+
 
 /*
 function: setOils(oils)
