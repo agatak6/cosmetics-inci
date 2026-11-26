@@ -257,6 +257,7 @@ ok_inci = [
 "helichrysum italicum flower/leaf/stem water",
 "himalaya water", "himalaya aqua",
 "hippophae rhamnoides fruit juice",
+"hippophae rhamnoides water",
 "lavandula angustifolia flower water",
 "malus domestica fruit water",
 "melaleuca alternifolia (tea tree) leaf water",
