@@ -270,6 +270,7 @@ ok_inci = [
 "sulfide/hydrogen sulfide mineral aqua",
 "sulfide/hydrogen sulfide mineral water",
 "vaccinium myrtillus (bilberry) fruit juice",
+"vaccinium vitis-idaea (lingonberry) fruit juice",
 "vitis vinifera fruit water"
 ]
 return ok_inci;
