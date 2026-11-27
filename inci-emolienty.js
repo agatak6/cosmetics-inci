@@ -236,13 +236,7 @@ function getOkluzja(){
 }
 
 // ------   --------   --------   -------
-let oleje = [
-["olej 1 nazwa", "olej1 inci", "olej1 opis"]
-]
 
-function getOleje(){
-  return oleje;
-}
 
 
 
@@ -550,8 +544,36 @@ let oils = [...oleje1, ...oleje2, ...oleje3, ...oleje4, ...oleje5];
 return oils;
 }
 
+function getOleje1(){
+  return oleje1;
+}      
+
+function getOleje2(){
+  return oleje2;
+}       
+
+function getOleje3(){
+  return oleje3;
+}     
+
+function getOleje4(){
+  return oleje4;
+}       
+
+function getOleje5(){
+  return oleje5;
+}       
+
 function getOilsAzs(){
 let oils = [
 ];
 return oils;
-}                
+}      
+
+let oleje = [
+["olej 1 nazwa", "olej1 inci", "olej1 opis"]
+]
+
+function getOleje(){
+  return oleje;
+}          
