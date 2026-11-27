@@ -96,13 +96,23 @@ let aMplastik2 = getMikroplastik();
 let aSilikon2 = getSilikon();
 let aKontrow2 = getKontrowersje();
 let aAlergeny2 = getAlergeny();
+let aOleje1 = getOleje1();
+let aOleje2 = getOleje2();
+let aOleje3 = getOleje3();
+let aOleje4 = getOleje4();
+let aOleje5 = getOleje5();
 
 let mojaBazaINCI = {
 silikony: aSilikon2,
 uwagi: aKontrow2,
 akrylany: aMplastik2,
 banned: aZle2,
-alergeny: aAlergeny2
+alergeny: aAlergeny2,
+oleje1: aOleje1,
+oleje2: aOleje2,
+oleje3: aOleje3,
+oleje4: aOleje4,
+oleje5: aOleje5
 };
 
 
