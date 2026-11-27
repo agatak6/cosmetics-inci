@@ -89,8 +89,6 @@ function analizujSkladINCI(inciText, bazaKategorii, regulyRegex) {
   return wynikStringi;
 }
 
-
-
 let aZle2 = getInciBad();
 let aMplastik2 = getMikroplastik();
 let aSilikon2 = getSilikon();
