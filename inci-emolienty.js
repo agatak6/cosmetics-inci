@@ -546,12 +546,12 @@ let oleje5 = [
 
 
 function getOils(){
-oils = [oleje1, oleje2, oleje3, oleje4, oleje5];
+let oils = [...oleje1, ...oleje2, ...oleje3, ...oleje4, ...oleje5];
 return oils;
 }
 
 function getOilsAzs(){
-oils = [
+let oils = [
 ];
 return oils;
 }                
