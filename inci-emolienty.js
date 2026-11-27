@@ -208,7 +208,7 @@ function getOkluzja(){
 "hydrogenated rapeseed oil",
 "hydrogenated soy vegetable oil",
 "hydrogenated soybean oil",
-"hydrogenated vegetable oil"
+"hydrogenated vegetable oil",
 "trihydroxystearin",
 //inne
 "cetyl esters",
